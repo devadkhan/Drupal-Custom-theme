@@ -1,0 +1,1334 @@
+    body {
+    	overflow-x: hidden;
+    }
+
+    .navbar {
+    	margin-bottom: 0px;
+    }
+
+    .site-admin .main-container.container.container-fluid {
+    	width: 100%;
+    	padding: 0;
+    }
+
+    .site-admin .region.region-content {
+    	padding: 40px 42px 200px 26px;
+    	position: relative;
+    	float: left;
+    	width: 100%;
+    }
+
+    nav.pager-nav.text-center {
+    	clear: both;
+    }
+
+    .pagination > li > a,
+    .pagination > li > span {
+    	position: relative;
+    	float: left;
+    	padding: 12px 18px;
+    	margin-left: -1px;
+    	line-height: 1.42857143;
+    	color: #757272;
+    	text-decoration: none;
+    	background-color: #fff;
+    	border: 1px solid #ddd;
+    	font-size: 16px;
+    	margin: 0px 6px;
+    	border-radius: 4px;
+    }
+
+    .pagination > .active > a,
+    .pagination > .active > span,
+    .pagination > .active > a:hover,
+    .pagination > .active > span:hover,
+    .pagination > .active > a:focus,
+    .pagination > .active > span:focus {
+    	background-color: #00B7FF;
+    	border-color: #00B7FF;
+    }
+
+    .site-admin .region.region-sidebar-first ul.menu.menu--site-admin li a.is-active {
+    	padding: 12px 0px 12px 25px;
+    }
+
+
+/* .site-admin ul.menu.menu--site-admin.nav {
+    padding: 42px 0 0 0;
+}
+*/
+.site-admin aside.sidebar-menu::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 25%;
+	z-index: -1;
+	background-color: #222;
+	border-right: 1px solid #222;
+}
+
+.site-admin aside.col-sm-3.sidebar-menu {
+	padding: 0;
+	position: unset;
+}
+
+.site-admin .menu--site-admin .dropdown-menu {
+	position: relative;
+	width: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: none;
+	min-width: 160px;
+	margin: 2px 0 0;
+	font-size: 14px;
+	text-align: center;
+	list-style: none;
+	background-color: transparent;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: none;
+	border: none;
+	border-radius: 0px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.open > .dropdown-menu {
+	display: block !important;
+}
+
+.site-admin .menu--site-admin .dropdown-menu li {
+	text-align: left;
+	padding-left: 20px;
+}
+
+
+.admin-dashboard .view-header h2 {
+	font-size: 20px;
+	padding: 0;
+	color: #333;
+	text-transform: uppercase;
+	border: none;
+	margin-bottom: 16px;
+	margin-top: 38px;
+}
+.edit-company-profile.government {
+	display: none;
+}
+
+.admin-dashboard .view-filters .form-item select {
+	width: 100%;
+	height: 34px;
+}
+
+.form-item select {
+	box-shadow: none;
+}
+
+.admin-dashboard .view-header {
+	float: left;
+	width: 50%;
+}
+
+.admin-dashboard .view-filters {
+	float: left;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 0px;
+}
+
+.admin-dashboard .view-filters .form-item {
+	margin: 10px 10px 10px 0;
+}
+
+table.table tbody tr td a {
+	border: 1px solid #00b7ff;
+	color: #00b7ff;
+	padding: 10px 5px;
+	border-radius: 5px;
+	background: #fff;
+	text-transform: capitalize;
+	box-shadow: none;
+	text-decoration: unset;
+	display: block;
+	font-size: 13px;
+	width: 165px;
+	text-align: center;
+}
+
+#taxonomy-overview-terms table#taxonomy tbody tr td a {
+	width: 125px;
+}
+
+#taxonomy-overview-terms table#taxonomy .dropdown-menu {
+	min-width: 125px;
+}
+section#block-adminfooter {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	border-top: 2px solid #eee;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+
+.site-admin .footer-outer {
+	display: none;
+}
+
+.admin-dashboard .view-content {
+	float: left;
+	width: 100%;
+}
+
+.admin-dashboard .table-striped,
+.site-admin .table-striped {
+	border: 1px solid transparent;
+}
+
+.admin-dashboard .table-striped > tbody > tr,
+.site-admin .table-striped > tbody > tr {
+	background-color: transparent;
+	border-bottom: 1px solid #ccc;
+}
+
+.admin-dashboard .table-striped > tbody > tr:hover,
+.site-admin .table-striped > tbody > tr:hover {
+	background-color: #f9f9f9;
+}
+
+.admin-dashboard .table-striped > tbody > tr td,
+.site-admin .table-striped > tbody > tr td {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#block-adminfooter p {
+	font-size: 13px;
+	color: #a09e9e;
+	margin-bottom: 1px;
+}
+
+table a.tabledrag-handle {
+	display: none!important;
+}
+
+li.dropdown.active.active-trail .dropdown-menu {
+	display: block;
+}
+
+#draw-chart {
+	text-align: right;
+}
+
+div#charttypeBtn {
+	text-align: right;
+	float: left;
+	width: 100%;
+}
+
+.draw-chart {
+	width: 40%;
+	float: left;
+}
+
+.draw-chart > h3 {
+	color: #333 !important;
+	font-size: 20px !important;
+}
+
+.draw-chart-color {
+	padding: 0 0 0 50px;
+}
+
+.draw-chart-color .list-records {
+	margin-bottom: 10px;
+}
+
+div#charttypeBtn button {
+	background: transparent;
+	border: none;
+}
+
+div#charttypeBtn button img {
+	width: 100%;
+	max-width: 40px;
+}
+
+div#draw-chart {
+	width: 60%;
+	float: left;
+}
+
+.list-records span i {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 4px 2px;
+	border-radius: 50%;
+}
+
+.list-records {
+	width: 100%;
+	float: left;
+}
+
+.view-reports .view-content {
+	display: none;
+}
+
+.multi-select-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+
+.multi-select-menu {
+	position: absolute;
+	left: 0;
+	top: 0.8em;
+	float: left;
+	min-width: 100%;
+	background: #fff;
+	margin: 1em 0;
+	padding: 0.4em 0;
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	display: none;
+}
+
+.multi-select-menu input {
+	margin-right: 0.3em;
+	vertical-align: 0.1em;
+}
+
+.multi-select-button {
+	display: inline-block;
+	font-size: 0.875em;
+	padding: 0.2em 0.6em;
+	max-width: 20em;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: -0.5em;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height: 34px;
+	cursor: default;
+
+}
+
+.multi-select-button:after {
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0.4em 0.4em 0 0.4em;
+	border-color: #999 transparent transparent transparent;
+	vertical-align: 0.1em;
+	float: right;
+	position: relative;
+	top: 8px;
+
+}
+
+.multi-select-menuitems label:first-child,
+.multi-select-menuitems label:nth-child(3) {
+	display: none;
+}
+
+.multi-select-container--open .multi-select-menu {
+	display: block;
+	top: 30px;
+	z-index:20;
+	padding: 10px;
+}
+
+.multi-select-container--open .multi-select-button:after {
+	border-width: 0 0.4em 0.4em 0.4em;
+	border-color: transparent transparent #999 transparent;
+
+}
+
+.view-reports .form-item-field-country-value {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.view-reports .form-item-roles-target-id,
+.view-reports .form-item-field-industry-sectors-where-col-target-id {
+	width: 25%;
+	padding-right: 30px;
+	margin-bottom: 30px;
+}
+
+.view-reports .form-item-created,
+.view-reports .form-item-created-1,
+.view-reports .form-item-field-proposal-status-value,
+.view-reports .fieldgroup.form-composite {
+	width: 25%;
+	margin-bottom: 30px;
+	padding-right: 20px;
+}
+
+.form-control {
+	box-shadow: none;
+}
+
+.view-reports .form-item-created,
+.view-reports .form-item-created-1,
+.view-reports .form-item-field-proposal-status-value {
+	padding-right: 30px;
+}
+
+.view-reports .form-item-created input,
+.view-reports .form-item-created-1 input,
+.view-reports .form-item-field-proposal-status-value input,
+.view-reports .fieldgroup.form-composite input {
+	width: 100%;
+}
+
+.view-reports #edit-actions,
+.view-reports .select-wrapper,
+.view-reports .form-item-field-proposal-status-value .select-wrapper select {
+	width: 100%;
+}
+
+/*
+.view-reports label,
+.view-reports span {
+    display: block;
+    font-weight: 100;
+    font-size: 16px;
+}
+*/
+
+.btn-success {
+	background-image: -webkit-linear-gradient(top, #5cb85c 0%, #00b7ff 100%);
+	background-image: -o-linear-gradient(top, #5cb85c 0%, #419641 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#00b7ff), to(#00b7ff));
+	background-image: linear-gradient(to bottom, #00b7ff 0%, ##00b7ff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	border-color: #00b7ff;
+}
+
+#taxonomy-term-departments-form div#edit-relations,
+#taxonomy-term-sub-department-form div#edit-relations {
+	display: none;
+}
+
+.password-strength__meter {
+	display: none;
+}
+
+.password-strength__title,
+.password-strength__text,
+div.password-confirm.js-password-confirm {
+	display: none
+}
+
+.description.help-block {
+	display: none;
+}
+
+.help-block {
+	display: none;
+}
+
+h2.sub-page-header {
+	margin-top: 15px !important;
+}
+
+td.views-empty {
+	text-align: center;
+}
+
+table tr.empty-table td {
+	display: none;
+}
+
+table td.views-empty {
+	display: table-cell !important;
+}
+
+.tabledrag-toggle-weight {
+	display: none;
+}
+
+.add-proposal form input[type="checkbox"] {
+	margin-top: 1px;
+	margin-left: -40px;
+}
+
+.add-cat .alert.alert-success .placeholder {
+	pointer-events: none;
+}
+
+#change-pwd-form div#edit-pass .form-item.confirm-parent {
+	padding-left: 0;
+}
+
+#edit-pass .form-item.js-form-item {
+	float: left;
+	width: 50%;
+	margin: 24px 0 40px;
+}
+
+.change-pwd-form .js-form-item-current-pass {
+	float: left;
+	width: 50%;
+	padding-right: 14px !important;
+}
+
+.change-pwd-form div#edit-pass {
+	float: left;
+}
+
+.change-pwd-form .form-actions {
+	float: left;
+	width: 100%;
+}
+
+.authenticated ul.menu.menu--permanent {
+	margin-bottom: 120px;
+}
+
+.text-title-wrap h2 {
+	text-transform: capitalize;
+	display: inline-block;
+	margin: 0px;
+	font-size: 21px;
+	width: 100%;
+}
+
+
+.text-title-wrap .field {
+	padding: 0 !important;
+}
+
+
+.text-title-wrap p {
+	width: 50%;
+	float: left;
+	font-size: 14px;
+	color: #aba6a6;
+	margin-top: 5px;
+}
+
+.text-title-wrap p span {
+	text-align: right;
+	display: block;
+	color: #ff0000;
+	font-size: 13px;
+}
+
+.text-title-wrap {
+	margin-bottom: 20px;
+}
+
+h1.page-header em,
+.page-header-sub h2 em {
+	font-style: normal;
+}
+
+#change-pwd-form label {
+	font-family: latobold;
+}
+
+.resend-otp button {
+	display: inline !important;
+	color: #00b7ff !important;
+	background: transparent !important;
+	border: none !important;
+	padding: 0 !important;
+	width: auto !important;
+	font-size: 12px !important;
+	text-transform: capitalize !important;
+	margin-left: 4px !important;
+	text-decoration: underline;
+	outline: none !important;
+}
+
+span.resend-otp {
+	color: #10BB15;
+}
+
+.filter-wrapper {
+	display: none;
+}
+
+.add-proposal form label {
+	font-family: latobold;
+}
+.search-table-wrap table.table tbody tr td a{
+	width: 150px;
+}
+.add-proposal.authenticated  td.field-multiple-drag {
+	display: none;
+}
+.add-proposal form div#edit-field-project-proposal-wrapper,
+.add-proposal form div#edit-field-project-proposal-wrapper,
+.add-proposal form div#edit-field-other-document-wrapper,
+.add-proposal form div#edit-field-other-document-wrapper {
+	float: left;
+	width: 50%;
+}
+
+.add-proposal form div#edit-field-project-proposal-wrapper,
+.add-proposal form div#edit-field-project-proposal-wrapper {
+	padding-right: 15px;
+}
+
+.cke_bottom {
+	display: none;
+}
+
+div#edit-field-industry-sectors-where-col .form-item,
+#edit-field-type-of-collaboration-soug .form-item {
+	margin-bottom: 18px;
+	margin-left: 20px;
+}
+
+div#edit-field-industry-sectors-where-col .form-item label,
+div#edit-field-type-of-collaboration-soug .form-item label {
+	font-family: lato;
+}
+
+.add-proposal form .field-multiple-table thead tr th,
+.add-proposal form .field-multiple-table thead tr th {
+	background: transparent;
+	color: #333;
+	text-transform: capitalize;
+	padding: 0;
+	font-family: latobold;
+	height: auto;
+}
+
+
+
+.add-proposal form .paragraph-type-title,
+.add-proposal form .paragraph-type-title {
+	display: none;
+}
+
+.add-proposal form .paragraphs-subform,
+.add-proposal form .paragraphs-subform {
+	float: left;
+	width: 70%;
+}
+
+.add-proposal form .paragraph-type-top,
+.add-proposal form .paragraph-type-top {
+	float: right;
+	width: auto;
+	text-align: right;
+	margin: 0;
+}
+
+.add-proposal form .paragraph-type-top .paragraphs-dropbutton-wrapper,
+.add-proposal form .paragraph-type-top .paragraphs-dropbutton-wrapper {
+	display: block;
+}
+
+.add-proposal form .paragraphs-subform label,
+.add-proposal form .paragraphs-subform label {
+	display: none !important;
+}
+
+.add-proposal h1.page-header {
+	display: none;
+}
+
+.authenticated .entity-content-form-footer {
+	display: none;
+}
+
+.add-proposal form .paragraph-type-top .paragraphs-dropbutton-wrapper .btn-danger .glyphicon,
+.add-proposal form .paragraph-type-top .paragraphs-dropbutton-wrapper .btn-danger .glyphicon {
+	font-size: 16px;
+	margin: 0 !important;
+	display: block;
+}
+
+.add-proposal form .paragraph-type-top .paragraphs-dropbutton-wrapper .btn-danger,
+.add-proposal form .paragraph-type-top .paragraphs-dropbutton-wrapper .btn-danger {
+	color: #fff;
+	background-color: #d9534f !important;
+	border-color: #d43f3a !important;
+	font-size: 0px;
+	padding: 8px !important;
+}
+
+.add-proposal form .paragraphs-dropbutton-wrapper button,
+.add-proposal form .paragraphs-dropbutton-wrapper button {
+	background: #00A54F !important;
+	border-color: #00A54F !important;
+}
+
+.add-proposal form .field-multiple-table tr,
+.add-proposal form .field-multiple-table tr {
+	border: none !important;
+}
+
+.add-proposal form div#edit-actions {
+	margin-top: 15px;
+}
+
+.views-field-send-cancel-jv-field span a {
+	background: #00b7ff;
+	color: #fff;
+	background-color: #00ADEF;
+	background-image: none;
+	border: 1px solid #00ADEF;
+	text-transform: uppercase;
+	padding: 11px 30px;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	margin-top: 40px;
+	float: left;
+}
+
+.add-proposal form button#edit-submit {
+	background-position: 94px 11px !important;
+	padding: 12px 55px 12px 30px;
+	background-image: url(../images/submit.png) !important;
+	background-repeat: no-repeat;
+}
+
+.add-proposal form > .form-group {
+	margin-bottom: 45px;
+	float: left;
+	width: 100%;
+}
+
+.password-suggestions.description {
+	display: none !important;
+}
+
+label.error {
+	font-size: 13px;
+	color: #e41919;
+}
+
+.company-profile-front label {
+	font-family: latobold;
+	font-weight: normal;
+}
+
+.path-company-profile-edit .company-profile-front .views-field {
+	width: 50%;
+	padding-right: 15px;
+	margin-bottom: 15px;
+}
+
+.path-company-profile-edit .company-profile-front .views-field .form-control {
+	height: 45px;
+	width: 100%;
+}
+
+body form .select-wrapper select {
+	border-radius: 4px !important;
+}
+
+.btn-danger {
+	color: #fff;
+	background-color: #d9534f !important;
+	border-color: #d43f3a !important;
+}
+
+.js-form-item-form-field-field-ntn-certificate-0-field-ntn-certificate-0-description {
+	display: none;
+}
+
+.path-company-profile-edit .company-profile-front .views-field label {
+	font-family: latobold;
+	font-weight: normal;
+	display: block;
+	margin-bottom: 5px !important;
+}
+
+body.site-admin section#block-passwordresetbanner {
+	display: none;
+}
+
+.path-company-profile-edit .company-profile-front .views-field.full-width {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.path-company-profile-edit .company-profile-front #edit-actions {
+	width: 100%;
+	float: left;
+	margin: 0px 0 10px;
+}
+
+.add-proposal form .field-multiple-table .form-group {
+	margin-bottom: 0;
+}
+
+form[id^="user-form"] #edit-account .form-type-textfield {
+	padding: 0;
+}
+
+form[id^="user-form"] div#edit-actions {
+	margin: 40px 0 20px;
+}
+
+form[id^="user-form"] div#edit-field-department-wrapper {
+	width: 100%;
+	max-width: 500px;
+}
+
+form[id^="user-form"] #edit-account .form-type-textfield {
+	padding: 0;
+}
+
+div#edit-actions {
+	margin: 40px 0 20px;
+}
+
+div#edit-field-department-wrapper {
+	width: 100%;
+	max-width: 500px;
+}
+
+ul.tabs--primary.nav.nav-tabs {
+	border: none;
+}
+
+ul.tabs--primary.nav.nav-tabs li.active a {
+	background: #00b7ff;
+	color: #fff;
+	border-radius: 0px;
+	margin: 0;
+}
+
+ul.tabs--primary.nav.nav-tabs li a {
+	border: none;
+	padding: 12px 0;
+	font-size: 16px;
+	color: #000;
+}
+
+ul.tabs--primary.nav.nav-tabs li {
+	width: 100%;
+	max-width: 150px;
+	text-align: center;
+	background: #eee;
+	margin-right: 5px;
+}
+
+.view-all-departments .view-filters.form-group div#edit-actions {
+	margin: 0;
+}
+
+.view-all-departments .view-filters.form-group {
+	float: right;
+	width: 14%;
+	margin: 0 0 20px 0;
+}
+
+.view-all-departments .view-filters.form-group .bef-exposed-form .form--inline > .form-item {
+	float: right;
+
+}
+
+.view-all-departments .view-header {
+	width: 50%;
+	float: left;
+	margin-top: 10px !important;
+}
+
+h2.sub-page-header {
+	margin-top: 30px !important;
+	font-size: 18px;
+	margin: 0 !important;
+	text-transform: uppercase;
+}
+
+.view-all-departments .view-filters.form-group div#edit-actions {
+	margin: 0;
+}
+
+.toggle-group label {
+	padding-top: 6px;
+	padding-left: 10px;
+}
+
+.path-reports .multi-select-button {
+	width: 100%;
+	padding: 10px;
+}
+
+label.multi-select-menuitem input {
+	height: auto !important;
+	outline: none!important;
+}
+
+label.multi-select-menuitem {
+	width: 100%;
+	float: left;
+}
+
+.view-reports form .form-actions {
+	float: left;
+	width: 100%;
+	margin: 40px 0 20px;
+}
+
+.site-admin section#block-ejv-help,
+.site-admin .steps {
+	display: none;
+}
+
+.site-admin #user-register-form div#edit-account {
+	padding: 0 !important;
+}
+
+.site-admin #user-register-form .form-type-checkbox input {
+	border: none;
+}
+
+.site-admin #user-register-form input[type="radio"],
+.site-admin #user-register-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+
+.site-admin #user-register-form .form-group.js-form-wrapper.form-wrapper {
+	padding: 0;
+	margin: 24px 0 0;
+}
+
+.input-group {
+	display: block;
+}
+
+span.input-group-addon {
+	display: none;
+}
+
+.path-jv-status table .select-wrapper select {
+	height: 35px !important;
+}
+
+.view-jv-status .view.view-ejv-counter.view-id-ejv_counter {
+	position: relative;
+	width: auto;
+	float: none;
+	padding: 0 !important;
+}
+
+.view-jv-status .view.view-ejv-counter.view-id-ejv_counter h4 {
+	color: #afa4a4;
+	top: 22px;
+	position: absolute;
+	text-transform: capitalize;
+	left: 0;
+}
+
+body.site-admin #block-userdetaileditpage {
+	display: none;
+}
+
+.site-admin.user-logged-in form[id^="user-form"] label {
+	width: 100%;
+	float: left;
+}
+
+.site-admin.user-logged-in form[id^="user-form"] fieldset,
+.site-admin.user-logged-in form[id^="user-form"] .field--name-field-department,
+.site-admin.user-logged-in form[id^="user-form"] .field--name-field-sub-department{
+	margin-top: 30px;
+	float: left;
+	width: 100%;
+}
+.site-admin.user-logged-in .form-actions {
+	float: left;
+	width: 100%;
+}
+.site-admin.user-logged-in form[id^="user-form"] input[type="radio"],
+.site-admin.user-logged-in form[id^="user-form"] input[type="checkbox"]{
+	margin-top: 3px 0 0;
+}
+
+
+body.authenticated.user-logged-in .region.region-content .views-element-container{
+	min-height: 400px;
+}
+
+@media(max-width:768px) {
+	.site-admin .region.region-content {
+		padding: 40px 0px 200px 0px;
+	}
+
+	.view-reports .form-item-roles-target-id,
+	.view-reports .form-item-field-industry-sectors-where-col-target-id {
+		padding-right: 0px;
+	}
+
+	.view-reports .form-item-created,
+	.view-reports .form-item-created-1,
+	.view-reports .form-item-field-proposal-status-value {
+		padding-right: 10px;
+	}
+
+	.view-reports #edit-actions {
+		float: left;
+	}
+
+	.admin-dashboard.view.view-admin-dashboard .view-filters.form-group {
+		position: static;
+	}
+
+	.admin-dashboard .view-filters {
+		width: 100%;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	h1.page-header,
+	.page-header-sub h2 {
+		margin-bottom: 0;
+	}
+
+	.table-responsive {
+		border: 1px solid transparent;
+	}
+
+}
+
+@media(max-width:480px) {
+
+	.view-reports .form-item-created,
+	.view-reports .form-item-created-1,
+	.view-reports .form-item-field-proposal-status-value {
+		padding-right: 0px;
+	}
+
+	.view-reports .form-item-created,
+	.view-reports .form-item-created-1,
+	.view-reports .form-item-field-proposal-status-value,
+	.view-reports .fieldgroup.form-composite,
+	.view-reports .form-item-roles-target-id,
+	.view-reports .form-item-field-industry-sectors-where-col-target-id {
+		width: 100%;
+		margin-bottom: 10px;
+		padding-right: 0px;
+	}
+
+	.view-reports .form-item-field-country-value {
+		margin-bottom: 10px;
+	}
+
+	.site-admin .btn-group > .btn + .dropdown-toggle {
+		padding: 10px 2px 12px 2px;
+	}
+
+	.site-admin.hide-path-taxo .btn-group.dropdown button {
+		padding: 11px 3px;
+	}
+
+	.left-side-login-content p {
+		font-size: 14px;
+	}
+
+	.left-side-login-content h2 {
+		font-size: 26px;
+	}
+
+	section#block-whatisejv {
+		margin-top: 0px;
+	}
+
+	.inc-db-login {
+		margin-top: 0px;
+	}
+
+	.view.view-anonymous-proposal-status- .view-content .field-content .col-sm-3 > .view-empty {
+		padding: 15px 16px !important;
+	}
+
+	#edit-roles-target-id .form-item {
+		width: 100%;
+	}
+
+	.authenticated .views-exposed-form div.form-item {
+		float: left;
+	}
+
+	.authenticated.tech section#block-welcometoejointventure {
+		margin-top: 0px;
+	}
+
+	.admin-dashboard .view-header {
+		width: 100%;
+	}
+
+	.custom-panel-group .panel-heading {}
+}
+
+.comment--left .comment__content .field--name-field-comments {
+	float: left;
+	width: 100%;
+	padding-left: 0px !important;
+}
+
+.comment--left .comment__content .field--name-field-attachment {
+	padding-left: 0px !important;
+}
+.comment--left .comment__content {
+	overflow: auto;
+}
+
+.admin-dashboard.search-table .view-filters {
+	width: 50%;
+}
+
+body.site-admin.user-logged-in .admin-dashboard .view-filters form > .form-inline .form-item {
+	float: right;
+}
+
+body.site-admin.user-logged-in .admin-dashboard .view-filters form > .form-inline fieldset.form-item {
+	float: left;
+}
+
+body.site-admin.user-logged-in .admin-dashboard .view-filters form > .form-inline .form-item .select-wrapper,
+body.site-admin.user-logged-in .admin-dashboard .view-filters form > .form-inline .form-item label{
+	display: inline-block !important;
+}
+
+/* #user-register-form #edit-actions {
+	display: none;
+}
+*/
+.col-md-5.col-sm-12 ~ #block-disclaimer .field--type-text-with-summary {
+	color: #fff;
+}
+
+.admin-dashboard.proposal-unique.view-admin-dashboard div.dataTables_filter {
+
+	right: 245px;
+	top: -46px;
+}
+
+.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_2 div.dataTables_filter {
+	right: 120px;
+}
+
+#views-exposed-form-admin-dashboard-page-3 .form-item.js-form-item.form-type-select.js-form-type-select.form-item-field-industry-sectors-where-col-target-id {
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+#edit-field-company-sector-wrapper .form-item.js-form-item.form-type-select.js-form-type-select.form-item-field-company-sector.js-form-item-field-company-sector.form-group #edit-field-company-sector ~.multi-select-container {
+	display: none;
+}
+
+#edit-field-company-sector-wrapper .form-item.js-form-item.form-type-select.js-form-type-select.form-item-field-company-sector.js-form-item-field-company-sector.form-group #edit-field-company-sector +.multi-select-container {
+	display: block;
+}
+
+
+a.newmesage::before {
+	content: "";
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	height: 8px;
+	width: 8px;
+	background-color: #ff0000;
+	border-radius: 50%;
+}
+
+.table.table-bordered {
+	margin-bottom: 40px;
+}
+
+a.newmesage{
+	position: relative;
+}
+
+.form-select.required.form-control.error ~ .multi-select-container .multi-select-button{
+	background: rgb(251, 227, 228);
+	border: 1px solid #fbc2c4;
+	color: #8a1f11;
+}
+
+.colTool {
+	position: absolute;
+	width: 100%;
+	top: -35px;
+	border: 1px solid #333;
+	background: #fff;
+	border-radius: 5px;
+	left: 75px;
+	opacity: 0;
+}
+
+.view-id-jv_status.view-display-id-page_1 table td.views-field.views-field-field-proposal-status-1 {
+	position: relative;
+}
+.view-id-jv_status.view-display-id-page_1 table td.views-field.views-field-field-proposal-status-1:hover .colTool  {
+	display: block;
+	opacity: 1;
+}
+
+tr.row-proposal.unpublished-row {
+	background: #cacaca !important;
+}
+
+.invalidSite input {
+	background: rgb(251, 227, 228);
+	border: 1px solid #fbc2c4;
+	color: #8a1f11;
+}
+
+.menu.menu--permanent.nav li a.newmessage::before{
+	content: "";
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	height: 8px;
+	width: 8px;
+	background-color: #59f34e;
+	border-radius: 50%;
+}
+
+.menu.menu--permanent.nav li.active a.newmessage::before{
+	background-color: #ffff;
+}
+
+
+/* #block-disclaimer {
+	position: absolute;
+	bottom: -85px;
+} */
+
+.footer-outer {
+	margin-top: 100px;
+}
+
+input[type="checkbox"]#edit-user-cancel-confirm {
+	margin-top: 2px !important;
+}
+
+.path-jv-status .view.view-jv-status.view-id-jv_status.view-display-id-page_1 table.table  tr td:nth-child(3) a{
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+body.site-admin.user-logged-in.path-all-signups .view.view-site-admin-users.view-id-site_admin_users.view-display-id-page_2
+#views-exposed-form-site-admin-users-page-2 .form-item.js-form-item.form-type-select.js-form-type-select {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+
+body.site-admin.user-logged-in.path-admin.has-glyphicons.admin-proposal-list
+.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_2 #datatable_filter {
+	right: 120px;
+}
+
+@media only screen and (max-width:980px){
+	body.site-admin.user-logged-in.path-admin 
+	.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_3 
+	#views-exposed-form-admin-dashboard-page-3 .form-item.js-form-item.form-type-select{
+		margin-top: 55px;
+
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	body.site-admin.user-logged-in.path-admin.has-glyphicons.admin-proposal-list
+	.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_2 #datatable_filter,
+	body.site-admin.user-logged-in.path-admin 
+	.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_3  #datatable_filter {
+		top: -56px;
+	}
+
+}
+
+@media only screen  and (max-width: 480px) {
+		body.site-admin.user-logged-in.path-admin.has-glyphicons.admin-proposal-list
+	.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_2 table#datatable {
+		margin-top: 35px;
+	}
+
+	body.site-admin.user-logged-in.path-admin.has-glyphicons.admin-proposal-list
+	.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_2 #datatable_filter {
+		top: -10px;
+		right: 0px;
+		left: -32px;
+	}
+
+	body.site-admin.user-logged-in.path-admin 
+	.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_3 
+	#views-exposed-form-admin-dashboard-page-3 .form-item.js-form-item.form-type-select{
+		width: 45%;
+		margin-top: 0px;
+		margin-right: 0px;
+	}	
+
+	body.site-admin.user-logged-in.path-admin 
+	.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_3 
+	#views-exposed-form-admin-dashboard-page-3 .form-item.js-form-item.form-type-select .select-wrapper {
+		width: 100%;
+	}
+
+	body.site-admin.user-logged-in.path-admin 
+	.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_3 
+	 #datatable_filter {
+	 	top: -15px;
+	 	left: 0px;
+	 	width: 100%;
+	}
+
+	body.site-admin.user-logged-in.path-admin 
+	.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_3 
+	 #datatable_filter label, body.site-admin.user-logged-in.path-admin 
+	.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_3 
+	 #datatable_filter label input{
+	 	float: left;
+	 	width: 100%;
+	 }
+
+	 body.site-admin.user-logged-in.path-admin 
+	.admin-dashboard.proposal-unique.view.view-admin-dashboard.view-id-admin_dashboard.view-display-id-page_3 
+	table#datatable {
+		margin-top: 35px;
+	}
+}
+
+.col-md-5.col-sm-12 {
+	margin-bottom:10px;
+}
+
+body.authenticated.path-user.has-glyphicons.register #edit-actions {
+	display: none;
+}
+
+#datatable_paginate{
+	margin-bottom: 100px;
+}
+
+ #block-disclaimer {
+	margin-bottom: -90px;
+}
+.col-md-5.col-sm-12 ~ #block-disclaimer {
+	margin-bottom: 10px;
+}

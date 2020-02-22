@@ -1,0 +1,22 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/custom.css: {}
+      css/bootstrap-pincode-input.css: {}
+      css/jquery.steps.css: {}
+      css/my.css: {}
+      css/font-awesome.min.css: {}
+  js:
+      https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js: {}
+      https://code.highcharts.com/highcharts.js: {}
+      https://code.highcharts.com/highcharts-3d.js: {}
+      js/ejv.js: {}
+      js/custom.js: {}
+      js/bootstrap-pincode-input.js: {}
+      js/jquery.multi-select.min.js: {}
+      js/style.js: {}
+      js/jquery.steps.min.js: {}
+
+
+

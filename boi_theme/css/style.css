@@ -1,0 +1,1301 @@
+/**
+ * Place your custom styles here.
+ */
+ div.vis-form-container {
+ 	position: absolute;
+ 	/* z-index: 9999999;*/
+ 	top: 0px;
+ 	bottom: 0;
+ 	background: rgb(240, 240, 240);
+ 	width: 256px;
+ 	height: 815px;
+ 	/*display: none;*/
+ }
+
+ .faqs-download {
+ 	margin-bottom: 30px;
+ }
+
+ .faqs-download > div {
+ 	display: inline-block;
+ 	margin-right: 20px;
+ }
+
+ .faqs-download > div a {
+ 	border: 1px solid #11bc15;
+ 	font-size: 15px;
+ 	padding: 10px;
+ 	display: block;
+ 	text-decoration: none;
+ 	-webkit-transition: all .4s ease;
+ 	-moz-transition: all .4s ease;
+ 	transition: all .4s ease;
+ }
+
+ .faqs-download > div a:hover {
+ 	opacity: .5;
+ 	-webkit-transition: all .4s ease;
+ 	-moz-transition: all .4s ease;
+ 	transition: all .4s ease;
+ }
+
+ .all-job-description {
+ 	height: 236px;
+ 	overflow: hidden;
+ 	
+ }
+ .all-job-description.full-des{
+   height: auto;
+   overflow: auto;
+   -webkit-transition: all 2s ease;
+   -moz-transition: all 2s ease;
+   transition: all 2s ease;
+}
+.all-job-description ~ .view-more-button,
+.all-job-description ~ .views-field-nothing{
+  margin-top: 30px;
+}
+.all-job-description ~ .view-more-button{
+    float: right;
+}
+.all-job-description ~ .view-more-button a{
+    background: transparent !important;
+    color: #000 !important;
+    font-family: latobold;
+}
+.all-job-description ~ .view-more-button a:hover{
+    text-decoration: none;
+}
+.webform-submission-form.webform-submission-add-form.webform-submission-boi-career-form-form .form-item.radio {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*********** Why Pakistan ***********/
+
+.page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li:nth-child(4) {
+  color: #f8538d;
+}
+
+
+.page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li:nth-child(5) {
+  color: #fbda02;
+}
+
+
+.page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li:nth-child(6) {
+  color: #c3da31;
+}
+
+/**************/
+.page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li:nth-child(4):before {
+  background-image: url(../images/moneybank.png);
+}
+
+.page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li:nth-child(5):before {
+  background-image: url(../images/light.png);
+}
+
+.page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li:nth-child(6):before {
+  background-image: url(../images/dollarworld.png);
+}
+
+.page-node-type-updates .view-updates-view-blockk .views-field-field-updates-center-image {
+  margin-top: 150px;
+}
+
+/************/
+.area_to_invest_ui .view-overview-sector-view ul li p {
+  display: inline-block;
+}
+.page-node-type-why-paksitan-2 .author {
+  display: none;
+}
+
+
+.field--name-field-why-invest-in-paksitan .layout__region--first {
+  padding: 0px 10px 0px 0px;
+}
+
+.field--name-field-why-invest-in-paksitan .layout__region--first .field--name-field-body {
+  width: 80%;
+  padding-top: 20px;
+}
+
+.field--name-field-why-invest-in-paksitan .layout__region--first .field--name-field-title,
+.field--name-field-five-reasons-to-invest-in- .layout__region--second .field--name-field-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.field--name-field-investment-sectors,
+.field--name-field-five-reasons-to-invest-in- {
+  padding-top: 50px;
+}
+
+.field--name-field-investment-sectors .layout__region--first,
+.field--name-field-five-reasons-to-invest-in- .layout__region--first {
+  padding: 30px 15px;
+}
+
+.field--name-field-investment-sectors .layout__region--second .field--name-field-body,
+.field--name-field-five-reasons-to-invest-in- .layout__region--second .field--name-field-body {
+  padding: 15px 0px;
+  width: 95%;
+}
+
+.field--name-field-five-reasons-to-invest-in- .layout__region--second .field--name-field-body h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: justify;
+  font-weight: bold;
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+.field--name-field-why-invest-in-paksitan .layout__region--second {
+  padding: 30px 0px;
+  display: inline-block;
+  width: 50%;
+}
+
+.field--name-field-investment-sectors .layout__region--second {
+  padding: 30px 20px;
+  display: inline-block;
+  width: 50%;
+}
+
+
+.field--name-field-why-invest-in-paksitan .layout__region--second .field--name-field-title {
+  color: #152c78;
+  font-size: 22px;
+}
+
+.page-node-type-why-paksitan-2 .slick-dots {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.page-node-type-why-paksitan-2 .slick-dots li {
+  float: none;
+  margin: 4px;
+  display: inline-block;
+}
+
+.page-node-type-why-paksitan-2 .slick-dots li button {
+  padding: 0;
+  width: 14px;
+  height: 14px;
+  border: 0;
+  outline: 0;
+  font-size: 0;
+  overflow: hidden;
+  background: #ccc;
+  border-radius: 50%;
+  text-indent: -9999px;
+  border: 3px solid #ccc;
+  -ms-transition: all ease-in-out .25s;
+  -moz-transition: all ease-in-out .25s;
+  -webkit-transition: all ease-in-out .25s;
+  transition: all ease-in-out .25s;
+}
+
+.page-node-type-why-paksitan-2 .field--name-field-priority-sectors .slick-dots li button {
+  background: #fff;
+}
+
+.page-node-type-why-paksitan-2 .slick-dots li.slick-active button {
+  background: #FFF;
+  border-color: #11bc15;
+}
+
+.field--name-field-priority-sectors {
+  background-image: url("../images/rec-image_ypak.png");
+  background-size: 100% 100%;
+  padding-bottom: 30px;
+  position: relative;
+  margin-left: -100%;
+  margin-right: -100%;
+  padding-left: 100%;
+  padding-right: 100%;
+}
+
+.field--name-field-priority-sectors .field--name-field-title {
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  padding-top: 50px;
+  /*    text-transform: capitalize;*/
+  padding-bottom: 40px;
+}
+
+.field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector {
+  padding-left: 0;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/spacer2.png");
+  background-position: center 10px;
+}
+
+.field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector > .field--item {
+  width: 25%;
+  float: left;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  padding: 35px 0 20px;
+  min-height: 250px;
+}
+
+.field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector > .field--item:nth-child(4n+1) {
+  clear: both;
+}
+
+.field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector > .field--item img {
+  width: 64px;
+  height: 64px;
+  margin: 0px auto;
+}
+
+.field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector > .field--item .field--name-field-body p {
+  color: #fff600;
+  font-size: 36px;
+  padding-top: 20px;
+  font-family: latobold;
+  display: inline-block;
+}
+
+.field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector > .field--item .field--name-field-body p span {
+  display: inline-block;
+  color: #fff600;
+  top: -.5em;
+  position: relative;
+  font-size: 75%;
+}
+
+.field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector > .field--item .field--name-field-name {
+  color: #fff;
+}
+
+
+
+
+/* MKS updates */
+section.block-views-blockthey-choose-pakistian-why-pakistan-2-block-3 {
+  position: relative;
+  padding: 10px 0 80px 0;
+}
+
+section.block-views-blockthey-choose-pakistian-why-pakistan-2-block-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  right: -100%;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  background-image: url("../images/rec-image_ypak.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .header-title {
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  padding-top: 50px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .left-content {
+  float: left;
+  width: 38%;
+  padding: 30px;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .right-content {
+  width: 50%;
+  vertical-align: top;
+  padding: 30px;
+  float: right;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .left-content img {
+  max-width: 90px;
+}
+
+.view-they-choose-pakistian-why-pakistan-2.bottom-logo .slick-list {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content {
+  width: 100%;
+  margin: 5px auto;
+  background-color: #fff;
+  padding: 0;
+  border-radius: 10px;
+  background-image: url("../images/right_content_bg.png");
+  background-position: top right;
+  background-size: initial;
+  background-repeat: no-repeat;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content:after {
+  content: "";
+  display: block;
+  clear: both
+}
+
+.path-node .field--name-field-investment-sectors .field--name-field-title,
+.path-node .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content p,
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content span {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .details_y_pak_comp {
+  width: 49%;
+  /* float: left; */
+  vertical-align: top;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content span.inner_desc {
+  display: block;
+  font-size: 24px !important;
+  line-height: 28px !important;
+  padding: 5px 0;
+  font-weight: 800;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .table_to_center {
+  display: table;
+  width: 100%;
+  min-height: 515px;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .table_to_center_inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .quote_user_desc p {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1e1e1e;
+  padding: 40px 0 15px 0;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .quote_user_image img {
+  max-width: 90px;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .quoted_user_info > div:nth-child(1) {
+  color: #00aeef;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .quoted_user_info > div:nth-child(2) {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .quoted_user_info,
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .quote_user_image {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .quote_user_desc {
+  position: relative;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .left-content p,
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .quote_user_desc > p {
+  max-height: 138px;
+  overflow: hidden;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .quote_user_desc:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../images/q_left_y.png");
+  background-size: 30px;
+  display: block;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .quote_user_desc:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url("../images/q_right_y.png");
+  background-size: 30px;
+  display: block;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo button.slick-arrow {
+  font-size: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  background-color: #f7d900;
+  border: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 150px;
+  display: block;
+  width: 50px;
+  border-radius: 6px;
+  z-index: 55;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo button.slick-prev {
+  left: 0;
+  box-shadow: inset -6px 0px 6px 0px rgba(0, 0, 0, 0.4)
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo button.slick-next {
+  right: 0;
+  box-shadow: inset 6px 0px 6px 0px rgba(0, 0, 0, 0.4)
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo button.slick-prev {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-image: url("../images/left-arrow@2x.png");
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo button.slick-next {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-image: url("../images/right-arrow@2x.png");
+}
+
+#block-views-block-they-choose-pakistian-why-pakistan-2-block-3 {
+  display: none;
+}
+
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo > .view-content {
+  max-width: 1170px;
+  margin: auto
+}
+
+.view-they-choose-pakistian-why-pakistan-2.bottom-logo .slick-list {
+  z-index: 99;
+}
+
+.bottom-slider .view-they-choose-pakistian-why-pakistan-2 .bottom-content {
+  padding: 40px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  width: 160px;
+}
+
+.view-they-choose-pakistian-why-pakistan-2 .bottom-content img {
+  width: 80px;
+  margin: auto;
+  height: 50px;
+  object-fit: contain;
+}
+
+.bottom-slider .view-they-choose-pakistian-why-pakistan-2 .view-content {
+  max-width: 1080px;
+  margin: 15px auto 0;
+}
+
+.field--name-field-investment-sectors {
+  margin-left: -100%;
+  margin-right: -100%;
+  padding-left: 100%;
+  padding-right: 100%;
+  background-color: #f6f6f6;
+  padding-bottom: 50px;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 {
+  margin-left: -100%;
+  margin-right: -100%;
+  padding-left: 100%;
+  padding-right: 100%;
+  background-color: #ff9800;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .pakistan-glance {
+  font-size: 26px;
+  line-height: 32px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .view-header {
+  float: left;
+  width: 200px;
+  padding: 0 20px 0 0;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .view-content {
+  width: calc(100% - 200px);
+  display: inline-block;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .news-slider-outer .news-slider-right li {
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .news-slider-outer {
+  float: left;
+  padding: 0 15px;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .news-slider-outer .news-slider-right li:first-child {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 7px 0;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 button.slick-arrow {
+  position: relative;
+  -webkit-appearance: none;
+  box-shadow: none;
+  background: transparent;
+  font-size: 0;
+  border: 1px solid #fff;
+  width: 26px;
+  z-index: 99;
+  height: 26px;
+
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 button.slick-arrow::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 12px;
+  height: 12px;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 button.slick-arrow.slick-prev::after {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 0;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  left: 6px;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 button.slick-arrow.slick-next::after {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  left: -6px;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .slick-list {
+  margin: 0 30px;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .slick_button_holder.slick_button_holder_prev {
+  position: absolute;
+  top: 2px;
+  left: -10px;
+  z-index: 99;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .slick_button_holder.slick_button_holder_next.slick-arrow {
+  position: absolute;
+  top: 34px;
+  left: -10px;
+  z-index: 99;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .slick_button_holder:hover button.slick-arrow {
+  background: #FFF;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .slick_button_holder:hover button.slick-arrow:after {
+  border-color: #ff9800;
+}
+
+.field--name-field-investment-sectors .layout__region--second .media--image {
+  padding: 0 40px;
+}
+
+.field--name-field-investment-sectors .layout__region--second .field--item {
+  position: relative;
+}
+
+.field--name-field-investment-sectors .layout__region--second .blazy__caption .blazy__description {
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  color: #fff;
+  left: 50px;
+  right: 50px;
+  bottom: 20px;
+  line-height: 30px;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 {
+  display: none;
+}
+
+.field--name-field-how-to-invest .field--name-field-title {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 0;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.field--name-field-how-to-invest .layout__region--first {
+  padding: 30px 15px;
+}
+
+.field--name-field-how-to-invest .layout__region--second {
+  padding: 30px 15px;
+}
+
+.field--name-field-how-to-invest .paragraph--type--steps .field--name-field-body p:first-child {
+  color: #f7d900;
+  font-weight: bold;
+}
+
+.field--name-field-how-to-invest .paragraph--type--steps .field--name-field-body p {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 5px 0;
+}
+
+.field--name-field-how-to-invest .paragraph--type--steps .field--name-field-body p strong {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 5px 0;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(2) > .paragraph--type--steps .field--name-field-body {
+  color: #00ccff;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(3) > .paragraph--type--steps .field--name-field-body {
+  color: #11bc15;
+}
+
+.field--name-field-how-to-invest .field--item .paragraph--type--steps .field--name-field-title {
+  box-shadow: inset 0px 0 0px 4px #fff;
+  display: inline-block;
+  padding: 15px 75px 15px 30px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  border-radius: 50px 30px 30px 0;
+  border: 2px solid #f7d900;
+  position: relative;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(1) .paragraph--type--steps .field--name-field-title img {
+  max-width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.field--name-field-how-to-invest .field--item .field--item img {
+  display: none;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(1) > .paragraph--type--steps > .field--name-field-title {
+  margin-left: calc(50% + 25px);
+}
+
+.field--name-field-how-to-invest .field--item:first-of-type > .paragraph--type--steps .field--name-field-body {
+  width: 100%;
+  padding-left: calc(50% + 25px);
+}
+
+.field--name-field-how-to-invest .field--name-field-steps- > .field--item:nth-child(2),
+.field--name-field-how-to-invest .field--name-field-steps- > .field--item:nth-child(3) {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(1) .paragraph--type--steps .field--name-field-title {
+  background: #f7d900;
+  border: 2px solid #f7d900;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(1) .paragraph--type--steps .field--name-field-title:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: inset 0 0 0 4px #fff;
+  background: inherit;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -67px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: inherit;
+}
+
+.field--name-field-how-to-invest .field--name-field-steps- > .field--item:nth-child(3) {
+  padding-top: 90px;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(3) .paragraph--type--steps .field--name-field-title::before {
+  left: -57px;
+  bottom: -5px;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(2) .paragraph--type--steps .field--name-field-title::before {
+  left: auto;
+  right: -95px;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(3) p:nth-child(2) {
+  color: #11bc15;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(2) .paragraph--type--steps .field--name-field-title {
+  background: #0cf;
+  border: 2px solid #0cf;
+  border-radius: 30px 50px 0 30px;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(3) .paragraph--type--steps .field--name-field-title {
+  background: #11bc15;
+  border: 2px solid #11bc15;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(2) .paragraph--type--steps .field--name-field-body p:first-child {
+  color: #00ccff;
+  font-weight: bold;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(3) .paragraph--type--steps .field--name-field-body p:first-child {
+  color: #11bc15;
+  font-weight: bold;
+}
+
+.field--name-field-how-to-invest .field--item .paragraph--type--steps .field--name-field-title {
+  background-repeat: no-repeat !important;
+  background-size: 35px !important;
+  background-position: right 25px center !important;
+}
+
+.field--name-field-how-to-invest .field--item:nth-child(2) > .paragraph--type--steps .field--name-field-body {
+  padding: 0 40px;
+}
+
+.field--name-field-steps- {
+  position: relative;
+  font-size: 0px;
+}
+
+.field--name-field-steps-:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 70px;
+  left: -60px;
+  right: 0;
+  bottom: 30px;
+  border-left: 5px dotted rgba(0, 0, 0, 0.7);
+  width: 0px;
+  margin: auto;
+}
+
+.field--name-field-how-to-invest .field--name-field-steps- > .field--item {
+  padding: 25px 15px 0;
+}
+
+.page-node-type-why-paksitan-2 p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bottom-slider .view-they-choose-pakistian-why-pakistan-2 .slick-current.slick-active .bottom-content {
+  border: 2px solid #00b7ff;
+}
+
+.bottom-slider .view-they-choose-pakistian-why-pakistan-2 .bottom-content {
+  border: 2px solid transparent;
+  height: 135px;
+}
+
+.field--type-text-with-summary .act ul li:before {
+  background-image: url(../images/external-link.png) !important;
+  background-color: #026082 !important;
+  background-color: rgba(249, 249, 249, 0.3) !important;
+  left: 4px !important;
+  border: none !important;
+}
+
+.field--type-text-with-summary .act ul li:hover:before {
+  background-image: url(../images/external-link.png) !important;
+  background-color: rgba(249, 249, 249, 0.3) !important;
+}
+
+.field--type-text-with-summary .act ul li {
+  color: #fff !important;
+  font-size: 18px !important;
+  padding: 0 78px 0 10px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.field--type-text-with-summary .act ul li:hover:after,
+.field--type-text-with-summary .act ul li:after {
+  background-color: #026082 !important;
+  border: none !important;
+}
+
+.field--type-text-with-summary .act ul li:nth-child(2):hover:after,
+.field--type-text-with-summary .act ul li:nth-child(2):after {
+  background-color: #00b7ff !important;
+}
+
+.field--type-text-with-summary .act ul li:nth-child(3):hover:after,
+.field--type-text-with-summary .act ul li:nth-child(3):after {
+  background-color: #11bc15 !important;
+}
+
+.field--type-text-with-summary .act ul li:nth-child(4):hover:after,
+.field--type-text-with-summary .act ul li:nth-child(4):after {
+  background-color: #f7d900 !important;
+}
+
+.field--name-field-why-invest-in-paksitan .layout--twocol,
+.field--name-field-investment-sectors .layout--twocol,
+.field--name-field-five-reasons-to-invest-in- .layout--twocol,
+.field--name-field-how-to-invest .layout--twocol,
+.field--name-field-how-to-invest .layout--twocol {
+  display: block;
+  font-size: 0px;
+  margin: 0 -15px;
+}
+
+.field--name-field-why-invest-in-paksitan .layout__region--first,
+.field--name-field-why-invest-in-paksitan .layout__region--second,
+.field--name-field-investment-sectors .layout__region--first,
+.field--name-field-five-reasons-to-invest-in- .layout__region--first,
+.field--name-field-investment-sectors .layout__region--second,
+.field--name-field-five-reasons-to-invest-in- .layout__region--second,
+.field--name-field-how-to-invest .layout__region--first,
+.field--name-field-how-to-invest .layout__region--second {
+  padding: 40px 15px;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.field--name-field-five-reasons-to-invest-in- .media--image img {
+  max-width: 550px;
+  width: 100%;
+}
+
+.field--name-field-how-to-invest .layout__region--second {
+  width: 640px;
+}
+
+.field--name-field-how-to-invest .layout__region--first {
+  width: calc(100% - 640px)
+}
+
+.chart .chart-type-select-wrapper.fullscreen {
+  width: 100%;
+  height: 100% !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+}
+
+i.fa.fa-compress {
+  display: none;
+}
+
+.fullscreen i.fa.fa-compress {
+  display: block !important;
+}
+
+.fullscreen i.fa.fa-expand {
+  display: none;
+}
+
+
+
+/*BOI CARERR MODULE*/
+.path-webform .webform-progress .progress-marker{
+  width: 40px;
+  height: 40px;
+  font-family: latobold;
+}
+.path-webform .webform-progress .progress-marker:before{
+  content: "";
+  position: relative;
+  height: 6px;
+  width: 6px;
+  left: 13px;
+  margin-right: -8px;
+}
+.webform-progress-tracker .progress-step.is-active .progress-title {
+  font-family: latobold;
+  font-size: 18px;
+  font-weight: 100;
+}
+.webform-progress-tracker .progress-step.is-active .progress-text {
+  color: #ccc;
+  font-family: latobold;
+}
+.progress-step.is-active .progress-marker {
+  background-color: #00b7ff;
+}
+.webform-progress-tracker .progress-step::after{
+  top: 19px;
+  background-color: #ccc;
+}
+.path-webform .progress-title {
+  margin-top: 0;
+  font-size: 16px;
+  font-family: latobold;
+}
+.path-webform .form-heading.form-item.js-form-item.form-type-webform-markup{
+  font-size: 20px;
+  color: #00b7ff;
+  border-top: none;
+  font-family: latobold;
+}
+.webform-progress-tracker .progress-step:not(.is-active) .progress-marker, .webform-progress-tracker .progress-step:hover .progress-marker {
+  background-color: #ddd;
+}
+.path-webform  div#edit-form {
+  width: 88%;
+  margin: auto;
+  padding-right: 30px;
+}
+.path-webform div#edit-form input,
+.path-webform #edit-academic-informations input{
+  height: 40px;
+  box-shadow: none;
+}
+.path-webform div#edit-form label,
+.path-webform #edit-academic-informations input{
+  font-weight: 100;
+  font-family: latobold;
+}
+.path-webform label.control-label.option input ,
+.path-webform #edit-academic-informations  label.control-label.option input{
+  height: auto !important;
+} 
+.path-webform #edit-table{
+  width: 100%;
+  margin: auto;
+  padding-right: 0px;
+}
+.view.view-career-form-result .input-group-addon{
+    position: relative;
+}
+.view.view-career-form-result .input-group-addon .ajax-progress.ajax-progress-throbber{
+    top: 10px;
+    left: 5px;
+}
+.view.view-career-form-result #edit-submit-career-form-result{
+    margin-top: 20px;
+}
+.view.view-career-form-result #webform-submission-field-filter {
+    width: 25%;
+}
+.view.view-career-form-result .col-md-6.form-item{
+    padding: 0px;
+    width:100%;
+}
+.view.view-career-form-result #edit-header {
+    width: 30%;
+}
+.view.view-career-form-result #edit-webform-submission-bulk-form--2 .form-item.js-form-item.form-type-select{
+    width: 50%;
+    float: left;
+    margin-right: 16px;
+}
+.view.view-career-form-result #views-form-career-form-result-page-1 .table-responsive{
+    clear: both;
+}
+#views-form-career-form-result-page-1 div#edit-actions--2 button#edit-submit--2{
+    margin-right: 0px;
+    margin-top: 24px;
+}
+.path-webform button.tabledrag-toggle-weight.btn-sm.btn.btn-default,
+.path-webform table#edit-jobtitle-items thead,
+.path-webform .webform-multiple-table--handle,
+.path-webform .webform-confirmation__back {
+  display: none;
+}
+
+.path-webform #edit-table label{
+  font-weight: 100;
+  font-family:latobold;
+}
+.path-webform  #edit-academic-informations{
+  width:88%;
+  margin:	auto; 
+}
+.path-webform  #edit-academic-informations label{
+  font-weight: 100;
+  font-family:latobold;
+}
+.path-webform #edit-table .webform-flex.webform-flex--1 {
+  padding-top: 13px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+.path-webform #edit-actions-wizard-prev{
+  margin-right: 0px;
+  background-color: #eee;
+}
+.path-webform #edit-actions-wizard-next{
+  margin-right: 0px;
+  margin-left: 16px;
+  background-color: #eee;
+}
+.path-webform .form-composite legend{
+  font-weight: 100;
+} 
+.path-webform .fieldset-legend{
+  font-family:latobold;
+}  
+.path-webform .control-label.option input{
+  height: auto !important;
+}
+.path-webform  .input-group-addon{
+  position: relative;
+}
+.path-webform  .input-group-addon span{
+  top: 12px;
+  left: 5px;
+}
+.path-webform #edit-actions{
+  text-align: right;
+  margin-top: 30px;
+  width:100%;
+}
+.path-webform #edit-jobtitle-items tbody>tr:nth-of-type(odd) {
+  background-color: transparent;
+  border: none;
+}
+.path-webform #edit-jobtitle-items tbody, .path-webform #edit-jobtitle-items tbody td {
+  border: none;
+  padding: 0px !important;
+}
+.path-webform #edit-jobtitle-items table td{
+  padding: 0px;
+}
+.path-webform #edit-jobtitle-add-more-items{
+  border: none;
+  padding: 0px;
+  width: 39px !important;
+  padding-left: 14px;
+  font-family: latobold;
+}
+.path-webform button#edit-actions-submit {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  color: #000;
+  margin-left: 10px;
+}
+.path-webform .webform-confirmation__message {
+  text-align: center;
+  color: #11bc15;
+  font-size: 22px;
+  padding-top: 30px;
+}
+
+
+.view-display-id-career_result_display .views-label {
+  font-size: 16px;
+  font-family: latobold;
+  width: 160px;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.view-display-id-career_result_display span.field-content {
+  font-size: 16px;
+  font-family: latobold;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.view-id-career_form_result.view-display-id-career_result_display .view-header ~ .view-content .views-field.cv-img {
+  width: 100% !important;
+}
+
+.view-display-id-career_result_display .views-label,
+.view-display-id-career_result_display span.field-content {
+  font-size: 14px;
+  font-family: latobold;
+  width: 50%;
+  display: inline-block;
+}
+.view-id-career_form_result.view-display-id-career_result_display .view-header ~ .view-content .views-field{
+  width: 50%;
+  display: inline-block;
+  border-bottom: 1px solid #ccc;
+}
+.view-id-career_form_result.view-display-id-career_result_display{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.view-career-form-result.view-id-career_form_result h2.cv-heading {
+  font-size: 20px;
+  font-family: latobold;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+tbody.newcustom-table tr td {
+  padding: 14px 6px;
+  font-family: latobold;
+}
+
+.view-id-career_form_result.view-display-id-block_1 .views-field {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0px;
+  width: 50%;
+  display: inline-block;
+}
+.view-id-career_form_result.view-display-id-block_1 .views-field .views-label {
+  font-size: 14px;
+  font-family: latobold;
+  width: 50%;
+}
+.view-id-career_form_result.view-display-id-block_1 .views-field .field-content {
+  font-size: 14px;
+  font-family: latobold;
+  width: 50%;
+}
+.view-id-career_form_result.view-display-id-block_1 .views-field:first-child, 
+.view-id-career_form_result.view-display-id-block_1 .views-field:last-child {
+  width: 100%;
+}
+.view-id-career_form_result.view-display-id-block_1 .views-field .field-content ul {
+  padding-top: 10px;
+}
+.view-id-career_form_result.view-display-id-block_1 .views-field .field-content ul li,
+.view-id-career_form_result.view-display-id-block_1 .views-field p {
+  font-family: latobold;
+}
+button.pdf-btn {
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 8px 12px;
+  background: #006d34;
+  border: 1px solid #006d34;
+  color: #fff;
+  font-family: latobold;
+  border-radius: 4px;
+}
+.pdf-btn .pdf-down{
+  position: relative;
+  left: -6px;
+  top: 1px;
+}
+
+
+
+
+
+
+
+@media (max-width:768px)
+{
+  .path-webform #edit-actions {
+   text-align: left;
+   padding-left: 0px;
+}
+.path-webform div#edit-form {
+   width: 100%;
+   margin: auto;
+   padding-right: 0px; 
+}
+.radios--wrapper.form-composite.webform-composite-hidden-title {
+   width: 100%;
+}
+.path-webform #edit-table label{
+   text-align: left;
+}
+.path-webform #edit-actions {
+   width: 100%;
+   text-align: left;
+}
+.path-webform #edit-table {
+   width: 100%;
+}
+.webform-flex--1 .webform-flex--container .webform-flex--1 .webform-flex--container{
+   text-align: left;
+}
+.view-id-career_form_result.view-display-id-career_result_display .view-header ~ .view-content .views-field {
+   width: 100%;
+}
+}

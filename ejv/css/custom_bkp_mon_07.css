@@ -1,0 +1,486 @@
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.site-admin .main-container.container.container-fluid {
+    width: 100%;
+    padding: 0;
+}
+
+.site-admin .region.region-content {
+    padding: 40px 15px 200px 0px;
+    position: relative;
+    min-height: 800px;
+}
+
+.site-admin .region.region-sidebar-first ul.menu.menu--site-admin li a.is-active {
+    padding: 12px 0px 12px 25px;
+}
+
+.site-admin ul.menu.menu--site-admin.nav {
+    padding: 60px 0 0 0;
+}
+
+.site-admin aside.sidebar-menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 25%;
+    z-index: -1;
+    background-color: #222;
+    border-right: 1px solid #222;
+}
+
+.site-admin aside.col-sm-3.sidebar-menu {
+    padding: 0;
+    position: unset;
+}
+
+.site-admin .menu--site-admin .dropdown-menu {
+    position: relative;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: none;
+    min-width: 160px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: center;
+    list-style: none;
+    background-color: transparent;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: none;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.open > .dropdown-menu {
+    display: block !important;
+}
+
+.site-admin .menu--site-admin .dropdown-menu li {
+    text-align: left;
+}
+
+
+.admin-dashboard .view-header h2 {
+    font-size: 20px;
+    padding: 0;
+    color: #333;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 16px;
+    margin-top: 38px;
+}
+
+.admin-dashboard .view-filters .form-item select {
+    width: 120px;
+}
+
+.form-item select {
+    box-shadow: none;
+}
+
+.admin-dashboard .view-header {
+    float: left;
+    width: 50%;
+}
+
+.admin-dashboard .view-filters {
+ float: left;
+ width: 100%;
+ text-align: left;
+ margin-bottom: 0px;
+}
+
+.admin-dashboard .view-filters .form-item {
+   margin:10px 10px 10px 0;
+}
+
+table.table tbody tr td a {
+    border: 1px solid #00b7ff;
+    color: #00b7ff;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background: #fff;
+    text-transform: capitalize;
+    box-shadow: none;
+    text-decoration: unset;
+}
+
+section#block-adminfooter {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    border-top: 2px solid #eee;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.site-admin .footer-outer {
+    display: none;
+}
+
+.admin-dashboard .view-content {
+    float: left;
+    width: 100%;
+}
+
+.admin-dashboard .table-striped,
+.site-admin  .table-striped{
+    border: 1px solid transparent;
+}
+
+.admin-dashboard .table-striped > tbody > tr,
+.site-admin  .table-striped > tbody > tr{
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+.admin-dashboard .table-striped > tbody > tr:hover,
+.site-admin  .table-striped > tbody > tr:hover{
+    background-color: #f9f9f9;
+}
+
+.admin-dashboard .table-striped > tbody > tr td,
+.site-admin  .table-striped > tbody > tr td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#block-adminfooter p {
+    font-size: 13px;
+    color: #a09e9e;
+    margin-bottom: 1px;
+}
+
+table a.tabledrag-handle {
+    display: none;
+}
+
+li.dropdown.active.active-trail .dropdown-menu {
+    display: block;
+}
+
+#draw-chart {
+    text-align: right;
+}
+
+div#charttypeBtn {
+    text-align: right;
+    float: left;
+    width: 100%;
+}
+
+.draw-chart {
+    width: 40%;
+    float: left;
+}
+
+.draw-chart > h3 {
+    color: #333 !important;
+    font-size: 20px !important;
+}
+
+.draw-chart-color {
+    padding: 0 0 0 50px;
+}
+
+.draw-chart-color .list-records {
+    margin-bottom: 10px;
+}
+
+div#charttypeBtn button {
+    background: transparent;
+    border: none;
+}
+
+div#charttypeBtn button img {
+    width: 100%;
+    max-width: 40px;
+}
+
+div#draw-chart {
+    width: 60%;
+    float: left;
+}
+.dropdown.open-it ul.dropdown-menu {
+    display: block !important;
+    text-align: left;
+    padding: 0 0px 0px 18px;
+}
+.list-records span i {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+.list-records {
+    width: 100%;
+    float: left;
+}
+
+.view-reports .view-content {
+    display: none;
+}
+
+.multi-select-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.multi-select-menu {
+    position: absolute;
+    left: 0;
+    top: 0.8em;
+    float: left;
+    min-width: 100%;
+    background: #fff;
+    margin: 1em 0;
+    padding: 0.4em 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.multi-select-menu input {
+    margin-right: 0.3em;
+    vertical-align: 0.1em;
+}
+
+.multi-select-button {
+    display: inline-block;
+    font-size: 0.875em;
+    padding: 0.2em 0.6em;
+    max-width: 20em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: -0.5em;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 34px;
+    cursor: default;
+
+}
+
+.multi-select-button:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.4em 0.4em 0 0.4em;
+    border-color: #999 transparent transparent transparent;
+    vertical-align: 0.1em;
+    float: right;
+    position: relative;
+    top: 8px;
+
+}
+
+.multi-select-menuitems label:first-child,
+.multi-select-menuitems label:nth-child(3) {
+    display: none;
+}
+
+.multi-select-container--open .multi-select-menu {
+    display: block;
+}
+
+.multi-select-container--open .multi-select-button:after {
+    border-width: 0 0.4em 0.4em 0.4em;
+    border-color: transparent transparent #999 transparent;
+
+}
+
+.view-reports .form-item-field-country-value {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.view-reports .form-item-roles-target-id,
+.view-reports .form-item-field-industry-sectors-where-col-target-id {
+    width: 25%;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+.view-reports .form-item-created,
+.view-reports .form-item-created-1,
+.view-reports .form-item-field-proposal-status-value,
+.view-reports .fieldgroup.form-composite {
+    width: 25%;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+
+.form-control {
+    box-shadow: none;
+}
+
+.view-reports .form-item-created,
+.view-reports .form-item-created-1,
+.view-reports .form-item-field-proposal-status-value {
+    padding-right: 30px;
+}
+
+.view-reports .form-item-created input,
+.view-reports .form-item-created-1 input,
+.view-reports .form-item-field-proposal-status-value input,
+.view-reports .fieldgroup.form-composite input {
+    width: 100%;
+}
+
+.view-reports #edit-actions,
+.view-reports .select-wrapper,
+.view-reports .form-item-field-proposal-status-value .select-wrapper select {
+    width: 100%;
+}
+
+.view-reports label,
+.view-reports span {
+    display: block;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.btn-success {
+    background-image: -webkit-linear-gradient(top, #5cb85c 0%, #00b7ff 100%);
+    background-image: -o-linear-gradient(top, #5cb85c 0%, #419641 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#00b7ff), to(#00b7ff));
+    background-image: linear-gradient(to bottom, #00b7ff 0%, ##00b7ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #00b7ff;
+}
+#taxonomy-term-departments-form div#edit-relations,
+#taxonomy-term-sub-department-form div#edit-relations {
+    display: none;
+}
+div#edit-roles-target-id .form-item input {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+
+    .view-reports .form-item-roles-target-id,
+    .view-reports .form-item-field-industry-sectors-where-col-target-id {
+        padding-right: 0px;
+    }
+
+    .view-reports .form-item-created,
+    .view-reports .form-item-created-1,
+    .view-reports .form-item-field-proposal-status-value {
+        padding-right: 10px;
+    }
+
+    .view-reports #edit-actions {
+        float: left;
+    }
+
+    .admin-dashboard.view.view-admin-dashboard .view-filters.form-group {
+        position: static;
+    }
+
+    .admin-dashboard .view-filters {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    h1.page-header,
+    .page-header-sub h2 {
+        margin-bottom: 0;
+    }
+    .table-responsive{
+        border: 1px solid transparent; 
+    }
+
+}
+
+@media(max-width:480px) {
+
+    .view-reports .form-item-created,
+    .view-reports .form-item-created-1,
+    .view-reports .form-item-field-proposal-status-value {
+        padding-right: 0px;
+    }
+
+    .view-reports .form-item-created,
+    .view-reports .form-item-created-1,
+    .view-reports .form-item-field-proposal-status-value,
+    .view-reports .fieldgroup.form-composite,
+    .view-reports .form-item-roles-target-id,
+    .view-reports .form-item-field-industry-sectors-where-col-target-id {
+        width: 100%;
+        margin-bottom: 10px;
+        padding-right: 0px;
+    }
+
+    .view-reports .form-item-field-country-value {
+        margin-bottom: 10px;
+    }
+    .site-admin .btn-group > .btn + .dropdown-toggle{
+        padding: 10px 2px 12px 2px;
+    }
+    .site-admin.hide-path-taxo .btn-group.dropdown button{
+        padding: 11px 3px;
+    }
+    .left-side-login-content p{
+        font-size: 14px;
+    }
+    .left-side-login-content h2 {
+        font-size: 26px;
+    }
+    section#block-whatisejv {
+        margin-top: 0px;
+    }
+    .inc-db-login{
+        margin-top: 0px;
+    }
+    .view.view-anonymous-proposal-status- .view-content .field-content .col-sm-3 > .view-empty{
+        padding: 15px 16px !important;
+    }
+    #edit-roles-target-id .form-item{
+        width: 100%;
+    }
+    .authenticated .views-exposed-form div.form-item{
+        float: left;
+    }
+    .authenticated.tech section#block-welcometoejointventure {
+        margin-top: 0px;
+    }
+    .admin-dashboard .view-header {
+        width: 100%;
+    }
+}

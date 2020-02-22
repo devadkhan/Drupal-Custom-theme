@@ -1,0 +1,2274 @@
+
+.fold-table {
+    width: 100%;
+}
+
+
+
+a.logo img{
+ max-width: 224px;
+ position: relative;
+}
+a.logo.navbar-btn{
+ margin-top: 15px;
+}
+.header-outer:before{
+ content:"";
+ background-color: #000;
+ position: absolute;
+ top:0px;
+ height: 90px;
+ width:100%;
+}
+.new-event {
+ border-radius: 4px;
+ padding: 14px 15px;
+ text-align: center;
+ font-weight: 100;
+ margin-bottom: 14px;
+}
+.new-event a{
+ color: #fff;
+ font-family: latobold;
+}
+.new-event a.grey{
+ color: #909090;
+}
+.bg-grey{
+ background-color: #EEEEEE;
+}
+.bg-green{
+ background-color: #11BC15;
+}
+.bg-darkblue{
+ background-color: #00A0DC;
+}
+.bg-lightblue{
+ background-color: #00B8FF;
+}
+.all-events{
+ border-radius: 4px;
+ padding: 12px 14px;
+ color: #fff;
+ height: 86px;
+ margin-bottom: 14px;
+ background-image: url(../images/maskgroup.png);
+ background-repeat: no-repeat;
+ background-position: bottom right;
+}
+.all-events a{
+ color:#fff;
+ font-weight: 100;
+ font-family: latobold;
+}
+aside.col-sm-3.sidebar-menu{
+ margin-top: 40px;
+}
+aside.col-sm-3.sidebar-menu ~ .col-sm-9{
+ margin-top: 8px;
+}
+.role-authenticatedindb .header-outer{
+ height: 135px !important;
+ background-size: unset !important;
+ background-repeat: no-repeat !important;
+ background-position: unset;
+ background-image: none;
+}
+.event-banner img{
+ border-radius: 4px;
+ height: 140px;
+}
+.main-event-section h3 {
+ margin-top: 0px;
+ font-size: 15px;
+ font-family: latobold;
+ margin-bottom: 0px;
+}
+.main-event-section span {
+ font-size: 14px;
+ color: #ABABAB;
+}
+.event-section-content {
+ padding-top: 40px;
+}
+.row.main-event-section:first-child {
+ margin-top: 0px;
+}
+.row.main-event-section {
+ margin-top: 34px;
+}
+.session-section {
+ float: left;
+ width: 100%;
+ border: 1px solid #dddd;
+ border-radius: 4px;
+ padding: 20px 14px;
+}
+.session-section-content {
+ margin-bottom: 30px;
+}
+.session-section-content ul {
+ list-style-type: none;
+ padding-left: 0px;
+}
+.session-section-content .file-icon, .session-section-content .file-size{
+ display:none;
+}
+.session-section-content .file-link{
+ border:none;
+}
+.session-section-content  .file-link a{
+ font-weight: 100;
+}
+.session-section-content img {
+ margin-top: 14px;
+ height: 130px;
+ border-radius: 4px;
+}
+.bg-grey-div{
+ background-color: #EEEEEE;
+ border-radius: 4px;
+ padding:20px; 
+}
+.btn-confirm{
+ color: #fff;
+ padding: 10px 48px;
+ margin: 40px 0px;
+ border: 1px solid #00A0DC;
+}
+#block-welcomeadmin .welcome-admin{
+ font-size: 34px;
+ font-family: latobold;
+}
+.bg-grey-div p{
+ margin:0px;
+}
+section#block-welcomeadmin {
+ position: absolute;
+ top: 170px;
+ width: 100%;
+ text-align: center;
+ color: #fff;
+}
+.event-details h3 {
+ font-size: 22px;
+}
+.event-details p{
+ color: #B1B1B1;
+ font-size: 16px;
+}
+.event-details a{
+ background-color: #EEEEEE;
+ color: #000;
+ padding: 11px 22px;
+ border-radius: 4px;
+ font-size: 13px;
+ border: 1px solid #a7a7a7;
+ position: relative;
+ top: -5px;
+}
+.event-details .request{
+ display: inline-block;
+}
+.event-details-main {
+ width: 40%;
+ background-color: #eeeeee;
+ padding: 15px;
+ border-radius: 4px;
+ margin-bottom: 10px;
+}
+h3.custom-venue ~ p {
+ color: #000;
+ font-size: 18px;
+}
+.date-settings-main h3 {
+ font-family: latobold;
+ text-align: center;
+}
+.date-settings-main p{
+ width: 100px;
+ margin: auto;
+ text-align: center;
+ font-size: 18px;
+ color: #CFCFCF;
+}
+.custom-past-occur {
+ float: left;
+ width: 100%;
+ background-color: #eeeeee;
+ border-radius: 4px;
+ padding: 16px 3px;
+}
+.custom-right-event {
+ padding-top: 12px;
+}
+.custom-right-event h3 {
+ margin: 0px;
+ font-size: 18px;
+ margin-bottom: 6px;
+}
+.view-button{
+ text-align: center;
+ padding-top: 28px;
+}
+#role-form .role-form-custom {
+ font-size: 18px;
+ font-family: latobold;
+ margin-bottom: 10px;
+}
+#role-form .form-item.js-form-item.form-group {
+ width: 48%;
+ display: inline-block;
+}
+#role-form .form-item.js-form-item.form-group .control-label{
+ font-size: 16px;
+ font-weight: 100;
+}
+#role-form .form-item.js-form-item.form-group input, #role-form .form-item.js-form-item.form-group select{
+ box-shadow: none;
+ height: 40px;
+}
+#role-form  .form-item-rolename,#role-form  .form-item-role-group {
+ margin-right: 14px;
+}
+#role-form .panel-heading{
+ border-bottom: none;
+}
+#role-form .form-item.js-form-item.form-wrapper{
+ border-radius: 0px;
+ box-shadow: none;
+ border: none;
+ margin-bottom: 0px;
+}
+#role-form  .form-item.js-form-item.form-wrapper .panel-body{
+ display: none;
+}
+#role-form .form-item.js-form-item.form-wrapper .panel-heading.accordian ~ .panel-body{
+ display: block;
+ padding-bottom: 0px;
+}
+#role-form  .form-item.js-form-item.form-wrapper .panel-body .fieldgroup.form-composite {
+ border: none !important;
+ border-bottom: 1px solid #b8b7b7 !important;
+ margin-bottom: 20px;
+ padding-bottom: 8px;
+}
+#role-form .form-item.js-form-item.form-wrapper .panel-body .form-checkboxes .form-item{
+ display: inline-block;
+ width: 32%;
+ text-align: center;
+}
+#role-form .form-item.js-form-item.form-wrapper .panel-body legend{
+ border-bottom: none; 
+ margin-bottom: 0px;
+ float: left;
+ width: 25%;
+ font-size: 16px;
+ padding-top: 8px;
+}
+#role-form .form-item.js-form-item.form-wrapper .panel-body .fieldset-wrapper{
+ display: inline-block;
+ width: 75%;
+}
+#role-form .form-item.js-form-item.form-wrapper .panel-body .fieldgroup.form-composite:last-child {
+ margin-bottom: 0px;
+ border-bottom: none !important;
+}
+.panel-heading.accordian {
+ background-color: #dbdbdb;
+}
+.custom-welcome {
+    position: relative;
+    padding: 0px !important;
+    border: 0px;
+}
+.date-settings .calculate-days{
+    text-align: center;
+    margin-top: 30px;
+}
+.date-settings .calculate-days span{
+    padding: 14px 12px;
+    background-color: #eeeeee;
+    font-size: 18px;
+    font-family: latobold;
+    border-radius: 4px;
+}
+.date-settings  .calculate-days-text {
+    text-align: center;
+    padding-top: 20px;
+}
+.date-settings  .calculate-days-text span {
+    font-size: 18px;
+    color: #ccc;
+}
+.path-event-request  #edit-actions-submit {
+    display: none;
+}
+.custom-welcome h2{
+ position: absolute;
+ top: 60px;
+ font-size: 38px;
+ text-align: center;
+ color: #fff;
+ font-family: latobold;
+ z-index: 1;
+ width: 100%;
+}
+.row.custom-request-row {
+    width: 100%;
+}
+.view-event-detail #comment-form {
+    float: right;
+    margin-top: 22px;
+    width: 60%;
+}
+.view-event-detail #edit-actions--2{
+    text-align: right;
+}
+.view-event-detail #edit-actions--2 button{
+    margin-right: 0px;
+    padding: 11px 50px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+.custom-welcome .field.field--name-field-banner-image{
+ height: 280px;
+ position: relative;
+ top: -48px;
+}
+.custom-welcome .field.field--name-field-banner-image img{
+ height: 100%;
+ width:100%;
+}
+.footer-outer{
+ background: #2D2F2E !important;
+}
+.footer-outer > .footer {
+ padding: 0px;
+}
+#block-footerleft{
+ border-top: 38px;
+}
+#block-footerleft .field a{
+ display: inline-block;
+ color: #a3a3a3;
+ padding: 9px 120px 0px 105px;
+ font-size: 14px;
+ text-decoration: none;
+}
+#block-footerleft .field img{
+ position: absolute;
+ top: 8px;
+ left: 30px;
+}
+div.social-network.social-circle {
+ list-style: none;
+ display: inline-block;
+ margin-left: 0 !important;
+ padding: 28px 0 15px;
+}
+div.social-network.social-circle .deve {
+ display: inline;
+ margin: 0px 2px;
+ padding: 0 !important;
+}
+.social-circle .deve a {
+ display: inline-block;
+ position: relative;
+ margin: 0 auto 0 auto;
+ -moz-border-radius: 50%;
+ -webkit-border-radius: 50%;
+ border-radius: 50%;
+ text-align: center;
+ width: 28px;
+ height: 28px;
+ border: 2px solid #a3a3a3;
+}
+div.social-network .deve a.icoFacebook i, div.social-network .deve a.icoTwitter i, div.social-network .deve a.icoYoutube i, div.social-network .deve a.icoInsta i {
+ color: #a3a3a3;
+}
+.developedBy {
+ text-align: right;
+}
+div.social-network .deve a.icoFacebook:hover {
+ background-color: #3B5998;
+ border: 2px solid #3B5998;
+}
+div.social-network .deve a.icoTwitter:hover {
+ background-color: #33ccff;
+ border: 2px solid #33ccff;
+}
+div.social-network .deve a.icoYoutube:hover {
+ background-color: #c72724;
+ border: 2px solid #c72724;
+}
+div.social-network .deve a.icoLinkedin:hover{
+ border: 2px solid #337ab7;
+ background-color: #337ab7;
+}
+.social-circle .deve a:hover i {
+ -o-transition: all ease-in-out 0.2s;
+ -ms-transition: all ease-in-out 0.2s;
+ -moz-transition: all ease-in-out 0.2s;
+ -webkit-transition: all ease-in-out 0.2s;
+ transition: all ease-in-out 0.2s;
+ -o-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ -webkit-transform: rotate(360deg);
+ transform: rotate(360deg);
+ color: #fff !important;
+}
+.social-circle .deve i {
+ margin: 0;
+ line-height: 25px;
+ text-align: center;
+}
+.view-event-request.view-id-event_request .fold-table {
+    width: 100%;
+}
+.fold-content table{
+    width: 100%;
+}
+.dropdown-menu {
+    position: relative;
+    top: 0%;
+    box-shadow: none;
+    float: none;
+    padding: 0px;
+    border: none;
+}
+.role-authenticatedindb.path-frontpage #block-siteadmin .nav .open .dropdown-menu li a:hover {
+    background: #11bc15 !important;
+}
+.dropdown-menu li a {
+    margin: 0px !important;
+}
+
+
+
+/*create new event*/
+
+.node-new-event-form .js-form-managed-file.form-managed-file input{
+    width: 100%;
+    max-width: 100%;
+    height: 140px;
+}
+.node-new-event-form input{
+ border: 2px solid #D9D9D9 !important;
+}
+.node-new-event-form button {
+    padding: 12px 16px;
+    font-size: 15px;
+    font-family: latobold;
+}
+.node-new-event-form #edit-title-wrapper{
+    margin-right: 16px;
+}
+.node-new-event-form #edit-field-user-wrapper{
+    margin-left: 17px;
+}
+.node-new-event-form #edit-title-wrapper,
+.node-new-event-form #edit-field-user-wrapper ,
+.node-new-event-form #edit-field-phone-number-wrapper{
+    width: 48%;
+    float: left;
+    margin-bottom: 40px;
+}
+.node-new-event-form #edit-field-upload-banner-image-0--description {
+    margin-bottom: 40px;
+}
+.node-new-event-form #edit-field-event-details-page-wrapper{
+    margin-bottom: 60px;
+}
+.node-new-event-form #edit-field-event-details-page-wrapper {
+    clear: both;
+}
+.node-new-event-form #edit-field-event-details-page-wrapper textarea{
+    width: 100%;
+    max-width: 100%;
+    border: 2px solid #ccc;
+}
+.node-new-event-form #edit-field-add-new-session-wrapper .field-multiple-table > thead, 
+.node-new-event-form .tabledrag-toggle-weight, 
+.node-new-event-form .field-multiple-drag, 
+.node-new-event-form .paragraph-type-top.form-group.js-form-wrapper.form-wrapper, 
+.node-new-event-form .fieldgroup.form-composite.js-form-item.form-item.js-form-wrapper.form-wrapper > legend {
+    display: none;
+}
+.node-new-event-form #edit-field-add-new-session-wrapper {
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+.node-new-event-form .js .field--widget-entity-reference-paragraphs td {
+   padding:0px; 
+}
+.node-new-event-form #edit-field-add-new-session-wrapper > div {
+    width: 90%;
+    margin: auto;
+}
+.node-new-event-form .form-checkboxes {
+    text-align: right;
+}
+
+.node-new-event-form  .field--type-entity-reference-revisions.field--name-field-speakers.field--widget-entity-reference-paragraphs,
+.node-new-event-form  .field--type-entity-reference-revisions.field--name-field-chair-person2 {
+    background-color: #eeee;
+    padding: 16px 16px;
+    border-radius: 3px;
+}
+.node-new-event-form .field--type-entity-reference-revisions.field--name-field-speakers.field--widget-entity-reference-paragraphs .table,
+.node-new-event-form .field--type-entity-reference-revisions.field--name-field-speakers.field--widget-entity-reference-paragraphs .table tr,
+.node-new-event-form  .field--type-entity-reference-revisions.field--name-field-chair-person2 .table tr,
+.node-new-event-form .field--type-entity-reference-revisions.field--name-field-chair-person2 .table {
+    background-color: transparent !important; 
+}
+
+.node-new-event-form .field--type-entity-reference-revisions.field--name-field-speakers.field--widget-entity-reference-paragraphs .field--type-entity-reference.field--name-field-email-ref,
+.node-new-event-form .field--type-entity-reference-revisions.field--name-field-speakers.field--widget-entity-reference-paragraphs .field--type-string.field--name-field-topic,
+.node-new-event-form  .field--type-entity-reference-revisions.field--name-field-chair-person2  .field--type-entity-reference.field--name-field-users {
+    width: 100% !important;
+}
+
+div[data-drupal-selector="edit-field-add-new-session-0-subform-field-chair-person2-0-top"],
+div[data-drupal-selector="edit-field-add-new-session-0-subform-field-speakers-0-top"]{
+    display: block !important;
+}
+div[data-drupal-selector="edit-field-add-new-session-1-subform-field-speakers-0-subform"] > div {
+    width: 100% !important;
+}
+
+
+.node-new-event-form .paragraphs-subform.form-group.js-form-wrapper.form-wrapper > div {
+    width: 48%;
+    float: left;
+}
+.node-new-event-form .paragraphs-subform.form-group.js-form-wrapper.form-wrapper > div:nth-of-type(even) {
+    margin-right: 28px;
+    margin-bottom: 40px;
+}
+.node-new-event-form .field--type-list-string.field--name-field-same-as-event-name{
+    width:100% !important;
+}
+.node-new-event-form  .field--type-list-string.field--name-field-event-type.field--widget-options-buttons legend,
+.node-new-event-form  .field--type-list-string.field--name-field-as-event-public- legend,
+.node-new-event-form  div[data-drupal-selector="edit-field-add-new-session-1-subform-field-speakers-0-top"],
+.field--type-list-string.field--name-field-event-type legend {
+    display: block !important;
+} 
+.node-new-event-form input[type='radio'],
+.node-new-event-form input[type='checkbox'] {
+    visibility: hidden;
+}
+.node-new-event-form label input[type="radio"] + span.check {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    float: left;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+.node-new-event-form label input[type="checkbox"]  + span.check{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+}
+.node-new-event-form input[type="radio"]:checked + .check:after {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: #00B8FF;
+    border-radius: 50%;
+    position: relative;
+    left: 3px;
+    top: -1px;
+}
+.node-new-event-form input[type="checkbox"]:checked + .check:after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(5deg);
+    font-weight: bolder;
+    background: url(../images/tick.png) no-repeat 2px 0px;
+    background-size: 100%;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+}
+span.check:after {
+    content: "";
+}
+.node-new-event-form .panel {
+    border: transparent;
+    border-color: transparent;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.node-new-event-form .panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: transparent !important;
+    padding: 0px;
+}
+.node-new-event-form .panel-title {
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+    font-family: latobold;
+}
+.node-new-event-form .panel-body{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.node-new-event-form .panel-body .form-inline.form-item{
+    width: 49%;
+}
+.node-new-event-form .field--widget-entity-reference-paragraphs td {
+    padding-right: 0px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.node-new-event-form .fieldgroup legend{
+    font-size: 14px;
+    border-bottom: none;
+}
+.node-new-event-form .fieldgroup legend .fieldset-legend{
+    font-family: latobold;
+}
+.node-new-event-form .fieldgroup .fieldset-wrapper .form-item {
+    width: 50%;
+    float: left;
+    margin: 0px;
+}
+.node-new-event-form .fieldgroup .fieldset-wrapper .form-item label {
+    padding-left: 0px;
+}
+.node-new-event-form button.btn-danger {
+    display: none !important;
+}
+.node-new-event-form #edit-field-add-new-session-0-subform-field-speakers-wrapper .has-multiple-fields-remove-button .paragraphs-subform.form-group.js-form-wrapper.form-wrapper {
+    background-color: #efefef;
+    padding: 20px 0px;
+    border-radius: 3px;
+}
+.node-new-event-form #edit-field-add-new-session-0-subform-field-chair-person2-wrapper .has-multiple-fields-remove-button  .form-group{
+    margin-bottom: 0px;
+}
+.node-new-event-form #edit-field-add-new-session-0-subform-field-chair-person2-wrapper tbody tr:nth-of-type(odd),
+.node-new-event-form #edit-field-add-new-session-0-subform-field-chair-person2-wrapper tbody tr:nth-of-type(even){
+    background-color: transparent;
+}
+.node-new-event-form #edit-field-add-new-session-0-subform-field-chair-person2-wrapper .table .table {
+    background-color: transparent;
+}
+.node-new-event-form #edit-field-add-new-session-0-subform-field-chair-person2-wrapper .has-multiple-fields-remove-button .paragraphs-subform.form-group.js-form-wrapper.form-wrapper {
+    background-color: #efefef;
+    padding: 20px 0px;
+    border-radius: 3px;
+}
+.node-new-event-form .field--type-list-string.field--name-field-groups-and-users-types legend{
+    display: block !important;
+}
+.node-new-event-form .field--type-datetime.field--name-field-add-deadline-date-and-tim {
+    margin-right: 16px;
+}
+.node-new-event-form .field--type-list-string.field--name-field-groups-and-users-types{
+    margin-right: 0px !important;
+    margin-left: 13px;
+}
+.node-new-event-form .sr-only {
+    position: relative !important;
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 6px !important;
+}
+.node-new-event-form .field--type-entity-reference-revisions.field--name-field-add-sub2 {
+    width: 100% !important;
+}
+.node-new-event-form .field--type-entity-reference.field--name-field-users.field--widget-entity-reference-autocomplete,
+.node-new-event-form .field--type-entity-reference.field--name-field-checklist.field--widget-entity-reference-autocomplete{
+    clear: both;
+} 
+.node-new-event-form .form-checkboxes .form-item {
+    width: 100% !important;
+    padding-top: 20px;
+}
+.node-new-event-form .paragraph-type-title {
+    font-size: 14px;
+    font-family: latobold;
+}
+.node-new-event-form #edit-field-add-new-session-0-subform-field-speakers-wrapper .has-multiple-fields-remove-button .form-group {
+    margin-bottom: 0px;
+}
+.node-new-event-form #edit-field-add-new-session-0-subform-field-add-sub2-wrapper {
+    width: 100% !important;
+}
+.node-new-event-form #edit-field-add-new-session-0-subform-field-add-sub2-0-top {
+    display: none;
+}
+
+.node-new-event-form .field--type-entity-reference.field--name-field-checklist.field--widget-entity-reference-autocomplete {
+    margin-right: 28px;
+}
+.node-new-event-form textarea#edit-field-comments-if-any-0-value {
+    width: 100%;
+    max-width: 100%;
+}
+.node-new-event-form .field--name-field-checklist + .field--name-field-past-events {
+ display: none; 
+ margin-right: 0px !important;
+}
+.node-new-event-form .added-group-class +  .field--name-field-checklist + .field--name-field-past-events {
+    display: block; 
+}
+.node-new-event-form .field--name-field-past-events + .field--type-entity-reference.field--name-field-users.field--widget-entity-reference-autocomplete {
+    display: none;
+}
+.node-new-event-form .added-value-class  + .field--name-field-checklist + .field--name-field-past-events + .field--type-entity-reference.field--name-field-users.field--widget-entity-reference-autocomplete{
+    display: block;
+}
+.node-new-event-form button[name="field_add_new_session_add_new_session_add_more"] {
+    position: relative;
+    float: right;
+    top: -78px;
+}
+body.role-authenticatedindb .page-header{
+    display: block !important;
+    font-size: 24px;
+}
+.node-group-form .field--type-entity-reference.field--name-field-member {
+    margin-bottom: 0px;
+}
+.node-group-form #edit-field-checklist-description-wrapper label{
+    display: none;
+}
+.node-group-form #edit-field-checklist-description-wrapper textarea{
+    border-radius: 0px;
+    border-top: 1px solid transparent;
+}
+.node-group-form th.field-label ,
+.node-group-form button.tabledrag-toggle-weight,
+.node-group-form.field-multiple-drag{
+    display: none;
+}
+.node-group-form .select2-container,
+.node-group-edit-form .select2-container{
+    max-width:500px;
+}
+.node-group-form 
+.node-group-form .has-multiple-fields-remove-button {
+ padding-left: 0px;
+}
+.node-group-form .form-type-entity-autocomplete{
+    width: 64%;
+}
+.node-group-form  .has-multiple-fields-remove-button .multiple-fields-remove-button{
+    right: 42%;
+    top: 40%;
+    z-index: 100;
+}
+.node-group-form .btn-success, .node-group-form .btn-info {
+    padding: 10px 30px;
+    background-color: #00b7ff;
+    border-color: #00b7ff;
+    font-family: latobold;
+}
+.node-new-event-form button#edit-submit {
+    padding: 12px 60px;
+}
+/*End create new event*/
+
+
+/*top bar settings */
+.navbar-nav.navbar-right {
+ display: block !important; 
+ margin-top: 23px !important;
+ margin-right: 80px;
+}
+.navbar-nav.navbar-right li{
+    float: none;
+}
+.navbar-nav.navbar-right .navbar-text {
+    margin: 0px;
+    font-size: 20px;
+    color: #eeeeee !important;
+}
+
+.navbar-nav.navbar-right ul.dropdown-menu.dropdown-menu-right {
+    background-color: #e6e6e6;
+    border-radius: 3px;
+    position: absolute;
+    top: 45px;
+}
+.navbar-nav.navbar-right ul.dropdown-menu.dropdown-menu-right li{
+    float: none;
+}
+.navbar-nav.navbar-right ul.dropdown-menu.dropdown-menu-right li a {
+    color: #000;
+    font-size: 14px;
+    font-size: 14px !important;
+    padding: 8px !important;
+}
+li.expanded.dropdown.last a {
+    font-size: 14px;
+}
+ul.menu.menu--account li a{
+    padding: 0px;
+}
+
+ul.menu.menu--account li a.is-active {
+    color: #11bc15 !important;
+}
+.custom-picture img{
+    float: right;
+    position: relative;
+    top: -55px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.user-logged-in .footer-outer {
+ display: block; 
+}
+
+/*end top bar settings*/
+
+footer.footer p {
+    color: #333;
+    margin: 0;
+    padding: 4px 0;
+    display: block;
+}
+#block-footerleft {
+    border-top: 38px;
+    padding-top: 15px;
+    display: block;
+}
+.footer-outer > .footer {
+    padding: 0px;
+    clear: both;
+    padding-bottom: 15px;
+}
+.user-logged-in .footer-outer {
+    display: block;
+    clear: both;
+}
+section#block-socialicons {
+    padding-top: 15px;
+    display: block;
+}
+
+/*Checklist style*/
+
+
+.btn-danger,
+.node-checklist-form .paragraph-type-title,
+.field-multiple-table thead,
+td.field-multiple-drag,
+.tabledrag-toggle-weight {
+    display: none;
+
+}
+.node-group-delete-form .btn-danger{
+    display: block;
+}
+.field--name-field-topic{
+    width: 41.5%;
+    float: left;
+    margin-right: 30px;
+}
+.field--name-field-select-priority {
+    width: 25%;
+    float: left;
+}
+.node-checklist-form .field--name-title.field--widget-string-textfield{
+    width: 40%;
+}
+.select2-results__option{
+    text-align: right;
+}
+.select2-results__option:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #e9e9e9;
+    border-radius: 2px;
+    background-color: #fff;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.select2-results__option[aria-selected=true]:after {
+    font-family: fontAwesome;
+    content: "\2713";
+    color: #000;
+    border: 0;
+    display: inline-block;
+    padding-left: 3px;
+    font-weight: 100;
+    padding: -0px;
+    text-align: center;
+}
+.select2-container--default .select2-selection--multiple{
+    padding: 6px 6px;
+}
+#edit-actions .form-submit {
+    font-size: 15px;
+    padding: 12px 60px;
+    margin-top: 20px;
+}
+.field-add-more-submit.btn-success{
+    font-size: 15px;
+    padding: 12px 60px;
+    margin-bottom: 20px;
+}
+.node-checklist-form .field--name-field-same-as-event{
+    width: 40%;
+}
+.custom-updated-list .custom-updated {
+    float: left;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 13px 1px;
+    border-radius: 2px;
+    border-bottom: none;
+}
+.custom-updated-list .custom-updated .custom-title {
+    font-size: 14px;
+    color: #b2acac;
+    padding-top: 8px;
+}
+.custom-updated-list .custom-priority {
+    border: 1px solid #ccc;
+    padding: 5px 4px;
+    border-radius: 3px;
+    text-align: center;
+}
+.custom-updated-list .custom-delete a {
+    font-size: 12px;
+    color: #b2b4c9;
+    text-decoration: none;
+    font-family: latobold;
+}
+.custom-updated-list {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.custom-updated-list .views-row:last-child .custom-updated{
+    border-bottom: 1px solid #ccc;
+}
+.custom-updated-list .make-delete {
+    text-align: center;
+    padding-top: 8px;
+}
+.button.button--danger{
+    display: none;
+}
+/*End Checklist Style*/
+.view-testing-all-users  tbody tr td{
+    font-family: lato;
+    font-size: 15px;
+}
+.view-testing-all-users  tbody tr{
+    border-bottom: 1px solid #ccc;
+}
+.view-testing-all-users  tbody .coma-seperated{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+
+/*Past Events*/
+.past-events-div{
+    float: left;
+    width: 85%;
+    background-color: #eeefea;
+    border-radius: 4px;
+    padding: 20px 10px;
+}
+.past-events-div .custom-title {
+    font-size: 20px;
+    font-family: latobold;
+}
+.past-events-div .custom-date , .past-events-div .custom-date  time {
+    font-family: latobold;
+}
+.past-events-div .custom-venue {
+    font-size: 18px;
+    font-family: latobold;
+}
+.past-events-div .custom-edit a{
+    text-decoration: underline;
+}
+.align-left-image{
+    display: table;
+    height: 240px;
+}
+.align-left-image .custom-image{
+    display: table-cell;
+    vertical-align: middle;
+}
+#user-login-form {
+    width: 40%;
+    margin: auto;
+}
+#user-login-form  input{
+    max-width: 100%;
+}
+/*End Pat Evevnts*/
+
+/*user form*/
+.myregister-form .custom-siteadmin{
+    float: left;
+}
+.myregister-form #edit-field-full-name-wrapper{
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+}
+.myregister-form #edit-field-full-name-wrapper .form-item{
+    padding: 0px;
+}
+.myregister-form .custom-siteadmin .form-item.js-form-item.form-type-textfield.js-form-type-textfield.form-item-name.js-form-item-name.form-group {
+    padding-left: 0px;
+    padding-right: 30px;
+}
+.myregister-form .form-item.js-form-item.form-type-textfield.js-form-type-textfield.form-item-name {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
+.myregister-form  #edit-field-full-name-wrapper .form-item-name.js-form-item-name{
+    padding-left: 30px;
+    float: left;
+    width: 50%;
+}
+.myregister-form .form-item.js-form-item.form-type-email.js-form-type-email.form-item-mail {
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+}
+.myregister-form  #edit-pass {
+    float: left;
+    width: 100%;
+}
+.myregister-form  #edit-pass  .password-parent {
+    width: 50%;
+    padding-right: 30px;
+    float: left;
+}
+.myregister-form  #edit-pass .confirm-parent {
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+}
+.myregister-form #edit-select-roles--wrapper legend{
+    padding-left: 30px;
+}
+.myregister-form #edit-status--wrapper,
+.myregister-form #edit-select-roles--wrapper {
+    width: 50%;
+    float: left;
+    clear: both;
+}
+.myregister-form #edit-status--wrapper legend,
+.myregister-form #edit-select-roles--wrapper legend {
+    border: none;
+    margin-bottom: 0px;
+}
+.myregister-form  .form-type-password.js-form-type-password.form-item-pass{
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+}
+.myregister-form #edit-status--wrapper legend .fieldset-legend,
+.myregister-form #edit-select-roles--wrapper legend .fieldset-legend{
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+    font-family: latobold;
+}
+.myregister-form #edit-status--wrapper #edit-status .form-item{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.myregister-form #edit-select-roles {
+    float: left;
+    width: 100%;
+    padding-left: 30px;
+}
+.myregister-form #edit-select-roles > div {
+    width: 48%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.myregister-form #edit-actions {
+    clear: both;
+}
+.myregister-form .form-type-select.js-form-type-select.form-item-select-roles.js-form-item-select-roles{
+    width: 50%;
+    float: left;
+    padding-left: 30px;
+}
+.myregister-form .form-type-select.js-form-type-select.form-item-select-roles.js-form-item-select-roles .select2-container{
+    width: 100% !important;
+}
+.myregister-form .form-type-select.js-form-type-select.form-item-status.js-form-item-status{
+    float: left;
+    width: 50%;
+    padding-right: 30px;
+}
+.myedit-form #edit-account + .form-type-textfield.js-form-type-textfield,
+.myedit-form #edit-field-full-name-wrapper + .form-type-email.js-form-type-email,
+.myedit-form .form-type-select.js-form-type-select.form-item-status {
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+}
+.myedit-form #edit-field-full-name-wrapper,
+.myedit-form .js-form-type-password.form-item-pass.js-form-item-pass,
+.myedit-form .form-item-select-roles.js-form-item-select-roles,
+.myedit-form  .field--name-field-ntn-number {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
+
+/*End user form*/
+tr.group-edit-bottom {
+    border-bottom: 1px solid #ccc;
+}
+.gruop-edit-btn a{
+    padding: 8px 14px;
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    font-size: 13px;
+}
+.view-id-only_groups table th:first-child{
+    width: 10%;
+}
+.view-id-only_groups table h3.group-edith {
+    width: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: latobold;
+}
+.view-id-only_groups table p.group-editp {
+    width: 400px;
+    display: inline-block;
+}
+.gruop-edit-btn.btn-default:hover {
+    background-color: transparent;
+}
+.node-group-edit-form .form-type-textarea.js-form-type-textarea .control-label{
+    display: none;
+}
+.node-group-edit-form textarea{
+    border-radius: 0px;
+    border-top: 1px solid transparent;
+}
+.node-group-edit-form #edit-field-member-wrapper{
+    margin-bottom: 0px;
+}
+.view-header{
+    font-size: 24px;
+    margin-top: 0px;
+}
+h1.page-header:empty {
+    display: none !important;
+}
+td.views-field.views-field-edit-user a {
+   padding: 12px 30px;
+   background-color: #e6e6e6;
+   border-radius: 2px;
+   font-size: 14px;
+   color:#000;
+   text-transform: capitalize;
+}
+.view-id-events tbody tr{
+    border-bottom: 1px solid #ccc;
+
+}
+.view-id-events tbody tr td {
+    padding: 20px 0px;
+}
+.view-id-events tbody tr a {
+    background-color: #e6e6e6;
+    padding: 11px 12px;
+    font-family: latobold;
+}
+.view-email-templates h3 {
+    margin-left: 14px;
+    font-size: 16px;
+    font-family: latobold;
+}
+.view-email-templates .custom-detail{
+    color: #d1cece;
+    margin-bottom: 10px;
+}
+.view-email-templates  .preview a{
+    color: #cfcfcf;
+    font-size: 16px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+.view-email-templates .view-header.text-left{
+    display: inline-block;
+}
+.view-email-templates  .add-new-template{
+    float: right;
+}
+.view-email-templates  .add-new-template a{
+    color: #ccc;
+    font-size: 14px;
+    border: 1px dashed #cccc;
+    padding: 7px 15px 7px 25px;
+    border-radius: 4px;
+    position: relative;
+}
+.add-new-template.text-right a:after {
+    content: "+";
+    position: absolute;
+    left: 10px;
+    top: 4px;
+    color: #000;
+    font-family: latobold;
+}
+
+select {
+    color: #999 !important;
+    font-size: 13px !important;
+    font-family: latobold;
+}
+.form-control::-webkit-input-placeholder {
+    color: #999;
+    font-size: 13px  !important;
+    font-family: latobold  !important;
+}
+.form-control::-moz-placeholder { 
+  color: #999  !important;
+  font-size: 13px  !important;
+  font-family: latobold  !important;
+}
+.form-control:-ms-input-placeholder { 
+  color: #999  !important;
+  font-size: 13px  !important;
+  font-family: latobold !important;
+}
+.form-control:-moz-placeholder {
+  color: #999  !important;
+  font-size: 13px  !important;
+  font-family: latobold  !important;
+}
+.view-duplicate-of-users .views-field-user-picture  img{
+    height: 40px;
+    width: 40px;
+    margin: auto;
+}
+.view-duplicate-of-users .views-field-view-user a{
+    background-color: #e6e6e6;
+    padding: 11px 12px;
+    font-family: latobold;
+    color: #333;
+    border-radius: 4px;
+}
+.view-duplicate-of-users  tr{
+    border-bottom: 1px solid #ccc;
+}
+.view-all-users.view-id-all_users .panel-default>.panel-heading {
+    color: #fff;
+    background-color: #00b7ff;
+    border-color: #00b7ff;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    padding: 12px 24px;
+}
+.view-all-users.view-id-all_users .panel.panel-default {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.view-all-users.view-id-all_users .panel-body > div > h3 {
+    display: inline-block;
+    font-size: 14px;
+    font-family: latobold;
+    color: #333;
+    width: 200px;
+}
+.view-all-users.view-id-all_users h3.pull-right.btn.btn-default {
+    background-color: #e6e6e6;
+}
+.view-all-users.view-id-all_users h3.pull-right.btn.btn-default a{
+    color: #333;
+}
+.view-all-users.view-id-all_users img{
+    margin-bottom: 20px;
+}
+/*registeration*/
+ul.custom-steps {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+
+}
+ul.custom-steps li {
+    margin-right: 140px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    color: #ccc;
+    padding: 6px 14px;
+    border-radius: 50%;
+    font-size: 22px;
+    font-family: latobold;
+    position: relative;
+}
+ul.custom-steps li.active {
+    color: #00b7ff;
+    border-color: #00b7ff;
+}
+ul.custom-steps li:last-child{
+    margin-right: 0px;
+}
+ul.custom-steps li:last-child:after{
+    display: none;
+}
+ul.custom-steps li:after {
+    content: '';
+    position: absolute;
+    top: 21px;
+    width: 144px;
+    height: 2px;
+    background: #ccc;
+    z-index: -1;
+    left: 42px;
+}
+.path-custom-hooks .user-register-form.user-form {
+    width: 70%;
+    margin: auto;
+}
+.path-custom-hooks .user-register-form.user-form h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.path-custom-hooks .user-register-form.user-form .panel-body{
+    padding: 0px;
+}
+.path-custom-hooks .user-register-form.user-form .panel-body > div {
+    width: 50%;
+    float: left;
+}
+.path-custom-hooks .user-register-form.user-form .panel-body > div:nth-of-type(odd) {
+    padding-right: 20px;
+}
+.path-custom-hooks .user-register-form.user-form .panel-body > div:nth-of-type(even) {
+    padding-left: 20px;
+}
+.path-custom-hooks .user-register-form.user-form .panel-default {
+   border: none;
+   box-shadow: none;
+}  
+.path-custom-hooks .user-register-form.user-form label{
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+    font-family: latobold;
+} 
+.path-custom-hooks .user-register-form.user-form input{
+    border: 1px solid #c4c5c5;
+    box-shadow: none;
+    height: 45px;
+    width: 100%;
+    border-radius: 4px;
+}
+.path-custom-hooks .user-register-form.user-form #bootstrap-panel--2{
+    display: none;
+}
+.path-custom-hooks .user-register-form.user-form a.btn{
+    display: block;
+    clear: both;
+    text-align: left;
+    padding: 12px 0px 11px 48px;
+    width: 136px;
+    background-color: #00b7ff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 30px;
+    float: left;
+}
+.path-custom-hooks .user-register-form.user-form .form-type-select.js-form-type-select select{
+    border: 1px solid #c4c5c5;
+    box-shadow: none;
+    height: 45px;
+    width: 100%;
+    border-radius: 4px;
+    color: #333 !important;
+}
+.path-custom-hooks .bootstrap-steps-panel-one{
+    display: none;
+}
+.path-custom-hooks .bootstrap-steps-panel-two{
+    display: block !important;
+}
+.path-custom-hooks .bootstrap-steps-panel-two.bootstrap-steps-panel-two-visible{
+    display: none !important;
+}
+.path-custom-hooks #bootstrap-panel--2 .button {
+    padding: 12px 0px 11px 0px;
+    width: 136px;
+    background-color: #00b7ff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 30px;
+    float: left;
+    border: 1px solid #00b7ff;
+    outline: none;
+    outline-offset: 0px;
+    box-shadow: none;
+}
+#block-congratulation{
+    display: none;
+}
+.custom-congrats .congrats{
+    text-align: center;
+}
+.custom-congrats .congrats h2{
+    color: #11bc15;
+    font-size: 40px;
+    margin-top: 80px;
+}
+.custom-congrats .congrats img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.custom-congrats .congrats p{
+    font-size: 28px;
+}
+.custom-congrats .congrats .custom-login a{
+    background-color: #00b7ff;
+    color: #fff;
+    font-size: 16px;
+    padding: 14px 106px;
+    margin-top: 14px;
+    border-radius: 4px;
+}
+.custom-congrats .congrats .custom-login{
+ float: left;
+ width: 100%;
+ margin-top: 50px;
+}
+.view-checklist span.field-content h3.template{
+    margin: 0 0 30px 16px !important;
+    text-transform: uppercase;
+}
+.view-checklist-new .border-outside h3{
+    color: #999;
+    font-size: 14px !important;
+    height: 40px;
+}
+.view-checklist-new .border-outside{
+    padding: 14px;
+    margin-bottom: 33px;
+}
+.view-checklist .view-details {
+    margin-top: 20px;
+}
+.view-checklist .view-details a{
+    padding: 8px;
+    color: #555;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: latobold;
+}
+.view-checklist-new .border-outside div#navbarNavDropdown ul.navbar-nav li.nav-item.dropdown.open .dropdown-menu {
+    top: 26px;
+    position: absolute;
+    min-width: 109px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    border-radius: 4px;
+    left: -112px !important;
+}
+.view-checklist-new #navbarNavDropdown .dropdown-item {
+    width: 80%;
+    margin: auto;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ccc;
+}
+.view-checklist-new #navbarNavDropdown .dropdown-item:last-child{
+    border-bottom: none;
+}
+.view-checklist-new #navbarNavDropdown .dropdown-item a {
+    font-weight: 100;
+    color: #999;
+}
+.event-details  h3 .requests{
+    display: inline-block;
+}
+.custom-permission .form-item-fieldset12,
+.custom-permission .form-item-fieldset13,
+.custom-permission .form-item-fieldset17{
+    display: none;
+}
+.view-new-users-view .table tbody tr{
+    border-bottom: 1px solid #ccc;
+}
+#role-form.custom-permission #edit-checkboxes  .panel-heading{
+    border-bottom: 3px solid #fff;
+    border-color: #fff;
+}
+.assigned_organization {
+    float: left;
+    width: 100%;
+}
+.assigned_organization h3 {
+    font-family: latobold;
+    font-size: 15px;
+    color: #333;
+}
+.assigned_organization p {
+    margin-top: 17px;
+}
+.custom-group-members.assigned_organization p {
+    background-color: #e6e6e6;
+    color: #767575;
+    padding: 4px 14px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.custom-checklist.assigned_organization h3 {
+    color: #00b7ff;
+}
+.custom_checklist_text_last h3 {
+    display: inline-block;
+}
+.custom_checklist_text_last p {
+    display: inline-block;
+    color: #00b7ff;
+}
+.custom_checklist_text_last p time{
+   font-family: latobold;
+}
+.views-field-task-views-field .check-list-view-form{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 24px 30px;
+    margin: 24px 0px 24px 0px;
+}
+.views-field-task-views-field .check-list-view-form > .form-item{
+    text-align: right;
+    margin-bottom: 0px;
+}
+.views-field-task-views-field .check-list-view-form input[type='checkbox'] {
+    visibility: hidden;
+}
+.views-field-task-views-field .check-list-view-form  input[type="checkbox"] + span.check {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: inline-block;
+    margin-left: 0px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+.views-field-task-views-field .check-list-view-form  input[type="checkbox"]:checked + .check:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(5deg);
+    font-weight: bolder;
+    background: url(/boi-event-portal/themes/incentive/images/tick.png) no-repeat 2px 0px;
+    background-size: 100%;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+
+}
+.views-field-task-views-field .check-list-view-form  span.check:after {
+    content: "";
+}
+.custom_checklist_text  .percentage-wrapper{
+    display: inline-block;
+}
+.custom_checklist_text  .percentage-wrapper .percentage-inner-wrapper {
+    font-family: latobold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.custom_checklist_text .percentage-text-inner-wrapper{
+ height: 3px;
+ background-color: #29b7ff;
+ position: absolute;
+ top: -1px;
+ left: 0px;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 10px;
+ border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+}
+.custom_checklist_text .percentage-text-wrapper{
+    float: left;
+    width: 100%;
+    background-color: #ccc;
+    position: relative;
+    height: 1px;
+}
+.views-field-task-views-field .check-list-view-form > .form-item + .name{
+    text-align: right;
+    color: #b8b8b8;
+    display: inline-block;
+    float: right;
+}
+.view-welcome-sub-organizer .custom-rows.other-comment {
+    float: left;
+    width: 60%;
+    clear: both;
+}
+.view-welcome-sub-organizer .field-content a.active.comment{
+
+    box-shadow: none;
+    font-family: latobold;
+    padding: 12px 22px;
+    background-color: #00b7ff;
+    border: 1px solid #00b7ff;
+    color: #fff;
+}
+.view-welcome-sub-organizer .field-content a.btn.activity{
+    padding: 9px 22px;
+    font-family: latobold;
+    padding: 12px 30px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: #999;
+    border: 1px solid #ccc;
+}
+.view-sub-organizer-comments {
+    border: 1px solid #ccc;
+    padding: 20px 20px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    float: left;
+    width:100%;
+}
+.view-sub-organizer-comments .custom-rows{
+    margin-bottom: 20px;
+}
+.view-sub-organizer-comments  .custom-comments-view .name {
+    color: #00b7ff;
+    font-family: latobold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.view-sub-organizer-comments  .custom-comments-view .custom-time {
+    color: #ccc;
+    font-size: 12px;
+    padding-top: 2px;
+}
+.view-sub-organizer-comments  .custom-rows.self-commment{
+    float: right;
+    width: 50%;
+    clear: both;
+}
+.view-welcome-sub-organizer .views-field.views-field-view {
+    border: 1px solid #ccc;
+    padding: 20px 20px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    float: left;
+    width: 100%;
+    display: none;
+}
+.view-welcome-sub-organizer .view-checkboxdata .custom-checked-unchecked-view .name {
+    color: #00b7ff;
+    font-family: latobold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.view-welcome-sub-organizer .view-checkboxdata .custom-checked-unchecked-view  .custom-time time{
+    color: #ccc;
+    font-size: 12px;
+    padding-top: 2px;
+}
+.view-welcome-sub-organizer .view-checkboxdata .views-row{
+    margin-bottom: 20px;
+}
+.view-welcome-sub-organizer .view-checkboxdata .views-field.views-field-nothing-1 {
+    clear: both;
+    margin-bottom: 22px;
+}
+.activity-block{
+    display: block !important;
+
+}
+.activity-none{
+    display: none;
+    
+}
+.view-welcome-sub-organizer .views-field-nothing-1 {
+    clear: both;
+    margin-bottom: 20px;
+}
+/*End registeration*/
+
+/*Attendance*/
+
+.custom-attendance-dashboard .active a {
+    color: #fff;
+    border: 1px solid #00b7ff;
+    background-color: #00b7ff;
+}
+
+.custom-attendance-dashboard a {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    display: block;
+    color: #767676;
+    text-align: center;
+    padding: 11px 0px;
+    border-radius: 4px;
+    font-family: latobold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.node-attendance-form #edit-field-select-event-wrapper{
+    float: left;
+    width: 100%;
+}
+.node-attendance-form #edit-field-select-event-wrapper > .form-item-field-select-event {
+    float: right;
+    width: 254px;
+}
+.node-attendance-form #edit-field-name-wrapper,
+.node-attendance-form #edit-field-cnic-passport-wrapper,
+.node-attendance-form #edit-field-add-attached-lists-wrapper {
+    float: left;
+    width: 50%;
+    padding-right: 30px;
+}
+
+.node-attendance-form #edit-field-email-wrapper,
+.node-attendance-form #edit-field-cnic-wrapper,
+.node-attendance-form #edit-field-passport-wrapper {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
+.node-attendance-form #edit-field-cnic-passport--wrapper legend{
+    border-bottom: transparent;
+}
+.node-attendance-form #edit-field-cnic-passport .form-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+.node-attendance-form .select2-container .select2-selection--single{
+    height: 46px;
+}
+.node-attendance-form .select2-container .select2-selection--single .select2-selection__rendered{
+    padding-top: 8px;
+}
+.node-attendance-form  .select2-container--default .select2-selection--single .select2-selection__arrow{
+    top:10px;
+}
+.node-attendance-form  #edit-actions{
+    clear: both;
+}
+
+
+
+.node-attendance-form .form-type-email.js-form-type-email{
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
+.node-attendance-form  #edit-custom-cnic-passport-type--wrapper{
+    float: left;
+    width: 51%;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 30px;
+}
+.node-attendance-form  #edit-custom-cnic-passport-type--wrapper legend{
+    margin-bottom: 0px;
+    border: none;
+}
+.node-attendance-form  #edit-custom-cnic-passport-type--wrapper legend span{
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+    font-family: latobold;
+}
+.node-attendance-form  #edit-custom-cnic-passport-type--wrapper #edit-custom-cnic-passport-type .form-item{
+    display: inline-block;
+}
+.node-attendance-form  .form-item-custom-cnic-passport.js-form-item-custom-cnic-passport{
+    float: left;
+    width: 49%;
+    padding-left: 25px;
+}
+h1#no_type_msg {
+    clear: both;
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+    font-family: latobold;
+}
+
+
+
+
+
+
+
+
+
+
+.node-checklist-form .select2-container--default .select2-selection--single{
+    height:44px;
+}
+.node-checklist-form .select2-container--default .select2-selection--single .select2-selection__arrow{
+    top:8px;
+}
+.node-checklist-form .select2-container .select2-selection--single .select2-selection__rendered{
+    padding-top:8px; 
+}
+body.role-authenticatedindb .custom-attendance-dashboard ~ h1.page-header {
+    display: none !important;
+}
+.node-attachments-form #edit-field-select-event-attendance-wrapper{
+    float: left;
+    width: 100%;
+}
+.node-attachments-form #edit-field-select-event-attendance-wrapper .form-item{
+    float: right;
+    width: 254px;
+}
+.node-attachments-form #edit-field-attach-lists-paragraph-0-top,
+.node-attachments-form #edit-field-attach-lists-paragraph-0-subform-field-attach-lists-image-0--description,
+.node-attachments-form #edit-field-attach-lists-paragraph-0-info-remove-button-info {
+    display: none;
+}
+.node-attachments-form #edit-field-attach-lists-paragraph-wrapper{
+    display: inline-block;
+    width: 70%;
+}
+.node-attachments-form #edit-actions{
+    width: 152px;
+    float: right;
+}
+.node-attachments-form #edit-field-attach-lists-paragraph-0-subform-field-attach-lists-image-wrapper{
+    float: left;
+    width: 35%;
+}
+.node-attachments-form #edit-actions .form-submit{
+    margin-top: 40px;
+}
+.view-attendance-history table tbody tr{
+    border-bottom: 1px solid #ccc;
+}
+.role-anonymous #user-login-form {
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    border-radius: 4px;
+    position: relative;
+}
+.role-anonymous #user-login-form  label{
+    display: none;
+}
+.role-anonymous #user-login-form  input{
+    box-shadow: none;
+    height: 46px;
+    width: 70%;
+    margin: auto;
+}
+.role-anonymous #user-login-form  .text-right,
+.role-anonymous #user-login-form  .text-left {
+    width: 70%;
+    margin: auto;
+    font-family: latobold;
+}
+.role-anonymous #user-login-form  .text-left{
+ padding-bottom: 16px;
+}  
+.role-anonymous #user-login-form #edit-actions {
+    width: 70%;
+    margin: auto;
+}
+.role-anonymous #user-login-form .custom-empty-two img{
+    width: 100%;
+    height: 200px;
+}
+.role-anonymous #user-login-form h3.custom-login-image {
+    position: absolute;
+    top: 54px;
+    z-index: 1;
+    font-size: 44px;
+    font-family: latobold;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.role-anonymous #user-login-form  .custom-empty-one{
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+
+.user-form.myedit-form div#edit-field-cnic-wrapper {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
+.user-form.myedit-form div#edit-field-passport-wrapper {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
+.user-form.myedit-form div#edit-field-cnic-passport-check-wrapper {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
+.user-form.myedit-form  #edit-field-contact-number2-wrapper{
+    float: left;
+    width: 50%;
+    padding-right: 30px;
+}
+.user-form.myedit-form #edit-actions{
+    clear: both;
+}   
+.myedit-form .form-item-select-roles.js-form-item-select-roles{
+    padding-left: 0px !important;
+    padding-right: 30px  !important;
+}
+.view-new-users-view .views-field.views-field-nothing a,
+.view-new-users-view .views-field-view-user a{
+    padding: 12px 30px;
+    background-color: #e6e6e6;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #000;
+    text-transform: capitalize;
+}
+.view-new-users-view  td.views-field.views-field-user-picture img {
+    width: 44%;
+}
+.wrapper-para {
+    min-height: 110px;
+    overflow: auto;
+    height: 110px;
+}
+.wrapper-para {
+    min-height: 110px;
+    overflow: auto;
+    height: 110px;
+}
+.role-anonymous ul.tabs--primary.nav.nav-tabs,
+body.role-anonymous.role-authenticatedindb.path-custom-hooks.path-frontpage.has-glyphicons h1.page-header {
+    display: none !important;
+}
+#overlay{   
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height:100%;
+    display: none;
+    background: rgba(0,0,0,0.6);
+}
+.cv-spinner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px #ddd solid;
+    border-top: 4px #2e93e6 solid;
+    border-radius: 50%;
+    animation: sp-anime 0.8s infinite linear;
+}
+@keyframes sp-anime {
+    100% { 
+        transform: rotate(360deg); 
+    }
+}
+.is-hide{
+    display:none;
+}
+.check-list-view-form .form-checkboxes .form-item .control-label.option{
+    width: 100%;
+}
+.check-list-view-form .form-checkboxes .form-item .control-label.option .view{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #b8b8b8;
+}
+
+
+
+@media (max-width: 768px){
+   .role-authenticatedindb .region.region-content {
+      padding: 0px 0px 100px 0px;
+  }
+  aside.col-sm-3.sidebar-menu ~ .col-sm-9 {
+      margin-top: 0px;
+  }
+  aside.col-sm-3.sidebar-menu {
+      margin-top: 0px;
+      padding: 15px;
+  }
+  .event-details-main,
+  #role-form .form-item.js-form-item.form-wrapper .panel-body .fieldset-wrapper {
+      width: 100%;
+  }
+  .view-event-detail.view-id-event_detail.view-display-id-page_1 .col-md-9{
+    padding-left: 0px;
+}
+#role-form .form-item.js-form-item.form-wrapper .panel-body .form-checkboxes .form-item{
+  width: 30%;
+}
+#role-form .form-item.js-form-item.form-wrapper .panel-body legend{
+  width:60%;
+}
+.node-new-event-form #edit-title-wrapper, 
+.node-new-event-form #edit-field-user-wrapper, 
+.node-new-event-form #edit-field-phone-number-wrapper {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.node-new-event-form .form-checkboxes {
+    text-align: left;
+}
+.node-new-event-form .paragraphs-subform.form-group.js-form-wrapper.form-wrapper > div {
+    margin-bottom: 40px !important;
+}
+.node-new-event-form button[name="field_add_new_session_add_new_session_add_more"] {
+    float: left;
+    top: -20px;
+}
+.node-new-event-form .fieldgroup .fieldset-wrapper .form-item {
+    width: 54%;
+    float: left;
+    margin: 4px;
+}
+.node-new-event-form .paragraphs-subform.form-group.js-form-wrapper.form-wrapper > div {
+    width: 100%;
+    float: left;
+}
+.node-checklist-form .field--name-title.field--widget-string-textfield {
+    width: 100%;
+}
+.js .field--widget-entity-reference-paragraphs td {
+    padding: 0px;
+    padding-right: 0px !important;
+}
+.field--name-field-topic {
+    width: 100%;
+    margin-right: 0px;
+}
+
+.field--name-field-select-priority,
+.select2.select2-container,
+.node-checklist-form .field--name-field-same-as-event  {
+    width: 100% !important;
+}
+.field-add-more-submit.btn-success {
+    padding: 12px 22px;
+}
+#block-footerleft .field a {
+    padding: 9px 20px 0px 100px;
+}
+.developedBy {
+    text-align: center;
+}
+#user-login-form {
+    width: 100%;
+    margin: auto;
+}
+.view-past-events .views-col{
+    width:100% !important;
+}
+.view-past-events .views-col .past-events-div{
+    width:100%;
+    margin-bottom: 30px;
+}
+.myregister-form #edit-field-full-name-wrapper {
+    width: 100%;
+    padding-left: 0px;
+}
+.myregister-form .form-type-password.js-form-type-password.form-item-pass{
+    padding-left: 0px;
+    width: 100%;
+}
+.myregister-form  .form-item.js-form-item.form-type-select.js-form-type-select.form-item-status.js-form-item-status.form-group {
+   width: 100%;
+   padding-right: 0px;
+}
+.myregister-form .form-type-select.js-form-type-select.form-item-select-roles.js-form-item-select-roles{
+    width: 100%;
+    padding-left: 0px;
+}
+.myregister-form #edit-field-full-name-wrapper .form-item-field-full-name-0-value {
+    padding-right: 0px;
+}
+.myregister-form .form-item.js-form-item.form-type-textfield.js-form-type-textfield.form-item-name {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px !important;
+}
+.myregister-form .form-item.js-form-item.form-type-email.js-form-type-email.form-item-mail {
+    width: 100%;
+    padding-right: 0px;
+}
+.myregister-form #edit-pass .password-parent {
+    width: 100%;
+    padding-right: 0px;
+}
+.myregister-form #edit-pass .confirm-parent {
+    width: 100%;
+    padding-left: 0px;
+}
+.myregister-form #edit-status--wrapper, .myregister-form #edit-select-roles--wrapper {
+    width: 100%;
+}
+.myregister-form #edit-select-roles--wrapper legend {
+    padding-left: 0px;
+}
+.myregister-form #edit-select-roles{
+    padding-left: 0px;
+}
+.myregister-form .form-item  input,
+.myregister-form .select-wrapper{
+    max-width: 100%;
+}
+a.logo img {
+    max-width: 140px;
+    position: relative;
+}
+.navbar-default .navbar-toggle{
+    display: none;
+}
+#navbar .navbar-header {
+    display: inline-block;
+    padding-top: 14px;
+}
+#navbar .custom-login-menu{
+    display: inline-block;
+}
+#navbar div#navbar-collapse {
+    width: 60%;
+    float: right;
+    text-align: right;
+}
+.custom-login-picture{
+    display: inline-block;
+}
+.custom-picture img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+section.custom-welcome h2{
+    font-size: 28px;
+}
+.navbar-nav.navbar-right ul.dropdown-menu.dropdown-menu-right{
+    top: 35px;
+    left: -14px;
+}
+.myedit-form #edit-account + .form-type-textfield.js-form-type-textfield,
+.myedit-form #edit-field-full-name-wrapper + .form-type-email.js-form-type-email,
+.myedit-form .form-type-select.js-form-type-select.form-item-status {
+    width: 100%;
+    padding-right: 0px;
+}
+.myedit-form #edit-field-full-name-wrapper,
+.myedit-form .js-form-type-password.form-item-pass.js-form-item-pass,
+.myedit-form .form-item-select-roles.js-form-item-select-roles,
+.myedit-form  .field--name-field-ntn-number {
+    width: 100%;
+    padding-left: 0px;
+}
+.view-email-templates .add-new-template {
+    float: left;
+}
+.row.custom-request-row {
+    width: auto;
+}
+.view-event-detail #edit-actions--2 {
+    text-align: left;
+}
+.view-event-detail #comment-form{
+    float: left;
+    width: 80%;
+}
+.row.custom-request-row {
+    width: auto;
+}
+.view-id-only_groups .table-responsive>.table>thead>tr>th,
+.view-id-only_groups .table-responsive>.table>tbody>tr>td {
+    white-space: unset !important;
+}
+.role-anonymous #user-login-form .custom-empty-one img {
+    width: 100%;
+}
+.role-anonymous #user-login-form .custom-empty-one {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.node-attendance-form #edit-field-select-event-wrapper > .form-item-field-select-event,
+.node-attachments-form #edit-field-attach-lists-paragraph-0-subform-field-attach-lists-image-wrapper,
+.node-attachments-form #edit-field-attach-lists-paragraph-wrapper,
+.node-attachments-form #edit-field-select-event-attendance-wrapper .form-item{
+    width:100%;
+}
+.node-attendance-form #edit-field-name-wrapper,
+.node-attendance-form #edit-custom-cnic-passport-type--wrapper,
+.user-form.myedit-form div#edit-field-contact-number2-wrapper{
+    width: 100%;
+    padding-right: 0px;
+}
+.node-attendance-form .form-type-email.js-form-type-email,
+.node-attendance-form .form-item-custom-cnic-passport.js-form-item-custom-cnic-passport,
+.user-form.myedit-form div#edit-field-cnic-wrapper,
+.user-form.myedit-form div#edit-field-passport-wrapper,
+.user-form.myedit-form div#edit-field-cnic-passport-check-wrapper{
+    width: 100%;
+    padding-left: 0px;
+}
+.node-attachments-form #edit-actions .form-submit {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+
+}

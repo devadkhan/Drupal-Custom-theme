@@ -1,0 +1,370 @@
+<?php
+use \Drupal\user\Entity\User;
+use \Drupal\Core\Datetime\DateFormatter;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Drupal\Core\Access\AccessResult;
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+/*
+ * Implements template_preprocess_html()
+*/
+function ejv_preprocess_html(&$variables) {
+  /*$request = \Drupal::request();
+	$request->getSession()->clear();
+	\Drupal::service('session_manager')->destroy();*/
+
+  //echo "<pre>"; kint($get);exit;
+
+  $current_user = \Drupal::currentUser();
+  $roles = $current_user->getRoles();
+  //echo "<pre>"; print_r($roles);exit;
+  //if(isset($roles[
+  if(array_search('site_ad', $roles) !== false){
+    $val = 'site-admin';
+  }else{
+    $val = 'authenticated';
+  }
+  //echo "<pre>";print_r(\Drupal::routeMatch()->getRouteName());exit;
+  foreach ($variables['user']->getRoles() as $role) {
+
+    $variables['attributes']['class'][] = $val;
+  }
+  $route = \Drupal::routeMatch()->getRouteName();
+
+
+
+  //echo "<pre>"; print_r($route);exit;
+  if($route == 'user.register'){
+    $variables['route'] = "register";
+  }elseif($route == 'user.pass'){
+    $variables['route'] = "path-frontpage";
+  }elseif($route == 'entity.taxonomy_vocabulary.collection'){
+    $variables['route'] = "hide-path-taxo";
+  }elseif($route == 'entity.taxonomy_vocabulary.overview_form'){
+    $variables['route'] = "hide-term-list";
+  }elseif($route == 'change_pwd_page.change_password_form'){
+    $variables['route'] = "change-password";
+  }elseif($route == 'view.proposal_project.page_1'){
+    $variables['route'] = "my-proposal";
+  }elseif($route == 'view.admin_dashboard.page_2' || $route == 'view.admin_dashboard.page_5' || $route == 'view.admin_dashboard.page_6' || $route == 'view.admin_dashboard.page_4' ){
+    $variables['route'] = "admin-proposal-list";
+  }elseif($route == 'entity.taxonomy_term.add_form'){
+    $variables['route'] = "add-cat";
+  }elseif($route == 'node.add'){
+    $nodetype = \Drupal::routeMatch()->getParameter('node_type')->id();
+    //kint($nodetype);exit;
+    $variables['route'] = 'add-'.$nodetype;
+  }elseif($route == 'entity.node.edit_form'){
+    $variables['route'] = "add-proposal";
+  }elseif($route == 'change_pwd_page.reset'){
+    $variables['route'] = "reset-pass";
+  }
+}
+
+/*
+ * Implements template_preprocess_page()
+*/
+function ejv_preprocess_page(&$variables) {
+  $route = \Drupal::routeMatch()->getRouteName();
+  //kint($variables);exit;
+  if($route == "entity.user.canonical"){
+    $current_user = \Drupal::currentUser();
+      if(array_search("permanent", \Drupal::currentUser()->getRoles()) !== false || array_search("government", \Drupal::currentUser()->getRoles()) !== false){
+      $id = \Drupal::currentUser()->id();
+      $user = \Drupal::routeMatch()->getParameter('user');
+      if($current_user->id() != $user->id()){
+           throw new \Symfony\Component\HttpKernel\Exception\NotFoundHttpException();
+      }
+    }
+  }
+  if($route == 'view.sub_department_user.page_1'){
+    $current_user = \Drupal::currentUser();
+    $roles = $current_user->getRoles();
+    if(in_array('government', $roles)){
+      $account = \Drupal\user\Entity\User::load($current_user->id());
+      if(!empty($account->get('field_department')->getValue()) && !empty($account->get('field_sub_department')->getValue())){
+        throw new \Symfony\Component\HttpKernel\Exception\NotFoundHttpException();
+      }
+    }
+  }
+
+  if(isset($variables['node'])){
+    if($variables['node']->getType() == 'proposal' && \Drupal::currentUser()->isAnonymous()){
+      global $base_url;
+      $url = $base_url.'/user/login';
+      $response = new RedirectResponse($url, 301);
+      $response->send();
+    }
+  }
+
+  $current_path = \Drupal::service('path.current')->getPath();
+  if(strpos($current_path, '/company-profile-edit/')){
+    return new RedirectResponse(\Drupal::url('view.company_profile.page_1'));
+  }
+  //echo "<pre>";print_r(array_keys($variables['page']['content']['ejv_content']));exit;
+}
+
+/**
+ * Implements hook_preprocess_menu().
+ */
+function ejv_preprocess_menu(&$variables) {
+  //kint($entity->get("field_departments")->getValue());
+
+
+  //kint($variables['menu_name']);
+  if (isset($variables['menu_name']) && $variables['menu_name'] === 'permanent') {
+    foreach($variables['items'] as $key => $item) {
+      $path = $item['url']->toString();
+      $path = explode('/', $path);
+      $path = end($path);
+      switch($path) {
+        case 'sub-department-users': 
+          $current_user = \Drupal::currentUser();
+          $roles = $current_user->getRoles();
+          //          kint($current_user->getRoles());
+          //          exit;
+          if(in_array('government', $roles)){
+            $account = \Drupal\user\Entity\User::load($current_user->id());
+            //if current user is main department  
+            if(empty($account->field_sub_department->getValue()))
+            {
+              $dep_id = $account->field_department->getValue()[0]['target_id'];
+              
+              //get all users in main department
+              $users = \Drupal::entityTypeManager()->getStorage('user')->loadByProperties(['field_department'=>$dep_id]);
+              //if users are less than 2 unset menu
+              // because 1 means only login user is in this department and there are no sub users
+              if(count($users)<=1)
+              {
+                unset($variables['items'][$key]);
+              }
+            }else{
+                              unset($variables['items'][$key]);
+
+              
+            }
+            //            exit; 
+            //            if(empty($account->get('field_department')->getValue()) || !empty($account->get('field_sub_department')->getValue())){
+            //              unset($variables['items'][$key]); //Remove menu item
+            //            }else{
+            //              kint($account->field_department->getValue()[0]['target_id']);
+            //              exit;
+            //            }
+          }
+          break;
+      }
+    }
+  }
+}
+
+/*
+ * Implements template_preprocess_menu_local_task()
+*/
+function ejv_preprocess_menu_local_task(&$variables) {
+  /*if($variables['user']->id()){
+		$url = $variables['link']['#url'];
+		$title = $variables['link']['#title'];
+		$currentPath = $url->getInternalPath();
+		if($title == 'Change Password'){
+			//unset($variables['link']);
+		}
+	}*/
+}
+
+
+/**
+ * Implements hook_preprocess_HOOK().
+ * HOOK = page_title
+ */
+function ejv_preprocess_page_title(&$variables) {
+  $user = \Drupal::currentUser()->getRoles();
+  if(in_array('site_ad', $user)){
+    //kint($variables['title']->getUntranslatedString());exit;
+  }
+}
+
+/*
+ * Implements template_preprocess_views_view_table()
+*/
+function ejv_preprocess_views_view_table(&$variables) {
+  $displayID = $variables['view']->getDisplay()->display['id'];
+  if($variables['view']->id() == 'proposal_project'){
+    if ($displayID == 'page_1' || $displayID == 'page_5') {
+      $result = $variables['view']->result;
+      foreach ($variables['result'] as $key => $row) {
+        if(isset($row->_entity->get('moderation_state')->getValue()[0])){
+          $status = $row->_entity->get('moderation_state')->getValue()[0]['value'];
+          if($status == 'unpublished' || $status == 'draft'){
+            $variables['rows'][$key]['attributes']->setAttribute('data-toggle', 'tooltip');
+            $variables['rows'][$key]['attributes']->setAttribute('data-placement', 'top');
+            $variables['rows'][$key]['attributes']->addClass('unpublished-row');
+            $variables['rows'][$key]['attributes']->setAttribute('data-original-title', t('This is not published by admin.'));
+          }
+          /*elseif ($status == 'draft') {
+						$variables['rows'][$key]['attributes']->addClass('drafted-row');
+						$variables['rows'][$key]['attributes']->setAttribute('data-original-title', 'This is not published by admin.');
+					}*/
+        }
+      }
+    }
+  }elseif($variables['view']->id() == 'jv_status'){
+    if ($displayID == 'page_1') {
+      $result = $variables['view']->result;
+      foreach ($variables['result'] as $key => $row) {
+        if(isset($row->_entity->get('field_proposal')->getValue()[0])){
+          $proposalID = $row->_entity->get('field_proposal')->getValue()[0]['target_id'];
+          $proNode = \Drupal\node\Entity\Node::load($proposalID);
+          if(!$proNode)
+          {
+            echo "PROPOSAL DELETED FOR ".$row->_entity->id();
+
+            exit;
+          }
+          //$proNode->set('moderation_state', 'published')->save();
+          //                     kint($proNode);
+          if(isset($proNode->get('moderation_state')->getValue()[0]) && 
+             $status = $proNode->get('moderation_state')->getValue()[0]['value']){
+            if($status == 'unpublished'){
+              $variables['rows'][$key]['attributes']->setAttribute('data-toggle', 'tooltip');
+              $variables['rows'][$key]['attributes']->setAttribute('data-placement', 'top');
+              $variables['rows'][$key]['attributes']->addClass('unpublished-row');
+              $variables['rows'][$key]['attributes']->setAttribute('data-original-title', t('This proposal is rejected by admin.'));
+            }
+            /*elseif ($status == 'draft') {
+							$variables['rows'][$key]['attributes']->addClass('drafted-row');
+							$variables['rows'][$key]['attributes']->setAttribute('data-original-title', 'This is not published by admin.');
+						}*/
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
+ * Implements template_preprocess_region().
+ */
+function ejv_preprocess_region(&$variables) {
+  if (isset($variables['region']) && $variables['region'] == 'footer') {
+    $user = \Drupal::currentUser()->getRoles();
+    if(\Drupal::currentUser()->isAuthenticated() && !in_array('site_ad', $user)){
+      $variables['attributes']['class'][] = 'authenticated-footer';
+    }
+  }
+}
+
+/*
+ * Implements template_preprocess_field()
+*/
+function ejv_preprocess_field(&$variables, $hook){
+  if($variables['field_name'] == 'title'){
+    $node = \Drupal::routeMatch()->getParameter('node');
+    if ($node instanceof \Drupal\node\NodeInterface) {
+      $defaultStatus = (isset($node->get('moderation_state')->getValue()[0])) ? $node->get('moderation_state')->getValue()[0]['value'] : '' ;
+      if($defaultStatus == 'unpublished'){
+        $titleRej = 'Rejected';
+        $variables['rejectedtitle'] = $titleRej;
+      }
+    }
+  }
+}
+
+function ejv_preprocess_comment(&$variables) {
+  $user = User::load($variables['author_id']);
+  $companyName = $user->hasRole("government")?$user->getAccountName():$user->field_cpmpany_name->value;
+  $variables['author']['#content'] = t($companyName?$companyName:"NO Name");
+  $variables['current_uid'] = \Drupal::currentUser()->id();
+  $date = $variables['comment']->getCreatedTime();
+  $variables['created'] = \Drupal::service('date.formatter')->format($date, $type = 'time');
+}
+
+function ejv_preprocess_select(&$variables) {
+  $route = \Drupal::routeMatch()->getRouteName();
+  if($route == 'view.jv_status.page_1'){
+    if(array_key_exists('#field_name',$variables['element'])){
+      if($variables['element']['#field_name'] == "field_jv_author_status"){
+        //echo "<pre>"; print_r($variables['options']);exit;
+        foreach ($variables['options'] as $key => $value) {
+          if($variables['options'][$key]['value'] == '_none'){
+            unset($variables['options'][$key]);
+          }
+        }
+      }elseif($variables['element']['#field_name'] == "field_p_author_status"){
+        foreach ($variables['options'] as $key => $value) {
+          if($variables['options'][$key]['value'] == '_none'){
+            unset($variables['options'][$key]);
+          }
+
+        }
+      }
+    }
+
+  }
+
+}
+
+
+
+function ejv_preprocess_views_view_field(&$variables) {
+	$view = $variables['view'];
+
+	$id = $view->id();
+ 
+ if ($id == 'admin_dashboard'){
+//  	$user_picture = $variables['user_picture']->getValue($variables['row']);
+   
+//  	//kint($user_picture);exit;
+//    $myfieldvalue = $variables['field'];
+//  }else if($id == "supervisor_dashboard"){
+// 	 if ($variables['field']->field == 'field_department_1') {
+//  	 $val =	(string) $variables['output'];
+//         print_r($val);
+//	  	 if(isset($val) && !empty($val)){
+//	 	 	$user = User::load($val);
+//		  	$variables['output'] = $user->field_name->value;
+//	  	 }
+//  	}
+ }else if($id == 'company_profile'){
+   // kint($variables['field']->field);
+   if($variables['field']->field == "mail"){
+    $val =  (string) $variables['output'];
+      $current_user = \Drupal::currentUser();
+      $roles = $current_user->getRoles();
+
+    if($roles[1]  == "administrator" || $roles[1]  == "site_add"){
+      $user = \Drupal::routeMatch()->getParameter('user');
+      $curViewdUserEmail = $user->getEmail();
+      $variables['output'] = t($curViewdUserEmail);
+
+    }
+    
+   }
+ }
+}
+
+
+
+///**
+// * Implements hook_preprocess_menu().
+// */
+//function ejv_preprocess_menu(&$variables) {
+//
+////  kint($variables);
+//  exit;x`
+//  if (isset($variables['menu_name']) && $variables['menu_name'] === 'main') {
+//    foreach($variables['items'] as $key => $item) {
+//      $path = $item['url']->toString();
+//      switch($path) {
+//        case '/menupath':
+//          unset($variables['items'][$key]); //Remove menu item
+//        break;          
+//      }           
+//    }
+//  }
+//} 

@@ -1,0 +1,33 @@
+global-styling:
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/css/lightgallery.min.css: {}
+      css/animate.css: {}
+      css/style.css: {}
+      css/slick.css: {}
+      css/boitheme.css: {}
+      css/diamonds.css: {}
+      css/nprogress.css: {}
+      css/boi.css: {}
+      css/responsive.css: {}
+      https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css: {}
+      https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css: { type: external, minified: true }
+      css/update.css: {}
+  js:
+    # https://maps.googleapis.com/maps/api/js?v.3.31&key=AIzaSyBIQZJKEfel1dsDxgZ15Crc2TeQJwBKudA&libraries=places&callback=initMap: {type: external, attributes: { defer: true, async: true } } 
+    js/lightgallery.js: {}
+    js/lg-video.min.js: {}
+    js/froogaloop2.min.js: {}
+    js/slick.min.js: {}
+    js/jquery.diamonds.js: {}
+    js/nprogress.js: {}
+    js/wow.js: {}
+    js/custom.js: {}
+    js/langselect.js: { scope: footer }
+    js/country_state_select.js: {}
+    js/font_size.js: {}
+    js/weather-custom.js: {}
+    https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js: { type: external, minified: true }
+    https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js: { type: external, minified: true }
+    
+

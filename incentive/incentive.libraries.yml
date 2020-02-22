@@ -1,0 +1,22 @@
+global-styling:
+  css:
+    theme:
+      css/incent.css: {}
+      css/style.css: {}
+      css/landing.css: {}
+      css/event.css: {}
+      css/mainevents.css: {}
+      https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/css/select2.min.css: { type: external, minified: true }
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css: { type: external, minified: true }
+#      https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css: { type: external, minified: true }
+      
+  js:
+    js/event.js: {}
+    js/incent.js: {}
+    js/landing.js: {}
+    https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/js/select2.min.js: { type: external, minified: true }
+    js/jquery.multi-select.min.js: {}
+    https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js: {}
+    https://code.highcharts.com/highcharts.js: {}
+    https://code.highcharts.com/highcharts-3d.js: {}
+    https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js: { type: external, minified: true }

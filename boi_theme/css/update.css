@@ -1,0 +1,260 @@
+
+/************* Custom Page title ****************/
+
+.block-title.header-banner {
+	position: absolute;
+    top: 45%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+h1,
+h2.block-title,
+.thumbnailblocks h2,
+.thumbnailblocks h2 span,
+.wrapImages span.wraptitle,
+section.section_y_pak_ui h2,
+#block-views-block-commendations-block-1 h2,
+.path-node .views-element-container h2,
+.act ul li .views-field-nothing a,
+.views-field-field-updates-db-rank-by-year .views-label-field-updates-db-rank-by-year,
+#block-views-block-why-pakistan-content-block-block-1 .views-field-field-fastest-growing-economies span,
+#block-views-block-why-pakistan-content-block-block-1 .views-field-field-largest-youth-population span,
+#block-views-block-why-pakistan-content-block-block-1 .views-field-field-huge-domestic-market span,
+#block-views-block-why-pakistan-content-block-block-1 .views-field-field-rising-economic-influence span,
+#block-views-block-why-pakistan-content-block-block-1 .views-field-field-pakistan-infrastrucutre-st span,
+#block-views-block-why-pakistan-content-block-block-1 .views-field-field-buisness-friendly-governme span,
+#block-whypakistanlastblock .field--type-text-with-summary ul li span,
+.path-sectors .view-display-id-page_1 ul li .views-field-title span a,
+.field--name-field-why-invest-in-paksitan .layout__region--first .field--name-field-title,
+.field--name-field-five-reasons-to-invest-in- .layout__region--second .field--name-field-title,
+.view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .header-title,
+.view-empty h2, 
+.view-empty .h2,
+.path-contact-us .region-content h2 {
+	font-size: 28px;
+	line-height: 32px;
+}
+
+h2,
+#socialMedia .thumbnailblocks h2 a,
+.top-slider-inner h2,
+.block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .pakistan-glance,
+.path-node .field--name-field-investment-sectors .field--name-field-title, .path-node .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content h2,
+.opportunities_ui .opp_content h3,
+.view-id-autommotive .views-field-field-categories-of-new-investme .field-collection-item--name-field-categories-of-new-investme .field--name-field-automotive-title,
+.imageGalleryE-Services .e-services-right-block h3{
+	font-size: 24px;
+	line-height: 26px;
+}
+
+h3,
+.tiles p span,
+.highlights-slider .field-content h2,
+li.flourish-slider-inner .views-field-title a,
+#block-views-block-e-service-view-block-1 li .views-field-field-e-services-url a,
+#footer h2,
+.gSlider li .views-field-title,
+.block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li .views-field-title,
+.block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li .views-field-title,
+.path-node .views-element-container .views-field-field-specified-industries h2,
+.E-Services li .views-field-nothing-1 a,
+.field--name-field-five-reasons-to-invest-in- .layout__region--second .field--name-field-body h3,
+.page-node-type-pakistan-at-glance .field-collection-item--view-mode-full .field--type-string,
+section.sector_highlights_ui .field--name-body ul li,
+.view-id-autommotive .views-field-field-eligibility-criteria- h3 {
+	font-size: 18px;
+	line-height: 20px;
+}
+
+body p,
+.highlights-slider .field-content p,
+#block-views-block-why-pakistan-view-block-1 .views-field-title span,
+#footer ul.list-unstyled a,
+#footer ul.menu.nav a,
+#block-poweredby p a,
+.footer .social-network-uper p,
+.view-id-sezs_content_view .views-field-nothing .economic-zone ul li,
+.act ul li .views-field-nothing a,
+.page-node-type-why-pakistan .field-content ul li,
+#block-whypakistanlastblock .field--type-text-with-summary ul li,
+.block-views-blockbasic-page-content-block-block-1 ul li,
+.E-Services li .views-field-nothing-1 a p,
+.view-id-gallery_view_page .views-field-body p,
+.view-id-newspage .pagination>li>a, .pagination>li>span,
+.event-content .views-field-field-events-summary p,
+.event-content .views-field-view-node a ,
+.executive-profile .item-list>ul>li .executive-content a,
+.path-contact-us .field--type-text-with-summary ul li,
+.path-contact-us .field--type-text-with-summary ul li a{
+	font-size: 14px;
+}
+
+.sixteen-font-size,
+.exploring a,
+.commandtext p,
+.block-views-blocksez-development-view-block-1 .view-sez-development-view ul li .views-field-nothing .field-content,
+.investment-points ul li .field--name-field-investment-title,
+.page-node-type-why-paksitan-2 p{
+	font-size: 16px;
+}
+
+.forty-eight-font-size,
+#block-views-block-why-pakistan-view-block-1 h1,
+.slide-text > h1.sec-head p,
+.slide-text > h1.sec-head p,
+.forty-eight-font-size,
+#block-views-block-why-pakistan-view-block-1 h1,
+.slide-text > h1.sec-head p,
+.slide-text > h1.sec-head p,
+.sectors-banner-block .views-field-title span,
+.sectors-banner-block .views-field-title span,
+#block-boardofdirectorblokc h2.block-title,
+.block-title.header-banner{
+	font-size: 48px;
+	line-height: 52px;
+}
+
+.forty-font-size,
+.slide-text > h1.fi-head,
+.slide-text > h1.sec-head {
+	font-size: 40px;
+}
+
+.margin-bottom-thirty,
+.path-node .views-element-container h2 {
+	margin-bottom: 30px
+}
+
+/***********Media Query**********/
+@media(max-width:1200px) {
+	.tiles {
+		padding: 35px 20px;
+
+	}
+
+	.tiles span {
+		max-width: 120px;
+
+	}
+
+}
+
+@media(max-width:991px) {}
+
+
+@media(max-width:768px) {
+
+	h1,
+	h2.block-title,
+	.thumbnailblocks h2,
+	.thumbnailblocks h2 span,
+	.wrapImages span.wraptitle,
+	section.section_y_pak_ui h2,
+	#block-views-block-commendations-block-1 h2,
+	.path-node .views-element-container h2,
+	.path-contact-us .region-content h2 {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	h2,
+	#socialMedia .thumbnailblocks h2 a,
+	.top-slider-inner h2 {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	h3,
+	.tiles p span,
+	.highlights-slider .field-content h2,
+	li.flourish-slider-inner .views-field-title a,
+	#block-views-block-e-service-view-block-1 li .views-field-field-e-services-url a,
+	#footer h2 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.forty-eight-font-size,
+	#block-views-block-why-pakistan-view-block-1 h1,
+	.slide-text > h1.sec-head p,
+	.slide-text > h1.sec-head p,
+	.forty-eight-font-size,
+	#block-views-block-why-pakistan-view-block-1 h1,
+	.slide-text > h1.sec-head p,
+	.slide-text > h1.sec-head p,
+	#block-boardofdirectorblokc h2.block-title,
+	.block-title.header-banner {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.forty-font-size,
+	.slide-text > h1.fi-head,
+	.slide-text > h1.sec-head {
+		font-size: 18px;
+	}
+
+
+}
+
+@media(max-width:480px) {
+
+	h1,
+	h2.block-title,
+	.thumbnailblocks h2,
+	.thumbnailblocks h2 span,
+	.wrapImages span.wraptitle,
+	section.section_y_pak_ui h2,
+	#block-views-block-commendations-block-1 h2,
+	.path-node .views-element-container h2,
+	.path-contact-us .region-content h2,
+	.view-id-autommotive .views-field-field-recent-investment ul li span {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	h2,
+	#socialMedia .thumbnailblocks h2 a,
+	.top-slider-inner h2 {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
+	h3,
+	.tiles p span,
+	.highlights-slider .field-content h2,
+	li.flourish-slider-inner .views-field-title a,
+	#block-views-block-e-service-view-block-1 li .views-field-field-e-services-url a,
+	#footer h2 {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.forty-eight-font-size,
+	#block-views-block-why-pakistan-view-block-1 h1,
+	.slide-text > h1.sec-head p,
+	.slide-text > h1.sec-head p,
+	.forty-eight-font-size,
+	#block-views-block-why-pakistan-view-block-1 h1,
+	.slide-text > h1.sec-head p,
+	.slide-text > h1.sec-head p,
+	#block-boardofdirectorblokc h2.block-title,
+	.block-title.header-banner  {
+		font-size: 20px;
+		line-height: 22px;
+	}
+
+	.forty-font-size,
+	.slide-text > h1.fi-head,
+	.slide-text > h1.sec-head {
+		font-size: 16px;
+		line-height: 18px;
+	}
+}

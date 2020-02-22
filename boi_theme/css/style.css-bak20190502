@@ -1,0 +1,13 @@
+/**
+ * Place your custom styles here.
+ */
+div.vis-form-container{
+	position: absolute;
+   /* z-index: 9999999;*/
+    top: 0px;
+    bottom: 0;
+    background: rgb(240, 240, 240);
+    width: 256px;
+    height: 815px;
+    /*display: none;*/
+}

@@ -1,0 +1,285 @@
+/*email templates*/
+.custom-scroll {
+    height:200px !important;
+    max-height: 300px !important;
+    overflow-y: scroll !important;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+/*end email templates*/
+
+.view-attendee-registration .view-header {
+    position: relative;
+}
+.view-attendee-registration .view-header h2.view-header {
+    font-size: 24px;
+    text-align: left;
+    line-height: 30px;
+    float: left;
+    margin: 6px;
+}
+.view-header .bell.btn.btn-default img {
+    vertical-align: middle;
+    display: table-cell;
+    margin: auto;
+}
+.view-header .bell.btn.btn-default {
+    float: right;
+    background-color: #cfcfcf;
+    display: table;
+    min-width: 12px;
+    padding: 6px 34px;
+    vertical-align: middle;
+    border-radius: 4px;
+    margin: 0 auto;
+    text-align: center;
+}
+.view-header .bell.btn.btn-default span.badge.badge-light {
+    background-color: #00b7ff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 12px;
+    width: 16px;
+    height: 16px;
+    font-size: 8px;
+    padding: 2px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 4px;
+    right: 32px;
+}
+.view-content {
+    clear: both;
+}
+table thead tr th {
+    background-color: #00b7ff !important;
+}
+.view-attendee-registration .view-content .table {
+    margin-bottom: 50px;
+}
+.view-attendee-registration table tbody td.views-field:last-child a {
+    display: inline-block;
+    padding: 6px;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    border: solid 1px #cfcfcf;
+    text-align: center;
+}
+.view-attendee-registration table tbody td.views-field:last-child a:hover {
+    text-decoration: none;
+}
+.view-attendee-registration .view-content .table {
+    margin-bottom: 50px;
+}
+.view-attendee-registration table {
+    border: none;
+}
+table tbody tr:nth-child(odd) {
+    background-color: #FFF !important;
+}
+table tbody tr:nth-child(even) {
+    background-color: #FFF !important;
+}
+.view-checklist span.field-content h3.template {
+    margin: 0 0 16px 0;
+    font-size: 24px;
+    text-align: left;
+    line-height: 30px;
+}
+.view-checklist .views-col {
+    width: 100% !important;
+}
+.view-checklist .views-field {
+    clear: both;
+}
+.border {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+/* .view-checklist span.field-content .views-field-nothing h3 {
+font-size: 16px;
+font-weight: 600;
+margin: 0px 0px;
+}
+.view-checklist span.field-content .views-field-nothing h3 .dotten-checklist ul.navbar-nav a.nav-link:hover {
+text-decoration: none;
+outline: none;
+}
+.view-checklist span.field-content .views-field-nothing h3 .dotten-checklist {
+float: right;
+}
+.view-checklist span.field-content .views-field-nothing h3 .dotten-checklist div#navbarNavDropdown {
+padding-right: 0;
+}
+.view-checklist span.field-content .views-field-nothing h3 .dotten-checklist ul.navbar-nav {
+padding: 0;
+list-style: none;
+}
+.view-checklist span.field-content .views-field-nothing h3 .dotten-checklist ul.navbar-nav li.nav-item.dropdown {
+position: relative;
+}
+.view-checklist span.field-content .views-field-nothing h3 .dotten-checklist ul.navbar-nav a.nav-link {
+font-size: 24px;
+color: #003;
+}
+.view-checklist span.field-content .views-field-nothing h3 .dotten-checklist ul.navbar-nav a.nav-link span {
+display: block;
+margin: 0;
+padding: 0;
+width: 10px;
+height: 10px;
+} */
+
+.view-details a {
+    display: inline-block;
+    padding: 6px;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    border: solid 1px #cfcfcf;
+    color: #003;
+    font-size: 12px;
+    font-weight: 500;
+}
+.view-details a:hover {
+    text-decoration: none;
+}
+.view-checklist .views-row {
+    float: none;
+    clear: none;
+    width: 100%;
+}
+.view-checklist .view-content {
+    width: 100%;
+    float: left;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+/*
+.view-checklist .custom-class {
+margin: 0 10px;
+}
+*/
+.view-checklist .custom-class:nth-child(1) {
+    margin-left: 0;
+}
+.view-checklist-new .custom-class {
+    display: table;
+    min-height: 100px;
+}
+.view-checklist-new .border-outside {
+    border: 1px solid lightgray;
+    padding: 10px;
+    vertical-align: top;
+}
+.view-checklist-new span.field-content h3.template {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.view-checklist-new .border-outside h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    position: relative
+}
+.view-checklist-new .border-outside h3 .dotten-checklist {
+    float: right;
+    height: 100%;
+    display: table-cell;
+    vertical-align: top;
+}
+.view-checklist-new .border-outside div#navbarNavDropdown {
+    padding: 0;
+}
+.view-checklist-new .border-outside div#navbarNavDropdown ul.navbar-nav {
+    padding: 0;
+    list-style: none;
+}
+.view-checklist-new .border-outside div#navbarNavDropdown ul.navbar-nav li.nav-item.dropdown {
+    display: inline-block;
+}
+.view-checklist-new .border-outside div#navbarNavDropdown ul.navbar-nav li.nav-item.dropdown a.nav-link {
+    display: block;
+    font-size: 24px;
+    padding: 0;
+}
+.view-checklist-new .border-outside div#navbarNavDropdown ul.navbar-nav li.nav-item.dropdown a.nav-link:hover {
+    text-decoration: none;
+}
+.view-checklist-new .border-outside div#navbarNavDropdown ul.navbar-nav li.nav-item.dropdown a.nav-link span {
+    display: block;
+    color: #003;
+    line-height: 6px;
+}
+.view-checklist-new .border-outside p {
+    margin: 6px 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9a9595;
+    padding: 0 16px;
+    clear: both;
+}
+.view-details {
+    clear: both;
+    text-align: center;
+}
+.view-checklist-new .border-outside div#navbarNavDropdown ul.navbar-nav li.nav-item.dropdown.open .dropdown-menu {
+    left: -142px;
+    overflow: auto;
+}
+.view-checklist-new .border-outside div#navbarNavDropdown ul.navbar-nav li.nav-item.dropdown.open .dropdown-menu a.dropdown-item {
+    display: block;
+    padding: 4px 10px;
+    word-break: break-word;
+}
+.view-all-new-groups .custom {
+    margin-bottom: 20px;
+    display: table;
+}
+.view-all-new-groups .field h3.group-title {
+    font-size: 14px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.bd {
+    border-bottom: 1px solid #d8d4d4;
+}
+.bg {
+    background-color: #00b7ff;
+}
+.view-all-new-groups .group-cusotm-content p {
+    font-size: 14px;
+    color: #003;
+    margin-bottom: 6px;
+}
+.custom-all-checklist .views-field {
+    clear: none;
+}
+
+.view-checklist .custom-class {
+    margin: 0;
+}
+
+/* ___________________________________Media Queries start here__________________________________________*/
+
+@media (max-width: 767px){
+    .role-authenticatedindb .region.region-content {
+        padding: 40px 10px 100px 10px;
+    }
+    .view-checklist-new .custom-class {
+        width: 100%;
+    }
+    .collapse {
+        display: block;
+    }
+    .view-all-new-groups .custom {
+        width: 100%;
+    }
+}

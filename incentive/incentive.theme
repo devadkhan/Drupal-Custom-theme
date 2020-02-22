@@ -1,0 +1,64 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+function incentive_preprocess_html(&$variables) {
+
+    //echo "<pre>";print_r(\Drupal::routeMatch()->getRouteName());exit;
+
+    $current_user = \Drupal::currentUser();
+    $roles = $current_user->getRoles();
+    //echo "<pre>"; print_r($roles);exit;
+
+    //if(isset($roles[
+    //    anonymous
+
+
+
+
+    foreach ($variables['user']->getRoles() as $role) {
+        $variables['attributes']['class'][] = 'role-' . $role;
+    }
+
+
+    if(array_search('site_admin', $roles) !== false){
+        $val = 'role-site_admin';
+    }else{
+        $val = 'role-authenticatedindb path-custom-hooks';
+    }
+    foreach ($variables['user']->getRoles() as $role) {
+
+        $variables['attributes']['class'][] = $val;
+    }
+    $route = \Drupal::routeMatch()->getRouteName();
+    //echo "<pre>"; print_r($route);exit;
+    if($route == 'user.register'){
+        $variables['route'] = "register";
+    }
+    elseif($route == 'user.pass'){
+        $variables['route'] = "path-frontpage";
+    }elseif($route == 'entity.taxonomy_term.edit_form'){
+        $variables['route'] = "path-taxo";
+    }elseif($route == 'entity.taxonomy_vocabulary.collection'){
+        $variables['route'] = "hide-path-taxo";
+    }elseif($route == 'entity.taxonomy_vocabulary.overview_form'){
+        $variables['route'] = "hide-term-list";
+    }elseif($route == 'entity.taxonomy_term.add_form'){
+        $variables['route'] = "add-cat";
+    }
+
+
+
+}
+
+
+use Drupal\Component\Utility\Html;
+
+/**
+ * Preprocess variables for html templates.
+ * @param $variables
+ */

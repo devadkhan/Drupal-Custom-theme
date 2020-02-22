@@ -1,0 +1,528 @@
+.form-item.js-form-item.form-type-textfield.js-form-type-textfield.form-item-field-company-website-0-title.js-form-item-field-company-website-0-title.form-group,
+#user-register-form .form-item-roles-administrator,
+#user-register-form .form-item-roles-authenticated,
+#user-form .form-item-roles-administrator,
+#user-form .form-item-roles-authenticated {
+	display: none !important;
+}
+
+div#edit-field-attachment-0--description,
+#node-proposal-edit-form .field--name-field-rejection-remarks,
+#node-proposal-form .field--name-field-rejection-remarks,
+.change-password .region-content h1.page-header,
+#change-pwd-form #edit-current-pass--description,
+.field--name-field-comments .field--label,
+#edit-form-field-field-address-0-field-address-0 a,
+.page-node-type-discussion h1.page-header,
+.page-node-type-discussion .field--name-field-attachment .field--label,
+.page-node-type-discussion section h2,
+#comment-form .control-label,
+.comment.new > span,
+.change-password #block-userbanner,
+.site-admin #block-userbanner {
+	display: none;
+}
+.field.field--name-field-full-name.field--type-string.field--label-above .field--label,
+.field.field--name-field-full-name.field--type-string.field--label-above .field--item,
+.field.field--name-field-is-company-oprate-in-pakis.field--type-list-string.field--label-above .field--label,
+.field.field--name-field-is-company-oprate-in-pakis.field--type-list-string.field--label-above .field--item,
+.field.field--name-field-cpmpany-name.field--type-string.field--label-above .field--label,
+.field.field--name-field-cpmpany-name.field--type-string.field--label-above .field--item,
+.field.field--name-field-company-sector.field--type-list-string.field--label-above .field--label,
+.field.field--name-field-company-sector.field--type-list-string.field--label-above .field--item,
+.field.field--name-field-total-number-of-employees.field--type-list-string.field--label-above .field--label,
+.field.field--name-field-total-number-of-employees.field--type-list-string.field--label-above .field--item,
+.field.field--name-field-country.field--type-address-country.field--label-above .field--label,
+.field.field--name-field-country.field--type-address-country.field--label-above .field--item,
+.field.field--name-field-company-email-address.field--type-email.field--label-above .field--label,
+.field.field--name-field-company-email-address.field--type-email.field--label-above .field--item,
+.field.field--name-field-company-website.field--type-string.field--label-above .field--label,
+.field.field--name-field-company-website.field--type-string.field--label-above .field--item,
+.field.field--name-field-first-name.field--type-string.field--label-above .field--label,
+.field.field--name-field-first-name.field--type-string.field--label-above .field--item,
+.field.field--name-field-last-name.field--type-string.field--label-above .field--label,
+.field.field--name-field-last-name.field--type-string.field--label-above .field--item,
+.field.field--name-field-address.field--type-address.field--label-above .field--label,
+.field.field--name-field-address.field--type-address.field--label-above .field--item,
+.field.field--name-field-year-of-establishment.field--type-yearonly.field--label-above .field--label,
+.field.field--name-field-year-of-establishment.field--type-yearonly.field--label-above .field--item,
+.field.field--name-field-annual-turnover.field--type-float.field--label-above .field--label,
+.field.field--name-field-annual-turnover.field--type-float.field--label-above .field--item,
+.field.field--name-field-annual-export-sales.field--type-float.field--label-above .field--label,
+.field.field--name-field-annual-export-sales.field--type-float.field--label-above .field--item,
+.field.field--name-field-export-destinations.field--type-entity-reference.field--label-above .field--label,
+.field.field--name-field-export-destinations.field--type-entity-reference.field--label-above .field--item,
+.field.field--name-field-address-country.field--type-entity-reference.field--label-above .field--label,
+.field.field--name-field-address-country.field--type-entity-reference.field--label-above .field--item,
+.field.field--name-field-address-city.field--type-string.field--label-above .field--label,
+.field.field--name-field-address-city.field--type-string.field--label-above .field--item{
+	width: 50%;
+	float: left;
+	display:block;
+}
+.field.field--name-field-full-name.field--type-string.field--label-above ,
+.field.field--name-field-full-name.field--type-string.field--label-above,
+.field.field--name-field-is-company-oprate-in-pakis.field--type-list-string.field--label-above ,
+.field.field--name-field-is-company-oprate-in-pakis.field--type-list-string.field--label-above ,
+.field.field--name-field-cpmpany-name.field--type-string.field--label-above ,
+.field.field--name-field-cpmpany-name.field--type-string.field--label-above ,
+.field.field--name-field-company-sector.field--type-list-string.field--label-above ,
+.field.field--name-field-company-sector.field--type-list-string.field--label-above ,
+.field.field--name-field-total-number-of-employees.field--type-list-string.field--label-above ,
+.field.field--name-field-total-number-of-employees.field--type-list-string.field--label-above ,
+.field.field--name-field-country.field--type-address-country.field--label-above ,
+.field.field--name-field-country.field--type-address-country.field--label-above ,
+.field.field--name-field-company-email-address.field--type-email.field--label-above ,
+.field.field--name-field-company-email-address.field--type-email.field--label-above ,
+.field.field--name-field-ceo-information-markup-.field--type-markup.field--label-above ,
+.field.field--name-field-ceo-information-markup-.field--type-markup.field--label-above ,
+.field.field--name-field-company-details-marup-.field--type-markup.field--label-above ,
+.field.field--name-field-company-details-marup-.field--type-markup.field--label-above ,
+.field.field--name-field-company-website.field--type-string.field--label-above ,
+.field.field--name-field-company-website.field--type-string.field--label-above ,
+.field.field--name-field-first-name.field--type-string.field--label-above ,
+.field.field--name-field-first-name.field--type-string.field--label-above ,
+.field.field--name-field-last-name.field--type-string.field--label-above ,
+.field.field--name-field-last-name.field--type-string.field--label-above ,
+.field.field--name-field-address.field--type-address.field--label-above ,
+.field.field--name-field-address.field--type-address.field--label-above ,
+.field.field--name-field-year-of-establishment.field--type-yearonly.field--label-above ,
+.field.field--name-field-year-of-establishment.field--type-yearonly.field--label-above,
+.field.field--name-field-annual-turnover.field--type-float.field--label-above ,
+.field.field--name-field-annual-turnover.field--type-float.field--label-above,
+.field.field--name-field-annual-export-sales.field--type-float.field--label-above ,
+.field.field--name-field-annual-export-sales.field--type-float.field--label-above ,
+.field.field--name-field-export-destinations.field--type-entity-reference.field--label-above ,
+.field.field--name-field-export-destinations.field--type-entity-reference.field--label-above ,
+.field.field--name-field-address-country.field--type-entity-reference.field--label-above ,
+.field.field--name-field-address-country.field--type-entity-reference.field--label-above ,
+.field.field--name-field-address-city.field--type-string.field--label-above ,
+.field.field--name-field-address-city.field--type-string.field--label-above  {
+	width:100%;
+	float:left;
+}
+
+.view-site-admin-users .view-filters.form-group .bef-exposed-form .form--inline > .form-item {
+	float: right;
+}
+.comment--left {
+	float: left;
+	width: 100%;
+}
+
+.comment--right .company-icon {
+	float: right;
+	display: none;
+}
+
+.comment--right .comment-date {
+	float: right;
+}
+
+.discussion.authenticated .comment--right .field.field--name-field-comments {
+	padding-right: 0px;
+	padding-top: 18px;
+	padding-left: 400px;
+	margin-bottom: 10px;
+}
+
+.discussion.authenticated .comment--right .field--name-field-comments .field--item {
+	background-color: #a2ffa4;
+	border-radius: 6px;
+}
+.errorpdf{
+	position: relative;
+}
+.errorpdf span{
+	color: #fff;
+	background-color: red;
+	position: absolute;
+	padding: 4px 16px 4px 16px;
+	border-radius: 4px;
+	font-size: 12px;
+}
+.discussion .by-viewer {
+	margin-bottom: 30px;
+}
+
+.comment--right {
+	float: right;
+	width: 100%;
+}
+
+.discussion .field.field--name-field-attachment.field--type-file.field--label-above {
+	text-align: right;
+}
+
+#edit-form-field-field-address-0-field-address-0 .panel-heading {
+	color: none;
+	background-color: none;
+	border-color: none;
+}
+
+.register .focal-person:last-child {
+	text-align: left;
+	margin-top: 6px;
+	margin-bottom: 50px;
+}
+
+.authenticated.register .steps {
+	margin-top: 54px;
+	margin-bottom: 90px;
+}
+
+.custom-file input[disabled] ~ .file-custom {
+	background-color: #f1f1f1;
+	cursor: not-allowed;
+}
+
+.authenticated.change-password div#edit-actions {
+	margin: 0px 0 20px;
+}
+
+.add-proposal form div#edit-field-project-proposal-wrapper,
+.add-proposal form div#edit-field-project-proposal-wrapper,
+.add-proposal form div#edit-field-other-document-wrapper,
+.add-proposal form div#edit-field-other-document-wrapper {
+	margin-top: 40px;
+}
+
+.path-node.add-proposal textarea {
+	max-width: 100%;
+}
+
+.empty-myproposal p {
+	background-color: #FFFAF4;
+	padding: 20px 24px;
+	font-size: 24px;
+	border: 1px solid #ECCDA1;
+	border-radius: 4px;
+}
+
+.authenticated .empty-myproposal h2.ageSubHeader ~ h2 {
+	float: left;
+}
+
+.authenticated .empty-myproposal {
+	padding-bottom: 150px
+}
+
+.proposal-status-top-form .js-form-item-proposal-status.radio:first-child,
+.proposal-status-form .js-form-item-proposal-status.radio:first-child {
+	display: none;
+}
+#edit-field-type-of-collaboration-soug-wrapper .fieldset-wrapper{
+	height: 208px;
+	overflow: auto;
+}
+
+.proposal-status-top-form.draft-proposal .js-form-item-proposal-status.radio:first-child,
+.proposal-status-form.draft-proposal .js-form-item-proposal-status.radio:first-child {
+	display: inline-block;
+	background-color: #339933;
+	color: #fff;
+}
+
+.proposal-status-form .js-form-item-proposal-status.radio:last-child,
+.proposal-status-top-form .js-form-item-proposal-status.radio:last-child{
+	background-color: #CD3333;
+	color: #fff;
+}
+
+div#edit-actions {
+	margin: 0px 0 0px;
+}
+
+.path-taxonomy section#block-adminfooter {
+	position: fixed;
+}
+
+.path-taxonomy #edit-name-wrapper {
+	width: 48%;
+}
+
+.path-taxonomy .taxonomy-term-collaboration-types-delete-form div#edit-actions {
+	margin: 20px 0 20px;
+}
+
+.authenticated div#edit-field-company-address-wrapper {
+	width: 100% !important;
+}
+
+.authenticated div#edit-field-company-address-wrapper input {
+	max-width: 96%;
+}
+
+#edit-field-address-0-address-container0 .form-item-field-address-0-address-locality.js-form-item-field-address-0-address-locality {
+	margin-bottom: 34px;
+}
+
+.multi-select-container input {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-o-appearance: none;
+	cursor: pointer;
+	position: relative;
+	top: 4px;
+}
+
+.multi-select-container input:before {
+	content: "\00a0";
+	display: block;
+	font: 17px/1em sans-serif;
+	height: 16px;
+	margin: 0 0.75em 0 0;
+	padding: 0;
+	vertical-align: top;
+	width: 16px;
+	border: 1px solid #e2e2e2;
+	border-radius: 2px;
+}
+
+.multi-select-container input[type="checkbox"]:checked:before {
+	background: #EDEDED;
+	color: #333;
+	content: "\2713";
+	text-align: center;
+	font-weight: bold;
+}
+
+.user-pass-reset label,
+.user-pass-reset p {
+	font-family: latobold;
+}
+
+.company-icon {
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+div#edit-field-district-map-0 {
+	border: none;
+}
+
+div#edit-field-district-map-0 .panel-heading,
+div#geocoder-controls-wrapper-field-district-map {
+	display: none;
+}
+
+div#edit-field-district-map-0 .panel-body {
+	padding: 0;
+}
+
+.authenticated-footer .social-network.social-circle {
+	text-align: right;
+	padding-top: 40px;
+}
+
+.authenticated-footer .social-network.social-circle li {
+	display: inline-block;
+	text-align: right;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.authenticated-footer .social-network.social-circle li:hover {
+	-o-transition: all ease-in-out 0.2s;
+	-ms-transition: all ease-in-out 0.2s;
+	-moz-transition: all ease-in-out 0.2s;
+	-webkit-transition: all ease-in-out 0.2s;
+	transition: all ease-in-out 0.2s;
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+.authenticated .footer {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.authenticated .footer p {
+	color: #a3a3a3;
+	font-size: 20px;
+}
+
+.authenticated .footer p a {
+	color: #a3a3a3;
+	text-decoration: none;
+}
+
+.authenticated .footer p:first-child {
+	padding-top: 30px;
+}
+
+.dot-added a {
+	position: relative;
+}
+
+.dot-added a:before {
+	content: "";
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	height: 8px;
+	width: 8px;
+	background-color: #01B7FF;
+	border-radius: 50%;
+}
+
+.discussion.authenticated .custom-file {
+	width: auto;
+	float: right;
+}
+
+.discussion.authenticated .file-custom {
+	border: none;
+	font-size: 0px;
+	top: -75px;
+	background-color: transparent;
+	right: 55px;
+}
+
+.discussion.authenticated .file-custom:before {
+	background-image: url('../images/icon-filee.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	font-size: 0px;
+	background-color: transparent;
+	border: none;
+}
+
+.discussion.authenticated .company-icon {
+	margin-right: 6px;
+}
+
+.discussion.authenticated .company-icon img {
+	border-radius: 50%;
+}
+
+.discussion.authenticated .comment-date {
+	color: #8F8F91;
+	font-size: 13px;
+}
+
+.discussion.authenticated .field--name-field-comments {
+	padding-left: 56px;
+}
+
+.discussion.authenticated .field--name-field-comments .field--item {
+	background-color: #C3EEFF;
+	padding: 12px;
+}
+
+.discussion.authenticated textarea {
+	max-width: 100%;
+	margin-bottom: 30px;
+	background-color: #F1F0F5;
+	border: 1px solid #F1F0F5;
+	resize: none;
+	height: 50px;
+	padding: 14px;
+	border-radius: 8px;
+}
+
+.discussion.authenticated .field--name-field-attachment {
+	clear: both;
+	padding-left: 54px;
+}
+
+/* .discussion.authenticated .field--name-field-attachment .field--item{
+	text-align: right;
+	} */
+	.discussion.authenticated span.file.file--mime-application-pdf.file--application-pdf.icon-before {
+		display: inline-block;
+		background-color: #F1F0F5;
+		background: #F1F0F5;
+		padding: 14px 17px;
+		font-size: 14px;
+		font-weight: 100;
+		border: 1px solid #F1F0F5;
+		color: #fff;
+		width: 230px;
+		border-radius: 7px;
+	}
+
+	.discussion.authenticated .field--name-field-proposal.field--type-entity-reference {
+		font-size: 28px;
+		font-family: latobold;
+		margin-bottom: 100px;
+	}
+
+	.discussion.authenticated .form-managed-file .file--application-pdf {
+		float: right;
+	}
+
+	.discussion.authenticated .field--name-field-attachment .file > span {
+		background: transparent;
+	}
+
+	.discussion.authenticated span.file.file--mime-application-pdf.file--application-pdf.icon-before .file-link {
+		text-align: left;
+	}
+
+	.discussion.authenticated span.file.file--mime-application-pdf.file--application-pdf.icon-before .file-link a {
+		color: #333;
+		word-break: break-all;
+	}
+
+	.discussion.authenticated .form-textarea-wrapper {
+		position: relative;
+		clear: both;
+		height: 50px;
+	}
+
+	.discussion.authenticated .send-icon {
+		background-image: url(../images/send-icon.png);
+		background-size: contain;
+		height: 24px;
+		width: 24px;
+		position: absolute;
+		right: 20px;
+		top: 10px;
+		transform: rotate(54deg);
+		cursor: pointer;
+	}
+
+	.discussion.authenticated #edit-submit {
+		display: none;
+	}
+	.path-config .form-item.js-form-item.form-type-vertical-tabs.js-form-type-vertical-tabs.form-item-.js-form-item-.form-no-label.form-group{
+		display: block !important;
+	}
+	.path-config .collapse {
+		display: block;
+		height: auto;
+	}
+	.path-config .fade {
+		opacity: 1;
+	}
+	.path-jv-status .view-jv-status table.table tbody tr td.views-field-views-conditional-field-1 a {
+		color: #00b7ff;
+		background: #fff;
+		border: 1px solid #ffffff;
+	}
+	@media(max-width:992px) {
+		.discussion.authenticated .comment--right .field.field--name-field-comments {
+			padding-left: 125px;
+		}
+	}
+
+	@media(max-width:480px) {
+		.authenticated-footer .social-network.social-circle {
+			text-align: left;
+		}
+
+		.authenticated .footer p {
+			font-size: 16px;
+		}
+
+		.discussion.authenticated .comment--right .field.field--name-field-comments {
+			padding-left: 0px;
+		}
+
+	}

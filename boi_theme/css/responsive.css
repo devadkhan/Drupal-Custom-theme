@@ -1,0 +1,4244 @@
+@media (min-width: 1325px) {
+
+    .slide-text > h1.fi-head,
+    .slide-text > h1.sec-head,
+    .slide-text > h1.sec-head p {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .top-menu li {
+        font-size: 13px;
+    }
+
+    .navbar-we-mega-menu .dropdown-menu {
+        min-width: 1px;
+    }
+
+    .tiles > span {
+        margin-left: -7px;
+    }
+}
+
+@media(min-width: 992px) {
+    .custom-navigation.sticky .left-side {
+        height: 1px;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        transition: all .4s ease;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .top-menu li {
+        font-size: 12px;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    .event-content ul li {
+        width: 48%;
+    }
+
+    .navbar-we-mega-menu .dropdown-menu {
+        min-width: 1px;
+    }
+
+    .top-menu li a {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    /* .slicktop .slide-text {
+        left: 0;
+        } */
+
+    .top-slider-inner h2 {
+        font-size: 21px;
+    }
+
+    #block-boi-theme-account-menu {
+        margin-top: -50px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 ul {
+        height: 375px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 ul li img {
+        width: 40px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 li p {
+        padding-top: 10px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 li .views-field-title a {
+        font-size: 18px;
+    }
+
+    #noUse .field--item {
+        /* width: 108px; */
+        /* height: 108px; */
+    }
+
+    /*    #noUse .field--item:nth-child(4) {
+        margin: -45px 0px 0 58px;
+    }
+    */
+    #noUse .field--item:nth-child(5) {
+        /* margin: -45px 0px 0 11px; */
+    }
+
+    #noUse .field--item:nth-child(6) {
+        /* margin: -44px 0 0 0; */
+    }
+
+    /*    #noUse .field--item:nth-child(7) {
+        margin: -44px 0px 0 10px;
+    }
+
+    #noUse .field--item:nth-child(8) {
+        margin: -44px 0 0 12px;
+        }*/
+
+    .item img,
+    #noUse .field--item img {
+        /* width: 47px; */
+        /* top: 53%; */
+        /* left: 57%; */
+    }
+
+    .eventsSlider .slick-dots {
+        right: 95px;
+        bottom: -25px;
+    }
+
+    .imageGallery img {
+        height: 190px;
+    }
+
+    .slide-text > h1.fi-head,
+    .slide-text > h1.sec-head {
+        font-size: 36px;
+    }
+
+    .slide {
+        height: 360px;
+    }
+
+    .slide h2 {
+        padding-top: 80px;
+        min-height: 135px;
+    }
+
+    .slide p {
+        min-height: 100px;
+    }
+
+    .wrapImages a {
+        font-size: 28px;
+    }
+
+    .icon-align p {
+        font-size: 32px;
+        padding-top: 12px;
+    }
+
+    .icon-align span {
+        font-size: 20px;
+    }
+
+    .gradient .col-md-3:nth-child(-n+5) {
+        padding-bottom: 25px;
+    }
+
+    .commandtext p {
+        padding: 30px 20px;
+    }
+
+    .commandtext p:before {
+        /*top: -18px;*/
+    }
+
+    .jobbase {
+        font-size: 16px;
+        padding-top: 4px;
+        padding-bottom: 16px;
+    }
+
+    .eventContent h2 {
+        margin-top: 10px;
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+    .eventContent p {
+        font-size: 12px;
+    }
+
+    .eventContent a {
+        display: block;
+        text-align: right;
+    }
+
+    .general-slickdots .slick-dots {
+        bottom: 6px;
+    }
+
+    #block-headofficeblock ul {
+        width: 250px;
+    }
+
+    .path-contact-us .contact-message-boi-contact-form-form #contact-message-boi-contact-form-form label {
+        font-size: 13px;
+    }
+
+    .path-contact-us .contact-message-boi-contact-form-form #contact-message-boi-contact-form-form .form-actions .btn,
+    .path-contact-us .contact-message-boi-contact-form-form #contact-message-boi-contact-form-form .form-actions .btn-group {
+        width: 95%;
+    }
+
+    .logo img {
+        max-width: 100%;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        transition: all .4s ease;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-province-list {
+        width: 78%;
+        top: 15px;
+    }
+
+    .custom-navigation.sticky .logo img {
+        max-width: 165px;
+    }
+}
+
+
+
+/* * menu updates**/
+
+@media only screen and (max-width: 1199px) {
+    .main-menu-left {
+        width: 15%;
+    }
+
+    .main-menu-right {
+        width: 85%;
+    }
+
+    .top-menu li {
+        margin-top: 0px;
+    }
+
+    .main-menu-right .form-group {
+        margin-bottom: 10px;
+    }
+
+    #block-boi-theme-account-menu {
+        margin-top: 0;
+    }
+
+    .we-mega-menu-ul > .we-mega-menu-li {
+        padding: 0 5px;
+    }
+
+    .section_y_pak_ui .field--item:nth-child(4) {
+        margin: -52px 0px 0 56px;
+    }
+
+    .section_y_pak_ui .field--item {
+        padding: 51px;
+    }
+
+    .section_y_pak_ui .field--item img {
+        max-width: 40px;
+        max-height: 40px;
+    }
+
+    .opportunities_ui .opp_img,
+    section.sector_highlights_ui,
+    section.initial_text_ui {
+        width: 50%;
+    }
+
+    .opportunities_ui .opp_content,
+    section.sector_highlights_ui {
+        width: 50%;
+        float: left;
+        padding-left: 40px;
+    }
+
+    /* Section Y Pakistan 2 */
+
+    .field--name-field-why-invest-in-paksitan .layout__region--first,
+    .field--name-field-why-invest-in-paksitan .layout__region--second,
+    .field--name-field-investment-sectors .layout__region--first,
+    .field--name-field-five-reasons-to-invest-in- .layout__region--first,
+    .field--name-field-investment-sectors .layout__region--second,
+    .field--name-field-five-reasons-to-invest-in- .layout__region--second,
+    .field--name-field-how-to-invest .layout__region--first,
+    .field--name-field-how-to-invest .layout__region--second {
+        padding: 15px 15px;
+    }
+
+    .field--name-field-how-to-invest .field--name-field-title,
+    .path-node .field--name-field-investment-sectors .field--name-field-title,
+    .path-node .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content h2,
+    .field--name-field-why-invest-in-paksitan .layout__region--first .field--name-field-title,
+    .field--name-field-five-reasons-to-invest-in- .layout__region--second .field--name-field-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .header-title,
+    .field--name-field-priority-sectors .field--name-field-title {
+        text-align: center;
+        color: #fff;
+        font-size: 26px;
+        padding-top: 35px;
+        text-transform: capitalize;
+        padding-bottom: 35px;
+    }
+
+    .page-node-type-why-paksitan-2 p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector > .field--item {
+        min-height: 200px;
+    }
+
+    .field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector {
+        background-position: center 40px;
+    }
+
+    .sectors-banner-block h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector {
+        height: 400px;
+    }
+
+    view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content p,
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .left-content {
+        float: left;
+        width: 40%;
+        padding: 20px;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .right-content {
+        padding: 20px;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .table_to_center {
+        min-height: 420px;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content {
+        background-size: 550px;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content span.inner_desc {
+        display: block;
+        font-size: 20px !important;
+        line-height: 24px !important;
+        padding: 0px 0;
+        font-weight: 800;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .quote_user_desc p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .left-content p,
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .quote_user_desc > p {
+        max-height: 136px;
+        overflow: hidden;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .right-content,
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .left-content {
+        width: 100%;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content {
+        background-position: bottom right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content .table_to_center {
+        min-height: auto
+    }
+
+    .view-they-choose-pakistian-why-pakistan-2.bottom-logo .slick-list {
+        margin: 0 auto;
+        max-width: calc(100% - 80px);
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo > .view-content {
+        max-width: 800px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .right-content {
+        float: none;
+    }
+
+    .growth-drivers ul li:nth-child(1) {
+    	top: 19%;
+    }    
+    .growth-drivers ul li:nth-child(2) {
+    	top: 33%;
+    }    
+    .growth-drivers ul li:nth-child(3) {
+    	top: 49%;
+    }
+
+}
+
+
+/***************/
+@media (max-width: 980px) {
+    #block-socialnetwork {
+        display: block;
+        float: none;
+    }
+}
+
+@media (min-width: 1800px) {
+    .imageGallery img {
+        height: 350px;
+    }
+
+    .slicktop img,
+    .main-video-banner iframe {
+        height: 1000px;
+    }
+}
+
+
+
+
+@media (max-width: 991px) {
+    .path-newsletters .gdoc-field {
+        margin: 0;
+        width: 100%;
+        height: 250px;
+    }
+
+    .path-newsletters .views-element-container.form-group {
+        width: 100%;
+    }
+
+    .newsletter-main-wrap {
+        height: 100px;
+    }
+
+    .view-id-newsletter .view-content .views-row .views-field.views-field-nothing-1 .views-field.views-field-field-start-date__1 {
+        font-size: 20px;
+    }
+
+    .view-id-newsletter .view-content .views-row .views-field.views-field-nothing-1 .views-field.views-field-field-start-date- {
+        width: 50%;
+        font-size: 12px;
+        top: 0;
+        text-align: center;
+    }
+
+    .path-newsletters .views-element-container.form-group .view-newsletter.view-id-newsletter > .view-content .views-row {
+        width: 50%;
+    }
+
+    .view-newsletter {
+        margin: 0;
+    }
+
+    .view-id-newsletter .view-content .views-row .views-field.views-field-nothing-1 {
+        padding: 10px 2px;
+    }
+
+    /*** update mega menu ****/
+    .we-mega-menu-submenu-inner:before {
+        display: none;
+    }
+
+    .we-mega-menu-ul .dropdown-menu:hover > .we-mega-menu-submenu,
+    .we-mega-menu-ul .dropdown-menu:focus > .we-mega-menu-submenu {
+        background-color: #333;
+    }
+
+    .menuToggle {
+        display: block;
+        float: right;
+    }
+
+    .we-mega-menu-submenu li.we-mega-menu-li:first-child > a:hover,
+    .we-mega-menu-submenu li.we-mega-menu-li:first-child > a:focus,
+    .we-mega-menu-submenu li.we-mega-menu-li:first-child > span:hover,
+    .we-mega-menu-submenu li.we-mega-menu-li:first-child > span:focus,
+    .we-mega-menu-submenu li.we-mega-menu-li a:hover,
+    .we-mega-menu-submenu li.we-mega-menu-li a:focus {
+        background-color: #333333;
+        color: #f0f0f0;
+        margin-left: -10px;
+        margin-right: -15px;
+        padding: 10px 10px;
+    }
+
+    .ur .menuToggle {
+        float: left;
+    }
+
+    .menuToggle:after {
+        content: '\f107';
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        /* font-size */
+        : inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: absolute;
+        right: 15px;
+        top: 28%;
+        margin-top: -11px;
+        font-size: 22px;
+        z-index: 999999;
+        cursor: pointer;
+        transition: all 0.2s ease-In;
+        -webkit-transition: all 0.2s ease-In;
+        -ms-transition: all 0.2s ease-In;
+        -moz-transition: all 0.2s ease-In;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding: 8px 0px;
+    }
+
+    .ur .menuToggle:after {
+        right: auto;
+        left: 15px;
+    }
+
+    .open > a .menuToggle:after {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+    }
+
+    .navbar-we-mega-menu.navbar .dropdown-menu > a:after,
+    .navbar-we-mega-menu.navbar .dropdown-menu > .we-megamenu-nolink:after {
+        content: "";
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .region-we-mega-menu {
+        background: transparent;
+        padding: 10px;
+    }
+
+    .toggle-menu-main {
+        padding-right: 0;
+        top: -40px;
+    }
+
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+
+    #block-views-block-fdi-collection-view-block-1 {
+        width: 100%;
+    }
+
+    #block-views-block-recent-investments-view-block-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .section_y_pak_ui .field--item:nth-child(2),
+    .section_y_pak_ui .field--item:nth-child(4),
+    .section_y_pak_ui .field--item:nth-child(5),
+    .section_y_pak_ui .field--item:nth-child(6),
+    .section_y_pak_ui .field--item:nth-child(7),
+    .section_y_pak_ui .field--item:nth-child(8) {
+        margin: 0 2px;
+    }
+
+    .opportunities_ui .opp_content,
+    section.sector_highlights_ui,
+    .opportunities_ui .opp_img,
+    section.sector_highlights_ui,
+    section.initial_text_ui {
+        width: 100%;
+        padding: 20px 0
+    }
+
+    .opportunities_ui .opp_img img {
+        max-width: 330px;
+        margin: auto;
+        float: none;
+        display: block;
+    }
+
+    /* section Y pakistan page 2 */
+    .field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector {
+        background-position: center 75px;
+    }
+
+    .field--name-field-why-invest-in-paksitan .layout__region--first .field--name-field-body {
+        width: 100%;
+    }
+
+
+}
+
+/***************/
+@media (max-width: 768px) {
+
+    .slickSlider-blocks .top-slider-inner img {
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 100%;
+    }
+
+    .success-stories-ui {
+        width: 44%;
+    }
+
+    .path-node .views-element-container h2 {
+        font-size: 18px;
+    }
+
+    /* Section Y Pakistan 2 */
+    .field--name-field-why-invest-in-paksitan .layout__region--first,
+    .field--name-field-why-invest-in-paksitan .layout__region--second,
+    .field--name-field-investment-sectors .layout__region--first,
+    .field--name-field-five-reasons-to-invest-in- .layout__region--first,
+    .field--name-field-investment-sectors .layout__region--second,
+    .field--name-field-five-reasons-to-invest-in- .layout__region--second,
+    .field--name-field-how-to-invest .layout__region--first,
+    .field--name-field-how-to-invest .layout__region--second {
+        width: 100%;
+    }
+
+    .field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector {
+        background: none;
+    }
+
+    .field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector > .field--item {
+        width: 50%;
+        padding: 30px 10px;
+        min-height: auto;
+    }
+
+    .field--name-field-priority-sectors .slick-track > .field--item > .paragraph--type--sector-parent > .field--name-field-sector {
+        height: auto;
+    }
+
+    .field--name-field-investment-sectors .layout__region--second .media--image img,
+    .field--name-field-five-reasons-to-invest-in- .media--image img {
+        margin: auto;
+    }
+
+    .field--name-field-investment-sectors .layout__region--second .blazy__caption .blazy__description {
+        text-align: center;
+    }
+
+    .field--name-field-steps- {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .field--type-text-with-summary .act ul li .views-field-nothing a {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .field--type-text-with-summary .act ul li {
+        width: 50% !important;
+    }
+
+    .field--name-field-how-to-invest .field--item:nth-child(2) .paragraph--type--steps .field--name-field-title::before {
+        right: -82px;
+    }
+
+    .block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .news-slider-outer .news-slider-right li {
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 0;
+    }
+
+    .region.region-second-sliders {
+        margin-left: -15px;
+        margin-right: 15px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .top-menu li {
+        font-size: 12px;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    .top-menu li a {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    /* .slicktop .slide-text {
+        left: 0;
+        } */
+
+    .top-slider-inner h2 {
+        font-size: 18px;
+    }
+
+    #block-boi-theme-account-menu {
+        margin-top: -105px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 ul {
+        height: 260px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 ul li img {
+        width: 40px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 li p {
+        padding-top: 10px;
+        font-size: 26px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 ul li {
+        padding-top: 13px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 li .views-field-title a {
+        font-size: 15px;
+    }
+
+    #noUse .field--item {
+        width: 84px;
+        height: 84px;
+    }
+
+    #noUse .field--item:nth-child(4) {
+        margin: 0 10px;
+    }
+
+    #noUse .field--item:nth-child(5) {
+        margin: 0;
+    }
+
+    #noUse .field--item:nth-child(6) {
+        margin: 0 10px;
+    }
+
+    #noUse .field--item:nth-child(7) {
+        margin: 0;
+    }
+
+    #noUse .field--item:nth-child(8) {
+        margin: 0 10px;
+    }
+
+    .item img,
+    #noUse .field--item img {
+        /* width: 47px; */
+        /* top: 53%; */
+        /* left: 57%; */
+    }
+
+    .eventsSlider .slick-dots {
+        right: 95px;
+        bottom: -25px;
+    }
+
+    .imageGallery img {
+        height: 165px;
+    }
+
+    .top-slider-inner p:nth-child(3) {
+        min-height: 130px;
+    }
+
+    .slide-text > h1.sec-head {
+        width: 430px;
+    }
+
+    .slide-text > h1.sec-head p {
+        font-size: 32px;
+    }
+
+
+    #noUse .field--items {
+        padding-left: 0;
+    }
+
+    .temperature {
+        margin-left: 80px;
+        width: 200px;
+    }
+
+    .eventsSlider .views-field-field-events-image,
+    .eventsSlider .views-field-nothing {
+        width: 100%;
+    }
+
+
+    .slide-text > h1.fi-head,
+    .slide-text > h1.sec-head {
+        font-size: 28px;
+    }
+
+    .slide {
+        height: 330px;
+    }
+
+    .slide h2 {
+        padding-top: 80px;
+        min-height: 125px;
+        font-size: 18px;
+    }
+
+    .slide p {
+        min-height: 80px;
+        font-size: 14px;
+    }
+
+    .tiles {
+        padding: 30px 7px 30px 12px;
+    }
+
+    .tiles img {
+        width: 34px;
+        height: 32px;
+    }
+
+    .tiles p {
+        font-size: 13px;
+    }
+
+    .tiles p span {
+        font-size: 16px;
+    }
+
+    .wrapImages a {
+        font-size: 24px;
+    }
+
+    .icon-align p {
+        font-size: 24px;
+        padding-top: 8px;
+        margin-bottom: 0;
+    }
+
+    .icon-align span {
+        font-size: 15px;
+    }
+
+    .gradient h1 {
+        font-size: 40px;
+    }
+
+    .gradient .col-md-3:nth-child(-n+5) {
+        padding-bottom: 25px;
+    }
+
+    .commandtext h2 {
+        font-size: 24px;
+    }
+
+    .commandtext p {
+        padding: 30px 20px;
+        font-size: 14px;
+    }
+
+    .commandtext p:before {
+        /*top: -18px;*/
+    }
+
+    .jobbase {
+        font-size: 14px;
+        padding-top: 4px;
+        padding-bottom: 16px;
+    }
+
+    .eventContent h2 {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+    .eventContent p {
+        font-size: 12px;
+    }
+
+    .eventContent a {
+        display: block;
+        text-align: right;
+        margin-top: -8px;
+    }
+
+    .general-slickdots .slick-dots {
+        bottom: 6px;
+    }
+
+    .timeline-thumbnail p {
+        font-size: 12px;
+    }
+
+    .recent-events h1 {
+        font-size: 28px;
+    }
+
+    .eventimg img {
+        width: 58%;
+        display: block;
+        margin: 13px auto;
+    }
+
+    #footer h5 {
+        font-size: 17px;
+    }
+
+    #footer ul.list-unstyled a {
+        font-size: 14px;
+    }
+
+    .cage {
+        display: none;
+    }
+
+    .top-menu li {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    .plusicons .gallerytext p {
+        font-size: 16px;
+    }
+
+    .gallerytext span {
+        right: 12px;
+        font-size: 10px;
+    }
+
+    .gallerytext img {
+        width: 44px !important;
+        height: 44px !important;
+    }
+
+    .gallerytext p {
+        font-size: 20px;
+    }
+
+    .top-menu {
+        padding-top: 22px;
+    }
+
+    .plusicons .gallerytext img {
+        left: 6px;
+    }
+
+    .plusicons .gallerytext p {
+        left: 8px;
+    }
+
+    .path-contact-us .contact-message-boi-contact-form-form {
+        width: 57%;
+        left: 34%;
+    }
+
+    #block-headofficeblock ul {
+        width: 250px;
+    }
+
+    .sectors-banner-block .field--name-field-news-banner-image img {
+        min-height: 375px;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-province-list {
+        width: 100%;
+        top: 0px;
+        position: relative;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-map-image img {
+        display: none;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-province-list .field-content div {
+        box-shadow: 0 0 11px 0px #ccc;
+        margin: 0 1% 18px;
+    }
+
+    .path-frontpage .block-views-blocke-service-view-block-1 {
+        width: 64%;
+    }
+
+    .path-frontpage .block-views-blockapply-now-view-block-1 {
+        width: 36%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .main-menu-left {
+        width: 33%;
+    }
+
+    .main-menu-right {
+        width: 66%;
+    }
+
+    .main-menu-right .custom-site-brand {
+        position: static;
+    }
+
+    .custom-navigation-container {
+        position: relative;
+    }
+
+    .region-right-side-inner-right {
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+
+    .logo img {
+        max-width: 210px;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        transition: all .4s ease;
+    }
+
+    .main-menu-right .top-menu li {
+        float: left;
+    }
+
+    .navbar-collapse.collapse {
+        padding-top: 0px;
+    }
+
+    .main-menu-right .top-menu li {
+        margin: 0;
+        font-size: 12px;
+        padding: 0 4px;
+    }
+
+    #block-boi-theme-account-menu {
+        margin-top: 0px;
+    }
+
+    #block-boi-theme-account-menu:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .event-content ul li {
+        width: 100%;
+    }
+
+    .event-content ul li:nth-child(2n + 1) {
+        margin-right: 0px;
+    }
+
+    .event-content ul li:nth-child(2n) {
+        margin-left: 0px;
+    }
+
+    .field--name-field-how-to-invest .layout__region--second {
+        width: 640px;
+        display: block;
+        margin: auto
+    }
+
+    .field--name-field-how-to-invest .layout__region--first {
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+    .views-element-container .customStyle ul li:nth-child(3) {
+        clear: both;
+    }
+
+    .tiles {
+        padding: 30px 10px;
+    }
+
+    .main-slider ul.slick-dots,
+    .view-highlights ul.slick-dots {
+        display: none !important;
+    }
+
+    .view-id-autommotive .views-field-field-categories-of-new-investme .field-collection-item--name-field-categories-of-new-investme {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .view-id-autommotive .views-field-field-sector-brief- {
+        width: 100%;
+    }
+
+    .economy {
+        padding-top: 30px;
+    }
+
+    .path-sectors .view-display-id-page_1 ul li {
+        margin-bottom: 20px;
+        height: auto;
+        width: 100%;
+
+    }
+
+    .view-id-investment_regime_content .table-responsive {
+        border: none;
+    }
+
+    .news-slider-inner .slick-arrow.right-arrow,
+    .news-slider-inner .slick-arrow.left-arrow {
+        top: 5px;
+    }
+
+    .view-id-newspage ul li .views-field-field-news-image {
+        width: 100%;
+    }
+
+    .view-id-newspage ul li .views-field-field-news-image img {
+        width: 100%;
+    }
+
+    .view-id-newspage ul li .views-field-title a {
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 2px;
+        margin-top: 10px;
+    }
+
+    .view-id-newspage ul li .views-field-field-news-date {
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+
+    .view-id-newspage ul li .views-field-field-new-summary,
+    .view-id-newspage ul li .views-field-view-node,
+    .view-id-newspage ul li .views-field-title {
+        width: 100%;
+        float: left;
+    }
+
+    .investment-points ul li .field--name-field-investment-counts {
+        left: 6px !important;
+        top: 3px !important;
+    }
+
+    .investment-points ul li {
+        padding: 15px 30px;
+        font-size: 20px;
+        color: #fff;
+        position: relative;
+        height: auto;
+        margin-bottom: 20px;
+        width: 100%;
+        margin-right: 20px;
+        float: left;
+    }
+
+    .investment-points ul li .field--name-field-investment-title {
+        width: 100%;
+    }
+
+    .investment-points ul:before {
+        border: none;
+    }
+
+    .view-id-gallery_view_page .views-view-grid .views-row {
+        margin: 0 -15px;
+        width: auto;
+    }
+
+    .view-id-events .select-wrapper {
+        margin-bottom: 0;
+    }
+
+    .event-content ul li {
+        /*width: 100%;
+        float: left;
+        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;*/
+    }
+
+    .event-content .views-field-field-events-image {
+        /*width: 100%;*/
+        /*float: left;*/
+    }
+
+    .event-content .views-field-field-events-image img {
+        /*width: 100%;*/
+    }
+
+    .event-content .views-field-field-start-date__1 .field-content {
+        /* font-size */
+        /*font-size: 40px;*/
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        padding: 6px 10px;
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        width: 60px;
+        height: 60px;
+        background-color: #05338f;
+        z-index: 9;
+        line-height: 48px;
+        top: auto;
+    }
+
+    .event-content .views-field-field-start-date- .field-content {
+        /* font-size */
+        /*font-size: 12px;*/
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        padding: 14px 10px;
+        position: absolute;
+        left: 60px;
+        bottom: 0;
+        width: 50px;
+        height: 60px;
+        background-color: #05338f;
+    }
+
+    .event-content .views-field-title {
+        width: 100%;
+        float: left;
+    }
+
+    .event-content ul li:nth-child(2n) {
+        margin: 0;
+    }
+
+    .event-content .views-field-field-events-summary {
+        width: 100%;
+        float: right;
+    }
+
+    .event-content .views-field-view-node {
+        width: 100%;
+        float: left;
+    }
+
+    .event-content .views-field-view-node a {
+        font-size: 12px;
+        color: #00aeef;
+        text-decoration: none;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+
+
+
+
+    .view-id-autommotive .views-field-field-eligibility-criteria- {
+        width: 100%;
+    }
+
+    .view-id-autommotive .views-field-field-sector-brief-image {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .view-id-autommotive .views-field-field-automotive-development-ima {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .view-id-cpec_project ul li {
+        width: 50%;
+    }
+
+    .view-executive-memebrs-page-view ul li .views-field-body,
+    .view-executive-memebrs-page-view ul li .views-field-field-executive-designation-1,
+    .view-executive-memebrs-page-view ul li .views-field-title {
+        width: 100%;
+        float: left;
+        padding-left: 0;
+    }
+
+    .view-executive-memebrs-page-view ul li .views-field-field-slider-image-second {
+        width: 100%;
+        float: left;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li {
+        line-height: 45px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li span {
+        line-height: 30px;
+    }
+
+    .inner-detail-section .views-field-title span {
+        font-size: 24px;
+        color: #333;
+        line-height: 28px;
+        margin-bottom: 12px;
+        display: inline-block;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-body ul,
+    .page-node-type-updates .view-updates-view-blockk .views-field-body p:last-child {
+        width: 100%;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph {
+        position: static;
+    }
+
+    .act ul li {
+        /* width: -webkit-calc(100% - 96px);
+        width: -moz-calc(100% - 96px);
+        width: calc(100% - 96px); */
+        width: 100% !important;
+    }
+
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-image {
+        width: 100%;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-province-list {
+        position: static;
+        margin-bottom: 0 !important;
+        width: 100%;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-province-list .field-content div {
+        box-shadow: 0 0 11px 0px #ccc;
+        width: 48%;
+        float: left;
+        margin: 0 1% 18px;
+    }
+
+    .views-field.views-field-field-glance-map-image > div > img {
+        display: none;
+    }
+
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .views-field-field-pak-at-glance-field-collec ul li {
+        padding: 15px;
+        border: 1px solid #ccc;
+        clear: both;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-summary {
+        width: 100%;
+        float: right;
+        padding: 0 15px;
+    }
+
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-image img {
+        border-radius: 50%;
+        display: block;
+        margin: 14px auto;
+    }
+
+    .views-field-field-member-details-collection ul li .field--name-field-memebr-one-line-heading {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+
+    .views-field-field-member-details-collection ul li .field--name-field-memebr-one-line-heading,
+    .views-field-field-member-details-collection ul li .field--name-field-member-name,
+    .views-field-field-member-details-collection ul li .field--name-field-member-designation {
+        float: left;
+        width: 100%;
+    }
+
+    .views-field-field-member-details-collection ul li {
+        padding: 20px;
+    }
+
+    .path-starting-business .view-starting-business ul li:nth-child(2n+1) .views-field-field-icon {
+        direction: ltr;
+    }
+
+    .views-field-field-member-details-collection ul li .field--name-field-member-message,
+    .views-field-field-member-details-collection ul li .field--name-field-member-image {
+        width: 100%;
+    }
+
+    .path-starting-business .view-starting-business ul li {
+        padding: 15px 0 30px 67px;
+        width: 100%;
+    }
+
+    .path-starting-business .view-starting-business ul li:nth-child(2n):before {
+        left: 20px
+    }
+
+    .path-starting-business .view-starting-business ul li:nth-child(2n+1) {
+        text-align: left;
+    }
+
+    .path-starting-business .view-starting-business ul li:before {
+        right: auto;
+        left: 20px;
+
+    }
+
+    .path-starting-business .views-field-field-wight {
+        left: -15px;
+        right: auto;
+    }
+
+    .path-starting-business .view-starting-business ul li:nth-child(2n) .views-field-field-wight {
+        left: -10px;
+    }
+
+    #block-whypakistanlastblock .field--type-text-with-summary ul li {
+        width: 50%;
+        padding: 0 10px;
+    }
+
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-fastest-growing-images,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-fastest-growing-economies,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-largest-youth-image,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-largest-youth-population,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-huge-domestic-market,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-huge-domestic-image,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field.views-field-field-buisness-friendly-image,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field.views-field-field-rising-economic-influence,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field.views-field-field-main-map-image,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field.views-field-field-pakistan-infrastrucutre-st,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field.views-field-field-buisness-friendly-governme {
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .path-contact-us .contact-message-boi-contact-form-form #contact-message-boi-contact-form-form .form-actions .btn {
+        margin: 0;
+    }
+
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-fastest-growing-economies span,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-largest-youth-population span,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-huge-domestic-market span,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-rising-economic-influence span,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-pakistan-infrastrucutre-st span,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-buisness-friendly-governme span {
+        font-size: 20px;
+    }
+
+
+
+    .path-node .views-element-container h2 {
+        /*margin-top: 25px*/
+    }
+
+    #block-views-block-geo-logical-map-view-block-1 .views-field-field-geological- ul li {
+        width: 100%;
+        position: static;
+        float: left;
+        margin-bottom: 15px;
+        list-style: none;
+    }
+
+    #block-views-block-geo-logical-map-view-block-1 .views-field-field-geological- ul li .field--name-field-geological-map-icon {
+        width: 15%;
+    }
+
+    #block-views-block-geo-logical-map-view-block-1 .views-field-field-geo-logical-map-image {
+        display: none;
+    }
+
+    #block-views-block-industry-trends-view-block-1 .views-field-field-industry-trends ul li:nth-child(3) {
+        left: 35px;
+        top: 220px;
+    }
+
+    #block-views-block-industry-trends-view-block-1 .views-field-field-industry-trends ul li {
+        font-size: 12px;
+        color: #333;
+        font-weight: 700;
+        width: 190px;
+        position: absolute;
+    }
+
+    #block-views-block-industry-trends-view-block-1 .views-field-field-industry-trends ul li:nth-child(2) {
+        left: 120px;
+        top: 122px;
+    }
+
+    #block-views-block-industry-trends-view-block-1 .views-field-field-industry-trends ul li:nth-child(1) {
+        left: 35px;
+        top: 15px;
+    }
+
+    #block-views-block-fdi-collection-view-block-1 ul li .field--name-field-fdi- {
+        font-size: 14px;
+    }
+
+    #block-views-block-major-investors-view-block-1 .views-field-field-major-investors ul li {
+        width: 135px !important;
+        height: 135px;
+        margin: 0 !important;
+    }
+
+    #block-views-block-major-investors-view-block-1 .views-field-field-major-investors {
+        padding-right: 0;
+    }
+
+    #block-lastblockpolicyact .field--type-text-with-summary ul li {
+        padding: 5px;
+        font-size: 12px;
+        color: #fff;
+        position: relative;
+        margin-left: 56px;
+        border-radius: 0px 3px 3px 0px;
+        width: -webkit-calc(100% - 60px) !important;
+        width: -moz-calc(100% - 60px) !important;
+        width: calc(100% - 60px) !important;
+        line-height: 14px;
+        float: left;
+        margin-bottom: 18px;
+        height: 52px;
+    }
+
+    #block-lastblockpolicyact .field--type-text-with-summary ul li:before {
+        content: "";
+        position: absolute;
+        left: -60px;
+        top: 0px;
+        width: 60px;
+        height: 52px;
+        border-radius: 3px 0px 0px 3px;
+        padding: 10px;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: 18px;
+    }
+
+    /*
+    #block-views-block-industry-scenerio-view-block-1,
+    #block-views-block-highlights-view-block-1 {
+        overflow-x: hidden;
+    }
+    */
+
+    #block-lastblockpolicyact .field--type-text-with-summary ul li {
+        width: 50%;
+    }
+
+    #block-views-block-fdi-collection-view-block-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    #block-views-block-recent-investments-view-block-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    #block-views-block-industry-trends-view-block-1 .views-field-field-industry-trends-image {
+        width: 100%;
+    }
+
+    #block-views-block-major-investors-view-block-1,
+    #block-views-block-industry-trends-view-block-1 {
+        width: 100%;
+    }
+
+    #block-views-block-key-stake-holders-view-block-1 {
+        width: 100%;
+    }
+
+    #block-views-block-highlights-view-block-1 .views-field-field-highlight-body ul li {
+        width: 50%;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    #block-views-block-key-policies-block-view-block-1 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .growth-drivers ul li:nth-child(1) {
+        left: 10px;
+        top: 20%;
+    }
+
+    .growth-drivers ul li:nth-child(2) {
+        left: 10px;
+        top: 34%;
+    }
+
+    .growth-drivers ul li:nth-child(3) {
+        left: 10px;
+        top: 48%;
+    }
+
+    .growth-drivers ul li:nth-child(4) {
+        left: 10px;
+        top: 62%;
+    }
+
+    .growth-drivers ul li:nth-child(5) {
+        left: 10px;
+        top: 76%;
+    }
+
+    .growth-drivers ul li:nth-child(6) {
+        left: 10px;
+        top: 88%;
+    }
+
+    .growth-drivers ul li {
+        font-size: 12px;
+        width: 195px;
+    }
+
+    .growth-drivers {
+        width: 100%;
+    }
+
+    .industry_scenerio ul li {
+        padding-right: 40px;
+        padding-left: 35px;
+    }
+
+    .industry_scenerio {
+        width: 100%;
+    }
+
+    section#block-highlights {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    section#block-views-block-overview-sector-view-block-1 {
+        width: 100%;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 h1 {
+        font-size: 38px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 ul {
+        padding-left: 15px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 ul li img {
+        margin: 0px auto 5px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 li .views-field-title {
+        height: 25px;
+    }
+
+    .eventsSlider .views-field-nothing p {
+        margin-bottom: 5px;
+    }
+
+    #block-views-block-news-block-1 {
+        padding-left: 0px;
+    }
+
+    #block-views-block-e-service-view-block-1 li {
+        width: 50% !important;
+    }
+
+    #block-poweredby p a {
+        padding: 22px 100px;
+    }
+
+    #footer footer.container {
+        padding: 0;
+    }
+
+    .top-menu li {
+        font-size: 12px;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    .top-menu li a {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    /* .slicktop .slide-text {
+        left: 0;
+        } */
+
+    .top-slider-inner h2 {
+        font-size: 18px;
+    }
+
+    #block-boi-theme-account-menu {
+        margin-top: 0;
+        float: right;
+        position: absolute;
+        right: 30px;
+        top: 0;
+        padding: 0;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 ul {
+        height: 260px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 ul li img {
+        width: 30px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 li p {
+        padding-top: 0px;
+        font-size: 22px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 ul li {
+        padding-top: 13px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 li .views-field-title a {
+        font-size: 15px;
+    }
+
+    #noUse .field--item {
+        width: 140px;
+        height: 140px;
+    }
+
+    #noUse .field--item:nth-child(4) {
+        margin: -52px 0px 0 74px;
+    }
+
+    #noUse .field--item:nth-child(5) {
+        margin: -52px 0px 0 10px
+    }
+
+    #noUse .field--item:nth-child(6) {
+        margin: -52px 0 0 0;
+    }
+
+    #noUse .field--item:nth-child(7) {
+        margin: -52px 0px 0 10px;
+    }
+
+    #noUse .field--item:nth-child(8) {
+        margin: -52px 0 0 12px;
+    }
+
+    .item img,
+    #noUse .field--item img {
+        /* width: 47px; */
+        /* top: 53%; */
+        /* left: 57%; */
+    }
+
+    .eventsSlider .slick-dots {
+        right: 95px;
+        bottom: -25px;
+    }
+
+    .imageGallery img {
+        height: 165px;
+    }
+
+    .top-slider-inner p:nth-child(3) {
+        min-height: 130px;
+    }
+
+    .slide-text > h1.sec-head {
+        width: 296px;
+    }
+
+    .slide-text > h1.sec-head p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .top-menu {
+        margin: 0;
+        background-color: rgba(16, 33, 59, .8);
+        border-radius: 10px;
+        margin-top: 48px;
+        position: relative;
+        right: -51px;
+    }
+
+    #block-boi-theme-account-menu a {
+        padding: 5px;
+    }
+
+    .top-menu li {
+        margin: 0;
+    }
+
+    #noUse .field--items {
+        padding-left: 0;
+    }
+
+    .temperature {
+        margin-left: 30px;
+        width: 200px;
+    }
+
+    .eventsSlider .views-field-field-events-image,
+    .eventsSlider .views-field-nothing {
+        width: 100%;
+    }
+
+    .economy {
+        padding-top: 135px;
+    }
+
+    /*
+    .economy .region-second-sliders .col-xs-12{
+        width: 50%;
+    }
+    */
+
+    #block-views-block-commendations-block-1 {
+        width: 100%;
+        text-align: center;
+        padding: 20px 54px;
+    }
+
+    section.section_y_pak_ui {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .section_y_pak_ui .field--items {
+        padding: 10px 0px 10px 0px;
+        width: 430px;
+        margin: auto;
+    }
+
+    .section_y_pak_ui .field--item:nth-child(2) {
+        margin: 0 10px;
+    }
+
+    .section_y_pak_ui .field--item:nth-child(4) {
+        margin: -52px 0px 0 60px;
+    }
+
+    .section_y_pak_ui .field--item:nth-child(5) {
+        margin: -52px 0px 0 10px;
+    }
+
+    .section_y_pak_ui .field--item:nth-child(6) {
+        margin: -52px 0 0 0;
+    }
+
+    .section_y_pak_ui .field--item:nth-child(7) {
+        margin: -52px 0px 0 10px;
+    }
+
+    .section_y_pak_ui .field--item:nth-child(8) {
+        margin: -52px 0 0 12px;
+    }
+
+    .custom-site-brand.main-menu-left {
+        /*width: 100%;*/
+        margin: 10px auto;
+    }
+
+    .custom-site-brand a.logo {
+        width: 220px;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .region.region-right-side {
+        position: relative;
+    }
+
+    /* .custom-site-brand .region-right-side-inner-right {
+        position: absolute;
+        right: 90px;
+        top: 30px;
+        } */
+    .navbar-toggle {
+        top: 20px;
+    }
+
+    .slicktop img,
+    .main-video-banner iframe {
+        height: 440px;
+    }
+
+    .slide-text > h1.fi-head,
+    .slide-text > h1.sec-head {
+        font-size: 28px;
+    }
+
+    .slickSlider-blocks .slick-slider {
+        margin-top: 30px;
+    }
+
+    .slide p {
+        padding: 0px 20px;
+    }
+
+    .customStyle .customize:nth-child(1) .tiles {
+        border-bottom-left-radius: 0px;
+    }
+
+    .customStyle .customize:nth-child(2) .tiles {
+        border-top-right-radius: 5px;
+    }
+
+    .customStyle .customize:nth-child(3) .tiles {
+        border-bottom-left-radius: 5px;
+    }
+
+    .customStyle .customize:nth-child(4) .tiles {
+        border-top-right-radius: 0px;
+    }
+
+    .tiles {
+        padding: 30px 7px 30px 12px;
+    }
+
+    .tiles img {
+        width: 34px;
+        height: 32px;
+    }
+
+    .tiles p {
+        font-size: 13px;
+    }
+
+    .tiles p span {
+        font-size: 16px;
+    }
+
+    .wrapImages a {
+        font-size: 24px;
+    }
+
+    .icon-align p {
+        font-size: 21px;
+        padding-top: 8px;
+        margin-bottom: 0;
+    }
+
+    .icon-align span {
+        font-size: 12px;
+    }
+
+    .gradient h1 {
+        font-size: 40px;
+        padding: 25px 0;
+    }
+
+    .gradient .col-md-3:nth-child(-n+5) {
+        padding-bottom: 25px;
+    }
+
+    .commandtext h2 {
+        font-size: 24px;
+    }
+
+    .commandtext p {
+        padding: 30px 20px;
+        font-size: 14px;
+    }
+
+    .commandtext p:before {
+        /*top: 0px;*/
+    }
+
+    .commandtext p:after {
+        /*top: 214px;*/
+    }
+
+    .jobbase {
+        font-size: 14px;
+        padding-top: 4px;
+        padding-bottom: 16px;
+    }
+
+    .eventContent h2 {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+    .eventContent p {
+        font-size: 12px;
+    }
+
+    .eventContent a {
+        display: block;
+        text-align: right;
+        margin-top: -8px;
+    }
+
+    .general-slickdots .slick-dots {
+        bottom: 6px;
+    }
+
+    .timeline-thumbnail p {
+        font-size: 12px;
+    }
+
+    .recent-events h1 {
+        font-size: 28px;
+    }
+
+    .eventimg img {}
+
+    .thumbnailblocks h2 {
+        margin-bottom: 10px;
+    }
+
+    #footer h5 {
+        font-size: 17px;
+    }
+
+    #footer ul.list-unstyled a {
+        font-size: 13px;
+    }
+
+    #footer ul.Contact a {
+        word-break: break-all;
+    }
+
+    .timeline-thumbnail h4 {
+        font-size: 14px;
+    }
+
+    .thumbnailblocks {
+        background-position: center 240px;
+    }
+
+    .exploring {
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+
+    .top-menu {
+        padding-top: 10px;
+    }
+
+    .top-menu li {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .navbar {
+        margin: 0;
+    }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        position: absolute;
+        width: 40%;
+        right: 0px;
+        background-color: rgba(0, 0, 0, .6);
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .navbar-toggle .icon-bar {
+        width: 36px;
+        height: 4px;
+    }
+
+    .navbar-default .navbar-toggle {
+        background-color: transparent !important;
+        border: none;
+    }
+
+    .inputclass input {
+        width: 140px;
+    }
+
+    .inputclass input:focus {
+        width: 150px;
+    }
+
+    .gradient .col-xs-3 {
+        min-height: 160px;
+    }
+
+    .customStyle {
+        z-index: 0;
+        margin-bottom: 10px;
+    }
+
+    .weather {
+        margin: 0;
+        width: 100%;
+    }
+
+    .logo {
+        width: 200px;
+        display: block;
+        margin: 0px auto 20px auto;
+    }
+
+    /* .slicktop {
+        margin-top: -188px;
+        } */
+    .copyrights img {
+        display: none;
+    }
+
+    .slide h2 {
+        font-size: 17px;
+    }
+
+    .slide p {
+        min-height: 110px;
+        font-size: 14px;
+    }
+
+    .menuLeft {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .inputclass {
+        padding-right: 0px;
+        right: 0px;
+        width: 40%;
+    }
+
+    .incClass {
+        width: 25%;
+    }
+
+    .switchClass {
+        padding-right: 0px;
+    }
+
+    .selectclass {
+        width: 20%;
+    }
+
+    .slide-text > h1.fi-head,
+    .slide-text > h1.sec-head {
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: 0px;
+
+    }
+
+    .col-5-Slider .slick-arrow {
+        left: 20px;
+    }
+
+    .col-5-Slider .slick-next {
+        right: 20px;
+        left: auto;
+    }
+
+    .toggle-menu {
+        position: absolute;
+        right: 0;
+        width: 100%;
+    }
+
+    .cage {
+        display: none;
+    }
+
+    .customize:hover .tiles {
+        background: transparent;
+    }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        width: 50%;
+        left: 0;
+        float: right;
+        margin-top: -15px;
+        border: 1px solid #ccc;
+        position: inherit;
+
+    }
+
+    .top-menu {
+        text-align: left;
+    }
+
+    .sectors-banner-block h2 {
+        font-size: 30px;
+    }
+
+    .sectors-banner-block .field--name-field-news-banner-image img {
+        min-height: 325px;
+    }
+
+    .path-contact-us .contact-message-boi-contact-form-form {
+        width: 100%;
+        left: 0;
+        top: 0;
+        margin-bottom: 0;
+    }
+
+    .investment-points ul li:nth-child(even) {
+        padding: 15px 35px;
+    }
+
+    .investment-points ul li:nth-child(odd) {
+        padding: 15px 35px;
+    }
+
+    .executive-profile .views-field-field-executive-image,
+    .executive-profile .executive-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+
+    .section_y_pak_ui .field--item {
+        padding: 54px;
+        display: inline-block;
+        float: none;
+        margin: auto;
+    }
+
+    .section_y_pak_ui .field--item:nth-child(2),
+    .section_y_pak_ui .field--item:nth-child(4),
+    .section_y_pak_ui .field--item:nth-child(5),
+    .section_y_pak_ui .field--item:nth-child(6),
+    .section_y_pak_ui .field--item:nth-child(7),
+    .section_y_pak_ui .field--item:nth-child(8) {
+        margin: 0 2px;
+    }
+
+    .section_y_pak_ui .field--items {
+        width: 100%;
+    }
+
+    .temperature {
+        margin-left: 0;
+    }
+
+    .top-menu li a {
+        font-size: 12px;
+    }
+
+    #noUse .field--item {
+        width: 108px;
+        height: 108px;
+    }
+
+    #noUse .field--item:nth-child(4) {
+        margin: -45px 0px 0 58px;
+    }
+
+    #noUse .field--item:nth-child(5) {
+        margin: -45px 0px 0 11px;
+    }
+
+    #noUse .field--item:nth-child(6) {
+        margin: -44px 0 0 0;
+    }
+
+    #noUse .field--item:nth-child(7) {
+        margin: -44px 0px 0 10px;
+    }
+
+    #noUse .field--item:nth-child(8) {
+        margin: -44px 0 0 12px;
+    }
+
+    section#noUse,
+    #block-views-block-commendations-block-1 {
+        padding: 20px 31px;
+    }
+
+    #block-views-block-news-block-1,
+    #block-views-block-events-view-block-1 {
+        width: 100%;
+    }
+
+    .eventsSlider .views-field-field-events-image,
+    .eventsSlider .views-field-nothing {
+        width: 50%;
+
+    }
+
+    .wrapImages a {
+        font-size: 16px;
+        line-height: 18px;
+        left: 8px;
+        padding-left: 0px;
+        bottom: 14px;
+    }
+
+    .slicktop img,
+    .main-video-banner iframe {
+        height: 430px;
+    }
+
+    .slicktop.general-slickdots .slick-dots {
+        bottom: 75px;
+    }
+
+    .slide-text > h1.fi-head,
+    .slide-text > h1.sec-head {
+        font-size: 20px;
+    }
+
+    .top-menu li {
+        font-size: 14px;
+    }
+
+    .slicktop .slide-text {
+        top: 40%;
+    }
+
+    .slide-text > h1.fi-head,
+    .slide-text > h1.sec-head {
+        font-size: 15px;
+    }
+
+    .navbar-nav > li > a {
+        padding-bottom: 2px;
+    }
+
+    .timeline-wrapper {
+        width: 50%;
+    }
+
+    .thumbnailblocks {
+        background: none;
+    }
+
+    .exploring {
+        padding-top: 40px;
+    }
+
+    #footer .wrapper .col-xs-3 {
+        width: 50%;
+    }
+
+    .inputclass input {
+        position: relative;
+        right: 25px;
+    }
+
+    .top-menu li {
+        padding: 0px 25px;
+    }
+
+    .navbar-default .navbar-toggle {
+        margin-right: 0;
+    }
+
+    .gradient .col-xs-3 {
+        min-height: 130px;
+    }
+
+    /* .slicktop {
+        margin-top: -190px;
+        } */
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        width: 48%;
+    }
+
+    .copyrights {
+        text-align: center;
+    }
+
+    ul.social-network {
+        width: 125px;
+        margin: 0px auto !important;
+        display: block;
+    }
+
+    #copyRight .col-xs-6 {
+        width: 100%;
+    }
+
+    .timeline-thumbnail img {
+        width: 50%;
+        margin: auto;
+    }
+
+    .arrowWide .slick-next {
+        right: 0px;
+    }
+
+    .arrowWide .slick-prev {
+        left: 0px;
+    }
+
+    .temperature {
+        width: 150px;
+    }
+
+    .logo img {
+        max-width: 145px;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        transition: all .4s ease;
+    }
+
+    .sectors-banner-block .views-field-title span a {
+        font-size: 24px;
+    }
+
+    .region.region-right-side {
+        top: 0;
+    }
+
+    .search-block-form {
+        display: block;
+    }
+
+    .search-block-form .form-type-search {
+        float: left;
+    }
+
+    header .region-right-side-inner-right {
+        padding-top: 0;
+    }
+
+    #block-fontresizer {
+        margin-right: 12px;
+    }
+
+    .main-menu-right .custom-site-brand {
+        padding: 0;
+    }
+
+
+    #block-fontresizer,
+    .search-block-form,
+    #block-weathercustom {
+        display: none !important;
+    }
+
+    .toggle-menu-main {
+        top: -15px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .toggle-menu {
+        position: relative;
+    }
+
+    .slide-text > h1.sec-head {
+        width: 234px;
+    }
+
+    .slide-text > h1.sec-head p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /* .custom-site-brand .region-right-side-inner-right {
+        top: 60px;
+        left: 0;
+        right: auto;
+        } */
+
+    .navbar-toggle {
+        top: 40px;
+    }
+
+    .economy {
+        padding-top: 0;
+    }
+
+    #noUse .field--item {
+        width: 84px;
+        height: 84px;
+    }
+
+    #noUse .field--item:nth-child(4) {
+        margin: -34px 0px 0 47px;
+    }
+
+    #noUse .field--item:nth-child(5) {
+        margin: -34px 0px 0 10px;
+    }
+
+    #noUse .field--item:nth-child(6) {
+        margin: -34px 0 0 0;
+    }
+
+    #noUse .field--item:nth-child(7) {
+        margin: -34px 0px 0 10px;
+    }
+
+    #noUse .field--item:nth-child(8) {
+        margin: -34px 0 0 10px;
+    }
+
+    section#noUse,
+    #block-views-block-commendations-block-1 {
+        padding: 20px 13px;
+    }
+
+    .imageGallery img {
+        height: 125px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 ul {
+        background-image: none;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 ul li {
+        width: 50%;
+        min-height: 132px;
+    }
+
+    .slicktop img,
+    .main-video-banner iframe {
+        height: 350px;
+    }
+
+    .tiles img {
+        width: 28px;
+        height: 26px;
+        margin-top: 5px;
+    }
+
+    .slicktop.general-slickdots .slick-dots {
+        bottom: 15px;
+    }
+
+    .economy,
+    .eventContent,
+    .eventimg {
+        width: 100%;
+    }
+
+    .eventimg img {
+        width: 55%;
+        display: block;
+        margin: 10px auto 0px auto;
+    }
+
+    .customize.col-xs-6 {
+        width: 100%;
+    }
+
+    .customStyle {
+        margin-top: 10px;
+    }
+
+    .gradient .col-xs-3 {
+        width: 50%;
+        margin-bottom: 20px;
+        min-height: 125px;
+    }
+
+    .inputclass input:focus {
+        width: 100%;
+    }
+
+    .customStyle .customize:nth-child(1) .tiles {
+        border-top-right-radius: 5px;
+    }
+
+    .customStyle .customize:nth-child(2) .tiles {
+        border-top-right-radius: 0;
+    }
+
+    .customStyle .customize:nth-child(3) .tiles {
+        border-bottom-left-radius: 0;
+    }
+
+    .customStyle .customize:nth-child(4) .tiles {
+        border-bottom-left-radius: 5px;
+    }
+
+    /* .slicktop {
+        margin-top: -200px;
+    }
+    */
+    .cage {
+        background: none;
+    }
+
+    .diamonds {
+        min-width: 250px !important;
+    }
+
+    .diamond-box-wrap {
+        width: 125px !important;
+        height: 125px !important;
+    }
+
+    .item {
+        width: 125px !important;
+        height: 125px !important;
+    }
+
+    .item img {
+        width: 60px;
+        height: 30px;
+        margin-left: -35px;
+        margin-top: -20px;
+    }
+
+    .diamondGallery {
+        text-align: center;
+    }
+
+    /* ARSLAN */
+    #footer h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    ul.Contact {
+        padding-left: 0px;
+    }
+
+    .gallerytext p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .plusicons .gallerytext p {
+        font-size: 16px;
+    }
+
+    .gallerytext span {
+        right: 5px;
+        font-size: 11px;
+    }
+
+    .eventContent h2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .commandtext {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .gradient {
+        padding-bottom: 40px;
+    }
+
+    .gradient h1 {
+        font-size: 28px;
+    }
+
+    .cage {
+        display: none;
+    }
+
+    .icon-align span {
+        font-size: 16px;
+    }
+
+    .wrapImages {
+        margin-bottom: 30px;
+    }
+
+    .wrapImagesdiff {
+        margin-top: 0px;
+    }
+
+    .slide {
+        height: auto;
+    }
+
+    .slide a {
+        font-size: 13px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .customStyle {
+        margin-bottom: 30px;
+    }
+
+    .thumbnailblocks h2 {
+        margin-bottom: 50px;
+    }
+
+    .menuLeft {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .fontInc ul li {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .inputclass {
+        padding-right: 0px;
+        right: 0px;
+        width: 40%;
+    }
+
+    .inputclass input {
+        width: 100%;
+        height: 24px;
+        right: 0px;
+    }
+
+    .widgets,
+    .top-headermenu {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .switchClass {
+        padding-right: 0px;
+    }
+
+    .weatherWid {
+        float: left;
+        width: 50%;
+    }
+
+
+
+    .logo {
+        width: 200px;
+    }
+
+    .weatherWid {
+        display: none;
+    }
+
+    .eventsSliderWrap,
+    .eventContent a {
+        padding-bottom: 10px;
+    }
+
+    .copyrights p {
+        left: 0px;
+    }
+
+    #footer ul.Contact a {
+        word-break: keep-all;
+    }
+
+    .developedBy {
+        text-align: center;
+    }
+
+    #noUse .field--item {
+        width: 50% !important;
+        height: 158px;
+        margin: 00 !important;
+    }
+
+    #noUse .field--items {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #noUse .field--name-field-choose-pakistan-images {
+        width: 250px;
+        margin: 0px auto;
+    }
+
+    .weather-widget .weather-right {
+        display: none;
+    }
+
+}
+
+
+@media(max-width:483px) {
+    #noUse .field--item {
+        width: 125px !important;
+        height: 125px;
+        margin: 5px auto !important;
+        float: none;
+    }
+
+    #noUse .field--items {
+        padding: 0px;
+    }
+}
+
+
+
+@media(max-width:1200px) {
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        top: 39px;
+        left: 34px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(4) .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        top: 38px;
+        left: 33px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-count {
+        top: 115px;
+        left: 30px;
+    }
+
+    .tiles p span {
+        font-size: 14px;
+    }
+
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-title,
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-summary {
+        width: 85%;
+    }
+
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-image {
+        width: 12%;
+    }
+
+    .growth-drivers ul li {
+        left: 12px !important;
+        width: 190px;
+        font-size: 12px;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li:nth-child(1) .views-field-field-slider-image-second {
+        height: 330px;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li .views-field-field-slider-image-second {
+        max-height: 155px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li {
+        font-size: 26px;
+    }
+
+    .news-slider-inner .slick-arrow.left-arrow,
+    .news-slider-inner .slick-arrow.right-arrow {
+        top: 25px;
+    }
+
+    .news-slider-inner .views-field-nothing-1 {
+        padding-top: 30px;
+    }
+
+    .path-interactive-map .custom-site-brand img {
+        width: 172px;
+    }
+
+    .path-interactive-map .custom-site-brand section#block-interactivemap h2 {
+        margin-top: 22px;
+    }
+
+    .path-interactive-map #block-interactivemap img {
+        max-width: 67px;
+    }
+
+    .slicktop img,
+    .main-video-banner iframe {
+        height: 650px;
+    }
+
+    #block-views-block-e-service-view-block-1 .views-field-title a,
+    #block-views-block-apply-now-view-block-1 .views-field-title a,
+    #block-views-block-e-service-view-block-1 li .views-field-field-e-services-url a {
+        font-size: 18px;
+    }
+
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li .views-field-nothing {
+        margin: 30px 46px;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li .views-field-title {
+
+        left: 20px;
+    }
+
+    html .we-mega-menu-ul > .we-mega-menu-li > a {
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+
+    .banner-image-video {
+        right: -27%;
+        width: 330px;
+        top: -40px;
+
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-cities ul li:nth-child(1) .field--name-field-major-city-image,
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-energy-resour ul li:nth-child(1) .field--name-field-major-energy-image {
+        height: 330px;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-cities ul li .field--name-field-major-city-image,
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-energy-resour ul li .field--name-field-major-energy-image {
+        height: 155px;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-cities ul li .field-collection-item--view-mode-full .field--type-string,
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-energy-resour ul li .field-collection-item--view-mode-full .field--type-string {
+        font-size: 17px;
+    }
+}
+
+@media(max-width:991px) {
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        top: 31px;
+        left: 28px;
+        font-size: 18px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(4) .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        top: 30px;
+        left: 26px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-count {
+        top: 100px;
+        left: 20px;
+    }
+
+    .top-slider-inner p:nth-child(3) {
+        font-size: 14px;
+    }
+
+    .growth-drivers {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .industry_scenerio {
+        width: 100%;
+    }
+
+    .growth-drivers ul li {
+        width: 350px;
+        font-size: 14px;
+
+    }
+
+    .growth-drivers ul li:nth-child(1) {
+        top: 14%;
+    }
+    .growth-drivers ul li:nth-child(2) {
+        top: 32%;
+    }
+    .growth-drivers ul li:nth-child(3) {
+        top: 47%;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li .views-field-field-slider-image-second {
+        max-height: 115px;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li:nth-child(1) .views-field-field-slider-image-second {
+        max-height: 248px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li {
+        padding-left: 85px;
+        font-size: 19px;
+        line-height: 32px;
+        padding-top: 10px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li:before {
+        width: 85px;
+        height: 85px;
+    }
+
+    .news-slider-inner .views-field-nothing-1 .news-slider-right a {
+        line-height: 22px;
+        font-size: 20px;
+    }
+
+    .top-slider-inner p {
+        font-size: 12px;
+        min-height: 130px;
+    }
+
+    .top-slider-inner a p:last-child {
+        width: 82%;
+    }
+
+    .thumbnailblocks:before {
+        background-position: center 55px;
+    }
+
+    .navbar-we-mega-menu.navbar ul > li ul {
+        padding-top: 0px;
+    }
+
+    #block-lahoreofficeblock {
+        padding-top: 0px;
+    }
+
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-buisness-friendly-governme,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-pakistan-infrastrucutre-st {
+        height: 735px;
+    }
+
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-pakistan-infrastrucutre-st p {
+        padding-left: 50px;
+    }
+
+    section.initial_text_ui {
+        margin-bottom: 0;
+    }
+
+    .key-cpec .key-img img {
+        width: 50px;
+    }
+
+    .path-interactive-map .custom-site-brand section#block-interactivemap h2 {
+        margin-top: 12px;
+    }
+
+    .region-right-side-inner-right {
+        left: 100px;
+    }
+
+    .path-interactive-map .custom-site-brand section#block-interactivemap h2 {
+        font-size: 22px;
+    }
+
+    .path-interactive-map #block-interactivemap img {
+        max-width: 53px;
+    }
+
+    .search-block-form {
+        float: right;
+    }
+
+    .slicktop img,
+    .main-video-banner iframe {
+        height: 500px;
+    }
+
+    #block-views-block-e-service-view-block-1 .views-field-title a,
+    #block-views-block-apply-now-view-block-1 .views-field-title a,
+    #block-views-block-e-service-view-block-1 li .views-field-field-e-services-url a {
+        font-size: 16px;
+    }
+
+    section.section_y_pak_ui,
+    #block-views-block-commendations-block-1 {
+        padding-bottom: 0;
+    }
+
+    .path-frontpage .custom-navigation:before {
+        /*background-image: none;*/
+    }
+
+    .views-field-field-member-details-collection ul li .field--name-field-member-image {
+        width: 22%;
+    }
+
+    .views-field-field-member-details-collection ul li .field--name-field-memebr-one-line-heading,
+    .views-field-field-member-details-collection ul li .field--name-field-member-message,
+    .views-field-field-member-details-collection ul li .field--name-field-member-name,
+    .views-field-field-member-details-collection ul li .field--name-field-member-designation {
+        width: 74%;
+    }
+
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li .views-field-nothing {
+        margin: 30px auto;
+    }
+
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li {
+        margin-right: 15px;
+        width: 31%;
+    }
+
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li:last-child {
+        margin-right: 0px;
+    }
+
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li .views-field-nothing {
+        width: auto;
+    }
+
+    .custom-navigation.sticky .main-menu-right {
+        height: 10px;
+    }
+
+    .custom-navigation.sticky .navbar-toggle {
+        top: 0;
+    }
+
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li .views-field-nothing .field-content .develop-cont {
+        font-size: 50px;
+        padding: 44px 0px 35px 0px;
+        top: -47px;
+        font-size: 24px;
+    }
+
+    .btn-close {
+        z-index: 99999;
+    }
+
+    .footer .social-network-uper {
+        display: inline-block;
+        float: right;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .table-responsive {
+        overflow: auto;
+    }
+
+    .event-content .views-field-field-events-image img {
+        width: 100%;
+    }
+
+    .event-content .content {
+        padding-left: 15px;
+    }
+
+    .event-content .views-field-field-start-date__1 .field-content {
+        /*left: 23%;*/
+    }
+
+    .event-content .views-field-field-start-date- .field-content {
+        /*left: 31.1%;*/
+    }
+
+    .event-content .views-field-title,
+    .event-content .views-field-field-events-summary,
+    .event-content .views-field-view-node {
+        width: 100%;
+        /*float: right;*/
+    }
+
+    .event-content .views-field-field-events-image {
+        width: 100%;
+    }
+
+    .wrapImages span.wraptitle {
+        font-size: 24px;
+    }
+
+    .banner-image-video {
+        right: -64%;
+        width: 280px;
+        top: -45px;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-cities ul li:nth-child(1) .field--name-field-major-city-image,
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-energy-resour ul li:nth-child(1) .field--name-field-major-energy-image {
+        height: 248px;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-cities ul li .field--name-field-major-city-image,
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-energy-resour ul li .field--name-field-major-energy-image {
+        height: 115px;
+    }
+
+    .view-id-faqs ul.quicktabs-tabs li {
+        float: left;
+        width: 50%;
+    }
+
+    #quicktabs-container-faqs {
+        width: 100%;
+        padding: 0;
+    }
+
+    .view-id-faqs ul.quicktabs-tabs {
+        width: 100%;
+    }
+
+    .footer .social-network-uper {
+        float: none;
+        text-align: center;
+        display: block;
+    }
+
+    .footer .social-network-uper p {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:980px) {
+    .tiles p span {
+        font-size: 19px;
+    }
+
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-title,
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-summary {
+        width: 78%
+    }
+
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-image {
+        width: 20%;
+    }
+}
+
+@media(max-width:767px) {
+    .top-slider-inner {
+        height: 395px;
+    }
+
+    .tiles p span {
+        font-size: 17px;
+    }
+
+    .commandtext p:after {
+        /*top: 124px;*/
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li {
+        padding-left: 110px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li:nth-child(1) {
+        margin-top: 30px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li:before {
+        width: 100px;
+        height: 100px;
+        top: -6px;
+    }
+
+    .news-slider-inner .views-field-nothing-1 .news-slider-right a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .news-slider-inner ul.slick-dots {
+        right: 18%;
+    }
+
+    .top-slider-inner a p:last-child {
+        width: 94%;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(2) .field-collection-item--name-field-updates-db-rank-by-year {
+        left: -15px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(3) .field-collection-item--name-field-updates-db-rank-by-year {
+        left: -29px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(4) .field-collection-item--name-field-updates-db-rank-by-year {
+        left: -43px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-count {
+        left: 17px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        font-size: 15px;
+    }
+
+    #block-views-block-apply-now-view-block-1 li:first-child {
+        margin-top: -10px;
+    }
+
+    .block-views-blockbasic-page-content-block-block-1 ul li {
+        padding-right: 0;
+    }
+
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-fastest-growing-images,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-fastest-growing-economies,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-largest-youth-image,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-largest-youth-population,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-huge-domestic-market,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field-field-huge-domestic-image,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field.views-field-field-buisness-friendly-image,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field.views-field-field-rising-economic-influence,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field.views-field-field-main-map-image,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field.views-field-field-pakistan-infrastrucutre-st,
+    #block-views-block-why-pakistan-content-block-block-1 .views-field.views-field-field-buisness-friendly-governme {
+        padding-top: 0;
+    }
+
+    .opportunities_ui {
+        padding-top: 10px;
+    }
+
+    .opportunities_ui .opp_content,
+    section.sector_highlights_ui,
+    .opportunities_ui .opp_img,
+    section.sector_highlights_ui,
+    section.initial_text_ui {
+        padding-top: 0;
+    }
+
+    .opportunities_ui {
+        padding-bottom: 0;
+    }
+
+    .highlights-slider {
+        margin-bottom: 0;
+    }
+
+    .slickSlider-blocks {
+        margin-top: -20px;
+    }
+
+    #block-views-block-why-pakistan-view-block-1 {
+        margin-top: 0;
+    }
+
+    .weather-widget {
+        display: none;
+    }
+
+    header .navbar-toggle {
+        top: 35px;
+    }
+
+    .path-interactive-map .custom-site-brand section#block-interactivemap h2 {
+        margin-top: 0;
+    }
+
+    .path-interactive-map #block-interactivemap img {
+        max-width: 65px;
+        top: -51px;
+    }
+
+    .slicktop img,
+    .main-video-banner iframe {
+        height: 450px;
+    }
+
+    h2.block-title {
+        margin-top: 0;
+    }
+
+    .highlights-slider .slick-dots {
+        margin-top: 0;
+    }
+
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li .views-field-nothing .field-content .develop-cont {
+        font-size: 50px;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li {
+        width: 50% !important;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li .views-field-field-slider-image-second {}
+
+    .view-gallery-view-page .col-xs-12 {
+        width: 50%;
+    }
+
+    .custom-navigation.sticky .navbar-toggle {
+        top: -12px;
+    }
+
+    .event-content .views-field-field-start-date__1 .field-content {
+        /*left: 22.5%;*/
+    }
+
+    .event-content .views-field-field-start-date- .field-content {
+        /*left: 30.5%;*/
+    }
+
+    .event-content .views-field-field-events-image {
+        /*width: 39%;*/
+    }
+
+    .event-content .views-field-title,
+    .event-content .views-field-field-events-summary,
+    .event-content .views-field-view-node {
+        /*width: 58%;*/
+    }
+
+    .views-field-field-member-details-collection ul li .field--name-field-member-image {
+        width: 100%;
+    }
+
+    .views-field-field-member-details-collection ul li .field--name-field-member-image img {
+        margin: 0px auto;
+        display: block;
+    }
+
+    .views-field-field-member-details-collection ul li .field--name-field-memebr-one-line-heading,
+    .views-field-field-member-details-collection ul li .field--name-field-member-message,
+    .views-field-field-member-details-collection ul li .field--name-field-member-name,
+    .views-field-field-member-details-collection ul li .field--name-field-member-designation {
+        width: 100%;
+    }
+
+    .banner-image-video {
+        right: -65%;
+        width: 225px;
+        top: -15px;
+    }
+
+    .banner-image-video a:after {
+        width: 40px;
+        height: 40px;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-cities ul li:nth-child(1) .field--name-field-major-city-image,
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-energy-resour ul li:nth-child(1) .field--name-field-major-energy-image {
+        height: 200px;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-cities ul li .field--name-field-major-city-image,
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-energy-resour ul li .field--name-field-major-energy-image {
+        height: 90px;
+    }
+}
+
+@media only screen and(max-width:667px) {
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        top: 27px;
+        left: 25px;
+        font-size: 15px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(4) .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        top: 26px;
+        left: 23px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-count {
+        top: 90px;
+        left: 15px;
+        font-size: 18px;
+    }
+
+/*    .growth-drivers ul li:nth-child(1) {
+        top: 17%;
+    }*/
+
+    .news-slider-inner .views-field-nothing-1 {
+        height: 180px;
+    }
+
+    .thumbnailblocks:before {
+        background-position: center -37px;
+    }
+
+    .area_to_invest_ui {
+        padding-top: 30px;
+    }
+
+    .slicktop img,
+    .main-video-banner iframe {
+        height: 400px;
+    }
+
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li .views-field-nothing .field-content .develop-cont {
+        font-size: 42px;
+        top: -49px;
+    }
+
+    .growth-drivers img {
+    	max-width: 290px;
+	    width: 290px;
+	    margin: 0px auto;
+    }
+
+    .growth-drivers ul li {
+	    width: 280px !important;
+	    max-width: 280px;
+	    left: 0 !important;
+	    right: 0 !important;
+	    margin: 0px auto;
+	    padding-right: 102px;
+	    height: 30px;
+	    font-size: 10px;
+    }
+
+    .growth-drivers ul li:nth-child(1) {
+    	top: 20%;
+    }
+
+
+    .growth-drivers ul li:nth-child(2) {
+        top: 36%;
+    }
+
+    .growth-drivers ul li:nth-child(3) {
+        top: 49%;
+    }
+
+    .growth-drivers ul li:nth-child(4) {
+        top: 60%;
+    }
+
+    .growth-drivers ul li:nth-child(5) {
+    	top: 74%;
+    }
+
+    .growth-drivers ul li:nth-child(6) {
+    	top: 88%;
+    }
+
+    .event-content .views-field-field-start-date__1 .field-content {
+        /*left: 21.5%;*/
+    }
+
+    .event-content .views-field-field-start-date- .field-content {
+        /*left: 29.8%;*/
+    }
+
+    .wrapImages span.wraptitle {
+        font-size: 18px;
+    }
+
+    .banner-image-video {
+        right: -38%;
+        width: 200px;
+        top: -10px;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-cities ul li:nth-child(1) .field--name-field-major-city-image,
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-energy-resour ul li:nth-child(1) .field--name-field-major-energy-image {
+        height: 178px;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-cities ul li .field--name-field-major-city-image,
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-energy-resour ul li .field--name-field-major-energy-image {
+        height: 178px;
+    }
+
+
+    .field--name-field-five-reasons-to-invest-in- .media--image img {
+        max-width: 400px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .pakistan-glance {
+        font-size: 22px;
+        line-height: 28px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .view-header {
+        float: left;
+        width: 100%;
+        padding: 0 0 15px 0;
+        text-align: center;
+    }
+
+    .block-views-blockfive-reasons-to-invest-in-pakistan-why-pakistan-block-2 .view-content {
+        width: 100%;
+        display: inline-block;
+        /* padding: 10px 25px; */
+    }
+
+    /* section Y pakistan page 2 */
+    .field--name-field-how-to-invest .field--item:nth-child(3) .paragraph--type--steps .field--name-field-title,
+    .field--name-field-how-to-invest .field--item:nth-child(2) .paragraph--type--steps .field--name-field-title,
+    .field--name-field-how-to-invest .field--item:nth-child(1) > .paragraph--type--steps > .field--name-field-title {
+        margin-left: 30px;
+    }
+
+    .field--name-field-how-to-invest .field--item:nth-child(3) > .paragraph--type--steps .field--name-field-body,
+    .field--name-field-how-to-invest .field--item:nth-child(2) > .paragraph--type--steps .field--name-field-body,
+    .field--name-field-how-to-invest .field--item:first-of-type > .paragraph--type--steps .field--name-field-body {
+        padding: 0 30px;
+    }
+
+    .field--name-field-how-to-invest .field--item:nth-child(2) .paragraph--type--steps .field--name-field-title {
+        border-radius: 50px 30px 30px 0;
+    }
+
+    .field--name-field-steps-:before {
+        left: 12px;
+        right: auto;
+    }
+
+    .field--name-field-how-to-invest .field--name-field-steps- > .field--item:nth-child(2),
+    .field--name-field-how-to-invest .field--name-field-steps- > .field--item:nth-child(3) {
+        width: 100%;
+    }
+
+    .field--name-field-how-to-invest .field--item:nth-child(2) .paragraph--type--steps .field--name-field-title::before {
+        left: -42px;
+        right: auto;
+    }
+
+    .paragraph--type--why-invest-in-paksitan-slider .field--item img {
+        margin: auto;
+    }
+
+    .field--name-field-how-to-invest .field--name-field-title,
+    .path-node .field--name-field-investment-sectors .field--name-field-title,
+    .path-node .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .main-content h2,
+    .field--name-field-why-invest-in-paksitan .layout__region--first .field--name-field-title,
+    .field--name-field-five-reasons-to-invest-in- .layout__region--second .field--name-field-title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo .header-title,
+    .field--name-field-priority-sectors .field--name-field-title {
+        font-size: 24px;
+        line-height: 1.3;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .field--name-field-investment-sectors .layout__region--second .media--image {
+        padding: 0 0;
+    }
+
+    .view-they-choose-pakistian-why-pakistan-2.bottom-logo .slick-list {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .view-id-they_choose_pakistian_why_pakistan_2.bottom-logo button.slick-arrow {
+        display: none;
+    }
+
+    .field--name-field-how-to-invest .layout__region--second {
+        width: 100%;
+    }
+
+    .field--name-field-how-to-invest .field--item:nth-child(1) .paragraph--type--steps .field--name-field-title:before {
+        left: -42px;
+    }
+
+    .field--name-field-how-to-invest .field--name-field-steps- > .field--item:nth-child(3) {
+        padding-top: 10px;
+    }
+
+    .field--name-field-how-to-invest .field--item:nth-child(3) .paragraph--type--steps .field--name-field-title::before {
+        left: -42px;
+    }
+
+    .field--type-text-with-summary .act ul li {
+        width: 100% !important;
+    }
+}
+
+@media(max-width:580px) {
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li {
+        width: 252px;
+        margin: 52px auto;
+    }
+
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li .views-field-nothing .field-content .develop-cont {
+        background-size: 90%;
+        font-size: 72px;
+    }
+
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li:last-child {
+        margin-right: auto;
+    }
+
+    .custom-navigation.sticky .navbar-toggle {
+        top: -34px;
+    }
+
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li .views-field-nothing .field-content .develop-cont {
+        background-size: 96%;
+        font-size: 64px;
+        left: 4px;
+    }
+
+/*    .growth-drivers ul li:nth-child(1) {
+        top: 12%;
+    }*/
+
+    header .navbar-toggle {
+        top: -35px;
+    }
+
+    .event-content .views-field-field-start-date__1 .field-content {
+        /*left: 17.8%;*/
+    }
+
+    .event-content .views-field-field-start-date- .field-content {
+        /*left: 28.5%;*/
+    }
+
+    .banner-image-video {
+        right: -23%;
+        width: 170px;
+        top: -15px;
+    }
+
+}
+
+@media(max-width:560px) {
+    .tiles p span {
+        font-size: 14px;
+    }
+
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-title,
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-summary {
+        width: 100%
+    }
+
+    .views-field-field-pak-at-glance-field-collec ul li .field--name-field-glance-image {
+        width: 100%;
+    }
+
+/*    .growth-drivers ul li {
+        width: 250px;
+
+    }*/
+
+/*    .growth-drivers ul li:nth-child(1) {
+        top: 18%;
+    }*/
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        top: 22px;
+        left: 19px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(4) .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        top: 21px;
+        left: 19px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(2) .field-collection-item--name-field-updates-db-rank-by-year {
+        left: -10px;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li .views-field-field-slider-image-second {
+        max-height: 180px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(3) .field-collection-item--name-field-updates-db-rank-by-year {
+        left: -21px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(4) .field-collection-item--name-field-updates-db-rank-by-year {
+        left: -31px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year {
+        background-image: none !important;
+        left: 0px !important;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(1) .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        background-image: linear-gradient(#ec5822, #F99026) !important;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(2) .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        background-image: linear-gradient(#e42a55, #FA5993) !important;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(3) .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        background-image: linear-gradient(#006BB4, #0A83C6) !important;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(4) .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        background-image: linear-gradient(#529A1C, #85B524) !important;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li {
+        width: 75%;
+        float: none;
+        margin: 0px auto;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        width: 100px;
+        height: 100px;
+        background-color: #000;
+        border-radius: 50%;
+        padding: 34px 30px;
+        font-size: 22px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-count {
+        top: -45px !important;
+        left: 68% !important;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-count:before {
+        left: -100px;
+        width: 80px;
+        height: 1px;
+        top: 12px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:last-child {
+        width: 75%;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year {
+        padding-bottom: 30px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year {
+        height: 122px;
+    }
+
+    .views-view-grid .views-col {
+        padding-right: 0;
+    }
+
+    .views-view-grid {
+        box-sizing: content-box;
+    }
+
+    .path-contact-us .contact-message-boi-contact-form-form {
+        padding: 15px;
+    }
+
+    .path-contact-us .contact-message-boi-contact-form-form #contact-message-boi-contact-form-form label {
+        font-size: 13px;
+    }
+
+    header .navbar-toggle {
+        top: -35px;
+    }
+
+    #block-contactblock h2 {
+        font-size: 18px;
+    }
+
+    .path-interactive-map .custom-site-brand section#block-interactivemap h2 {
+        left: 50px;
+    }
+
+    .slicktop img,
+    .main-video-banner iframe {
+        height: 350px;
+    }
+
+    .item-list.main-slider .slick-dots {
+        bottom: 20px;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li:nth-child(1) .views-field-field-slider-image-second {
+        max-height: 172px;
+    }
+
+    .view-gallery-view-page .views-view-grid {
+        padding-right: 15px;
+    }
+
+/*    .growth-drivers ul li:nth-child(1) {
+        top: 12%;
+    }*/
+
+    .banner-image-video {
+        right: -15%;
+        width: 160px;
+        top: -20px;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-cities ul li:nth-child(1) .col-md-3,
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-energy-resour ul li:nth-child(1) .col-md-3 {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-count {
+        position: relative;
+        top: 60px;
+        left: 0px;
+        font-size: 22px;
+        color: #333;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        position: relative;
+        top: 15px;
+        left: 9px;
+        /* font-size */
+        : 13px;
+        color: #fff;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year {
+        /*height: 70px;*/
+    }
+
+    .success-stories-ui {
+        width: 90%;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li:nth-child(1) .views-field-field-slider-image-second {
+        max-height: 135px;
+    }
+
+    .view-gallery-view-page .col-xs-12 {
+        width: 100%;
+    }
+
+    .view-gallery-view-page .views-view-grid {
+        padding-right: 15px;
+    }
+
+    .event-content ul li {
+        width: 100%;
+        float: left;
+        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .event-content .views-field-field-events-image {
+        width: 100%;
+        float: left;
+    }
+
+    .event-content .views-field-field-events-image img {
+        width: 100%;
+    }
+
+/*    .event-content .views-field-field-start-date__1 .field-content {
+        : 40px;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        padding: 6px 10px;
+        position: absolute;
+        left: auto;
+        bottom: 0px;
+        width: 60px;
+        height: 60px;
+        background-color: #05338f;
+        z-index: 9;
+        line-height: 48px;
+        top: 0;
+    }*/
+
+/*    .event-content .views-field-field-start-date- .field-content {
+        : 12px;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        padding: 14px 10px;
+        position: absolute;
+        left: 60px;
+        bottom: auto;
+        width: 50px;
+        height: 60px;
+        background-color: #05338f;
+    }*/
+
+    .event-content .views-field-title,
+    .event-content .views-field-field-events-summary,
+    .event-content .views-field-view-node {
+        width: 100%;
+    }
+
+    .banner-image-video {
+        right: -5%;
+        width: 140px;
+        top: -10px;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-cities ul li .col-xs-6,
+    .page-node-type-pakistan-at-glance .views-field-field-glance-major-energy-resour ul li .col-xs-6 {
+        width: 100%;
+    }
+}
+
+@media(max-width:480px) {
+    .tiles p span {
+        font-size: 17px;
+    }
+
+/*    .growth-drivers ul li {
+        width: 200px;
+
+    }*/
+
+
+/*    .growth-drivers ul li:nth-child(1) {
+        top: 20%;
+    }*/
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li .views-field-field-slider-image-second {
+        max-height: 135px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li {
+        font-size: 22px;
+    }
+
+    .top-slider-inner a p:last-child {
+        width: 90%;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-count:before {
+        display: none;
+    }
+
+    #block-poweredby p a {
+        padding: 15px 30px 15px 110px;
+    }
+
+    .path-contact-us .contact-message-boi-contact-form-form #contact-message-boi-contact-form-form label {
+        font-size: 12px;
+    }
+
+    .thumbnailblocks h2 {
+        margin: 20px 0;
+    }
+
+    #block-views-block-cpec-view-block-1 li {
+        width: 100%;
+    }
+
+    .slicktop img,
+    .main-video-banner iframe {
+        height: 300px;
+    }
+
+    .tiles {
+        padding: 10px 7px 10px 12px;
+    }
+
+    h2.block-title {
+        margin-bottom: 13px;
+        margin-top: 0;
+        font-size: 23px;
+    }
+
+    #block-views-block-e-service-view-block-1 li .views-field-field-e-services-url a {
+        font-size: 15px;
+    }
+
+    .executive-profile .executive-content span {
+        font-size: 22px;
+    }
+
+    .act ul li {
+        white-space: normal;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li {
+        width: 100% !important;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li:nth-child(1) .views-field-field-slider-image-second {
+        max-height: 100% !important;
+        height: auto;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1 .view-proposed-under-cpec- ul li .views-field-field-slider-image-second {
+        max-height: 100%;
+    }
+
+    .item-list.main-slider .slick-dots {
+        bottom: 4px;
+    }
+
+/*    .growth-drivers ul li:nth-child(1) {
+        top: 10%;
+    }
+
+    .growth-drivers ul li:nth-child(2) {
+        top: 28%;
+    }
+
+    .growth-drivers ul li:nth-child(4) {
+        top: 58%;
+    }
+
+    .growth-drivers ul li:nth-child(5) {
+        top: 72%;
+    }*/
+
+    .banner-image-video {
+        right: -10%;
+        width: 120px;
+        top: -38px;
+    }
+
+    .banner-image-video a:after {
+        width: 30px;
+        height: 30px;
+    }
+
+    .sectors-banner-block .views-field-title {
+        font-size: 22px;
+    }
+
+    .cpec ul li {
+        width: 99%;
+    }
+
+    .cpec ul li img {
+        width: 100%;
+    }
+
+    .view-id-events .col-xs-12 {
+        width: 100% !important;
+    }
+
+    .views-view-grid .views-col {
+        padding-left: 0;
+    }
+}
+
+@media(max-width:380px) {
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        top: 11px;
+        left: 7px;
+    }
+
+    .search-block-form {
+        float: right;
+    }
+
+    #block-dropdownlanguage {
+        clear: both;
+    }
+
+/*    .growth-drivers ul li {
+        width: 180px;
+        font-size: 12px;
+    }*/
+
+/*    .growth-drivers ul li:nth-child(1) {
+        top: 21%;
+    }*/
+
+/*    .growth-drivers ul li:nth-child(2) {
+        top: 37%;
+    }*/
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li {
+        padding-left: 85px;
+        font-size: 19px;
+        line-height: 32px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-aside-paragraph ul li:before {
+        width: 85px;
+        height: 85px;
+    }
+
+    .page-node-type-pakistan-at-glance .views-field-field-glance-province-list .field-content div {
+        font-size: 15px;
+        padding: 10px
+    }
+
+    .path-interactive-map .custom-site-brand img {
+        width: 135px;
+    }
+
+    .path-interactive-map .custom-site-brand section#block-interactivemap h2 {
+        font-size: 15px !important;
+        left: 40px;
+    }
+
+    .slide-text > h1.sec-head p {
+        line-height: 22px;
+    }
+
+    .block-views-blocksez-development-view-block-1 .view-sez-development-view ul li {
+        /*width: 100%;*/
+    }
+
+    .block-views-blockproposed-under-cpec--block-1.view-proposed-under-cpec- ul li {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .block-views-blockproposed-under-cpec--block-1.view-proposed-under-cpec- ul li .views-field-title {
+        left: 17px;
+        bottom: 20px;
+        font-size: 17px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li:nth-child(4) .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-year {
+        left: 10px;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year .field--name-field-db-count {
+        top: -50px !important;
+    }
+
+    .page-node-type-updates .view-updates-view-blockk .views-field-field-updates-db-rank-by-year ul li .field-collection-item--name-field-updates-db-rank-by-year {
+        height: 105px;
+    }
+
+/*    .growth-drivers ul li:nth-child(1) {
+        top: 11%;
+    }
+
+    .growth-drivers ul li:nth-child(2) {
+        top: 28%;
+    }*/
+
+    .banner-image-video {
+        right: 8%;
+        width: 100px;
+        top: -26px;
+    }
+
+    .path-node .views-element-container h2 {
+        font-size: 16px;
+    }
+
+    .view-id-sectors_under_cpec_view_block h2 {
+        font-size: 14px !important;
+    }
+}
